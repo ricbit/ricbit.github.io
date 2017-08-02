@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Jogo_Boxe</title>
+	</head>
+
+
+	
+
+
+	<style>
+		
+#background {
+	width: 800px;
+	height: 600px; 
+	border:solid;
+	position: relative;
+	margin: auto;
+	background-image: url(img/stadium.png)
+}
+
+#character{
+	position:absolute;
+	top: 200px;
+	left: 200px;
+	width: 140px;
+	height: 200px;
+	background-image: url(img/character_idle.gif)
+}
+
+#enemy{
+	position: absolute;
+	top: 200px;
+	left: 330px;
+	width: 140px;
+	height: 200px;
+	background-image: url(img/enemy_idle_up.gif)
+}
+
+
+#buttonRight {
+	background-color: gray;
+	position: absolute;
+	top: 500px;
+	left: 200px;
+
+	width: 50px;
+	height: 50px;
+	
+	
+}
+
+#buttonLeft {
+	background-color: gray;
+	position: absolute;
+	top: 500px;
+	left: 100px;
+
+	width: 50px;
+	height: 50px;
+	
+	
+}
+
+
+#blockup {
+	background-color: gray;
+	position: absolute;
+	top: 450px;
+	left: 150px;
+
+	width: 50px;
+	height: 50px;
+	
+	
+}
+
+#blockdown {
+	background-color: gray;
+	position: absolute;
+	top: 550px;
+	left: 150px;
+
+	width: 50px;
+	height: 50px;
+	
+	
+}
+
+#punch {
+	background-color: red;
+	position: absolute;
+	top: 500px;
+	left: 150px;
+
+	width: 50px;
+	height: 50px;
+	
+	
+}
+
+
+	</style>
+
+	<body>
+	<div id = "background">
+
+		<div id = "enemy"> </div>
+		<div id = "character"> </div>
+		
+		
+			
+
+		<div id ="buttonRight" onclick="moveCharacterRight();"> </div>	
+		<div id ="buttonLeft" onclick="moveCharacterLeft();"> </div>	
+		<div id ="punch" onclick="characterPunch();"> </div>	
+		<div id ="blockup" onclick="blockUp();"> </div>	
+		<div id ="blockdown" onclick="blockDown();"> </div>	
+
+
+		</div>
+		
+		<script type="text/javascript" >
+
+
+// PLAYER 1 
+var positionPlayer = 2;
+var characterBlock = 1;
+	
+blockDown();
+
+
+
+function character(){
+	return document.querySelector("#character");
+}
+
+
+function blockDown(){
+
+	character().style.backgroundImage="url(img/character_idle.gif)";
+	characterBlock = 1;
+}
+
+
+function blockUp(){
+
+	character().style.backgroundImage="url(img/character_idle_up.gif)";
+	characterBlock = 2;
+}
+
+
+
+
+function moveCharacterRight (){
+		
+		if (positionEnemy != positionPlayer){
+				if (positionPlayer < 6 ){
+				character().style.left = (positionPlayer + 1)*100 + "px";
+				positionPlayer ++
+				return;
+				}
+		}
+}
+
+
+function moveCharacterLeft (){
+
+			if (positionPlayer > 1 ){
+				character().style.left = (positionPlayer - 1)*100 + "px";
+				positionPlayer --
+				return;
+				}
+			
+}	
+
+
+function characterPunch(){
+			
+
+			
+			//Character image load and back///
+			if ( characterBlock === 2){ 
+			character().style.backgroundImage="url(img/character_punch.gif)";
+			setTimeout(blockUp, 200);
+			}
+
+			if ( characterBlock === 1 ){ 
+			character().style.backgroundImage="url(img/character_punch_down.gif)";
+			setTimeout(blockDown, 200);
+			}
+
+			//Enemy hit - Sending Message of sucess//
+			if (positionPlayer === positionEnemy){
+
+				if (characterBlock === 1 && enemyBlock ===2) {
+					setTimeout(enemyHit, 80);
+				}
+
+				if (characterBlock === 2 && enemyBlock ===1) {
+					setTimeout(enemyHit, 80);
+				}
+
+			
+
+			}
+
+}
+
+
+
+
+
+//ENEMY//
+		
+		var positionEnemy = 3;
+		var push = 0;
+		var enemyBlock = 1;
+		var think = 2000;
+
+
+//Positions of Enemy //
+enemyBlockDown(); // Start Positions //
+
+function enemyBlockDown(){
+
+	enemy().style.backgroundImage="url(img/enemy_idle_down.gif)";
+	enemyBlock = 1;
+}
+
+
+function enemyBlockUp(){
+
+	enemy().style.backgroundImage="url(img/enemy_idle_up.gif)";
+	enemyBlock = 2;
+}
+
+
+		
+function enemy(){
+	return document.querySelector('#enemy');
+}
+
+
+
+//IA of Enemy//
+setTimeout(whatToDo, think); //Start IA//
+
+
+function whatToDo (){
+	if (positionPlayer < positionEnemy ) {
+		walkToPlayer();
+	} 
+
+	else if (positionPlayer === positionEnemy) {
+		changeBlock();
+	} else {
+		setTimeout(whatToDo, think);
+		}
+}
+
+
+function changeBlock(){
+
+	if (characterBlock === 1){
+		enemyBlockDown();
+	}
+
+	if (characterBlock === 2){
+		enemyBlockUp();
+	}
+
+	setTimeout(whatToDo, think);
+
+}
+
+function changeBlockOnce(){
+
+	if (characterBlock === 1){
+		enemyBlockDown();
+	}
+
+	if (characterBlock === 2){
+		enemyBlockUp();
+	}
+
+}
+
+
+
+function walkToPlayer (){
+
+	positionEnemy --;
+	enemy().style.left = positionEnemy*100+30 + "px";
+	setTimeout(changeBlockOnce(), 200);
+	setTimeout(whatToDo, think);
+		
+}
+
+
+function enemyHit (){
+		
+	if (characterBlock ===2 ){
+	enemy().style.backgroundImage="url(img/enemy_hit_up.gif)";
+		}
+
+	if (characterBlock ===1 ){
+	enemy().style.backgroundImage="url(img/enemy_hit_down.gif)";
+		}
+
+
+	push += 1;
+		
+	if (push === 3){
+
+		push = 0
+		if (positionEnemy != 6){
+		enemyPush();
+			}
+		}
+
+		setTimeout(enemyIdle, 200);
+		}
+
+
+function enemyPush(){
+		
+		positionEnemy += 1;
+		enemy().style.left = positionEnemy*100+30 + "px";
+
+		
+}
+
+
+function enemyIdle (){
+		
+			if (enemyBlock === 1){
+			enemy().style.backgroundImage="url(img/enemy_idle_down.gif)";
+			}
+		
+			if (enemyBlock === 2){
+			enemy().style.backgroundImage="url(img/enemy_idle_up.gif)";
+			}
+
+}
+
+	</script>
+	</body>
+
+
+</html>
