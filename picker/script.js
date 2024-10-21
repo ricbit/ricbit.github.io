@@ -160,7 +160,7 @@ function showSimilarColors(brand, colors) {
     });
 }
 
-// Calculate Euclidean distance between two colors
+// Calculate CIELab deltaE00 difference between two colors
 function colorDistance(r1, g1, b1, r2, g2, b2) {
     let [l1, la1, lb1] = Colour.rgba2lab(r1, g1, b1);
     let [l2, la2, lb2] = Colour.rgba2lab(r2, g2, b2);

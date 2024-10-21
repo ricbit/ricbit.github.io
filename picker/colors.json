@@ -3629,6 +3629,611 @@
             "Hex": "#FCF4C3"
         }
     ],
+    "Silverbright": [
+        {
+            "Name": "Erva Doce",
+            "Code": "NM69",
+            "Type": "Aquacolor",
+            "R": "142",
+            "G": "170",
+            "B": "119",
+            "Hex": "#8EAA77"
+        },
+        {
+            "Name": "Flamingo",
+            "Code": "NM68",
+            "Type": "Aquacolor",
+            "R": "192",
+            "G": "75",
+            "B": "102",
+            "Hex": "#C04B66"
+        },
+        {
+            "Name": "P\u00farpura",
+            "Code": "NM64",
+            "Type": "Aquacolor",
+            "R": "178",
+            "G": "55",
+            "B": "75",
+            "Hex": "#B2374B"
+        },
+        {
+            "Name": "P\u00eassego",
+            "Code": "NM50",
+            "Type": "Aquacolor",
+            "R": "199",
+            "G": "167",
+            "B": "118",
+            "Hex": "#C7A776"
+        },
+        {
+            "Name": "Rosa Britney",
+            "Code": "NM39",
+            "Type": "Aquacolor",
+            "R": "195",
+            "G": "143",
+            "B": "145",
+            "Hex": "#C38F91"
+        },
+        {
+            "Name": "Rosa Velho",
+            "Code": "NM37",
+            "Type": "Aquacolor",
+            "R": "132",
+            "G": "94",
+            "B": "73",
+            "Hex": "#845E49"
+        },
+        {
+            "Name": "Verde Bandeira",
+            "Code": "NM19",
+            "Type": "Aquacolor",
+            "R": "2",
+            "G": "102",
+            "B": "78",
+            "Hex": "#02664E"
+        },
+        {
+            "Name": "Azul Jolie",
+            "Code": "NM33",
+            "Type": "Aquacolor",
+            "R": "81",
+            "G": "152",
+            "B": "196",
+            "Hex": "#5198C4"
+        },
+        {
+            "Name": "Amarelo Beb\u00ea",
+            "Code": "NM32",
+            "Type": "Aquacolor",
+            "R": "239",
+            "G": "242",
+            "B": "195",
+            "Hex": "#EFF2C3"
+        },
+        {
+            "Name": "Cinza",
+            "Code": "NM30",
+            "Type": "Aquacolor",
+            "R": "120",
+            "G": "120",
+            "B": "122",
+            "Hex": "#78787A"
+        },
+        {
+            "Name": "Verde Lim\u00e3o",
+            "Code": "NM22",
+            "Type": "Aquacolor",
+            "R": "124",
+            "G": "146",
+            "B": "9",
+            "Hex": "#7C9209"
+        },
+        {
+            "Name": "Verde Musgo",
+            "Code": "NM18",
+            "Type": "Aquacolor",
+            "R": "4",
+            "G": "61",
+            "B": "42",
+            "Hex": "#043D2A"
+        },
+        {
+            "Name": "Azul Outono",
+            "Code": "NM17",
+            "Type": "Aquacolor",
+            "R": "15",
+            "G": "41",
+            "B": "64",
+            "Hex": "#0F2940"
+        },
+        {
+            "Name": "Magenta",
+            "Code": "NM14",
+            "Type": "Aquacolor",
+            "R": "147",
+            "G": "52",
+            "B": "94",
+            "Hex": "#93345E"
+        },
+        {
+            "Name": "Chiclete",
+            "Code": "NM13",
+            "Type": "Aquacolor",
+            "R": "223",
+            "G": "152",
+            "B": "166",
+            "Hex": "#DF98A6"
+        },
+        {
+            "Name": "Amarelo Gema",
+            "Code": "NM46",
+            "Type": "Aquacolor",
+            "R": "247",
+            "G": "189",
+            "B": "1",
+            "Hex": "#F7BD01"
+        },
+        {
+            "Name": "Amarelo Sol",
+            "Code": "NM02",
+            "Type": "Aquacolor",
+            "R": "220",
+            "G": "209",
+            "B": "120",
+            "Hex": "#DCD178"
+        },
+        {
+            "Name": "Caramelo",
+            "Code": "NM06",
+            "Type": "Aquacolor",
+            "R": "114",
+            "G": "91",
+            "B": "41",
+            "Hex": "#725B29"
+        },
+        {
+            "Name": "Jambo",
+            "Code": "NM07",
+            "Type": "Aquacolor",
+            "R": "101",
+            "G": "69",
+            "B": "44",
+            "Hex": "#65452C"
+        },
+        {
+            "Name": "Orqu\u00eddea",
+            "Code": "NM10",
+            "Type": "Aquacolor",
+            "R": "82",
+            "G": "59",
+            "B": "137",
+            "Hex": "#523B89"
+        },
+        {
+            "Name": "Verde Capim",
+            "Code": "NM40",
+            "Type": "Aquacolor",
+            "R": "45",
+            "G": "144",
+            "B": "64",
+            "Hex": "#2D9040"
+        },
+        {
+            "Name": "Azul Bas\u00edlica",
+            "Code": "NM43",
+            "Type": "Aquacolor",
+            "R": "51",
+            "G": "98",
+            "B": "118",
+            "Hex": "#336276"
+        },
+        {
+            "Name": "Verde Pistache",
+            "Code": "NM56",
+            "Type": "Aquacolor",
+            "R": "45",
+            "G": "137",
+            "B": "100",
+            "Hex": "#2D8964"
+        },
+        {
+            "Name": "Azul \u00c1rtico",
+            "Code": "NM58",
+            "Type": "Aquacolor",
+            "R": "3",
+            "G": "11",
+            "B": "84",
+            "Hex": "#030B54"
+        },
+        {
+            "Name": "Azul Petr\u00f3leo",
+            "Code": "NM59",
+            "Type": "Aquacolor",
+            "R": "0",
+            "G": "2",
+            "B": "40",
+            "Hex": "#000228"
+        },
+        {
+            "Name": "Azul Fanny",
+            "Code": "NM42",
+            "Type": "Aquacolor",
+            "R": "74",
+            "G": "163",
+            "B": "169",
+            "Hex": "#4AA3A9"
+        },
+        {
+            "Name": "Verde Folha",
+            "Code": "NM20",
+            "Type": "Aquacolor",
+            "R": "11",
+            "G": "118",
+            "B": "50",
+            "Hex": "#0B7632"
+        },
+        {
+            "Name": "Bege Ros\u00ea",
+            "Code": "NM53",
+            "Type": "Aquacolor",
+            "R": "164",
+            "G": "145",
+            "B": "112",
+            "Hex": "#A49170"
+        },
+        {
+            "Name": "Verde Turquesa",
+            "Code": "NM54",
+            "Type": "Aquacolor",
+            "R": "7",
+            "G": "141",
+            "B": "106",
+            "Hex": "#078D6A"
+        },
+        {
+            "Name": "Verde Fantasma",
+            "Code": "NM55",
+            "Type": "Aquacolor",
+            "R": "67",
+            "G": "166",
+            "B": "119",
+            "Hex": "#43A677"
+        },
+        {
+            "Name": "Marrom Mist\u00e9rio",
+            "Code": "NM70",
+            "Type": "Aquacolor",
+            "R": "108",
+            "G": "55",
+            "B": "71",
+            "Hex": "#6C3747"
+        },
+        {
+            "Name": "Cappucino",
+            "Code": "NM63",
+            "Type": "Aquacolor",
+            "R": "245",
+            "G": "245",
+            "B": "245",
+            "Hex": "#F5F5F5"
+        },
+        {
+            "Name": "OFFWhite",
+            "Code": "NM61",
+            "Type": "Aquacolor",
+            "R": "218",
+            "G": "218",
+            "B": "206",
+            "Hex": "#DADACE"
+        },
+        {
+            "Name": "Verde Besouro",
+            "Code": "NM60",
+            "Type": "Aquacolor",
+            "R": "1",
+            "G": "90",
+            "B": "94",
+            "Hex": "#015A5E"
+        },
+        {
+            "Name": "Verde Primavera",
+            "Code": "NM51",
+            "Type": "Aquacolor",
+            "R": "7",
+            "G": "145",
+            "B": "33",
+            "Hex": "#079121"
+        },
+        {
+            "Name": "Salm\u00e3o",
+            "Code": "NM49",
+            "Type": "Aquacolor",
+            "R": "245",
+            "G": "194",
+            "B": "151",
+            "Hex": "#F5C297"
+        },
+        {
+            "Name": "Ab\u00f3bora",
+            "Code": "NM46",
+            "Type": "Aquacolor",
+            "R": "247",
+            "G": "189",
+            "B": "1",
+            "Hex": "#F7BD01"
+        },
+        {
+            "Name": "Cherry",
+            "Code": "NM41",
+            "Type": "Aquacolor",
+            "R": "204",
+            "G": "166",
+            "B": "119",
+            "Hex": "#CCA677"
+        },
+        {
+            "Name": "Branco",
+            "Code": "NM29",
+            "Type": "Aquacolor",
+            "R": "234",
+            "G": "234",
+            "B": "234",
+            "Hex": "#EAEAEA"
+        },
+        {
+            "Name": "Preto",
+            "Code": "NM27",
+            "Type": "",
+            "R": "Aquacolor",
+            "G": "55",
+            "B": "54",
+            "Hex": "52"
+        },
+        {
+            "Name": "Azul Marinho",
+            "Code": "NM16",
+            "Type": "Aquacolor",
+            "R": "245",
+            "G": "245",
+            "B": "245",
+            "Hex": "#F5F5F5"
+        },
+        {
+            "Name": "Vermelho Lumen",
+            "Code": "NM16",
+            "Type": "Aquacolor",
+            "R": "218",
+            "G": "59",
+            "B": "55",
+            "Hex": "#DA3B37"
+        },
+        {
+            "Name": "Ocre",
+            "Code": "NM05",
+            "Type": "Aquacolor",
+            "R": "201",
+            "G": "169",
+            "B": "86",
+            "Hex": "#C9A956"
+        },
+        {
+            "Name": "Amarelo Can\u00e1rio",
+            "Code": "NM03",
+            "Type": "Aquacolor",
+            "R": "245",
+            "G": "245",
+            "B": "245",
+            "Hex": "#F5F5F5"
+        },
+        {
+            "Name": "Acqua Marine",
+            "Code": "",
+            "Type": "Aquacolor",
+            "R": "0",
+            "G": "94",
+            "B": "119",
+            "Hex": "#005E77"
+        },
+        {
+            "Name": "Vinho",
+            "Code": "NM48",
+            "Type": "Aquacolor",
+            "R": "84",
+            "G": "16",
+            "B": "39",
+            "Hex": "#541027"
+        },
+        {
+            "Name": "Laranja Coral",
+            "Code": "NM47",
+            "Type": "Aquacolor",
+            "R": "192",
+            "G": "83",
+            "B": "50",
+            "Hex": "#C05332"
+        },
+        {
+            "Name": "Bege Glac\u00ea",
+            "Code": "",
+            "Type": "Aquacolor",
+            "R": "229",
+            "G": "215",
+            "B": "169",
+            "Hex": "#E5D7A9"
+        },
+        {
+            "Name": "Verde Oliva",
+            "Code": "NM44",
+            "Type": "Aquacolor",
+            "R": "76",
+            "G": "101",
+            "B": "44",
+            "Hex": "#4C652C"
+        },
+        {
+            "Name": "Rosa Coral",
+            "Code": "NM38",
+            "Type": "Aquacolor",
+            "R": "166",
+            "G": "99",
+            "B": "106",
+            "Hex": "#A6636A"
+        },
+        {
+            "Name": "Verde Bas\u00edlico",
+            "Code": "NM21",
+            "Type": "Aquacolor",
+            "R": "2",
+            "G": "93",
+            "B": "26",
+            "Hex": "#025D1A"
+        },
+        {
+            "Name": "Verde Glacial",
+            "Code": "NM66",
+            "Type": "Aquacolor",
+            "R": "31",
+            "G": "111",
+            "B": "110",
+            "Hex": "#1F6F6E"
+        },
+        {
+            "Name": "Bege Claro",
+            "Code": "",
+            "Type": "Aquacolor",
+            "R": "228",
+            "G": "216",
+            "B": "188",
+            "Hex": "#E4D8BC"
+        },
+        {
+            "Name": "Bege Mesti\u00e7o",
+            "Code": "NM28",
+            "Type": "Aquacolor",
+            "R": "203",
+            "G": "191",
+            "B": "151",
+            "Hex": "#CBBF97"
+        },
+        {
+            "Name": "Orange",
+            "Code": "NM26",
+            "Type": "Aquacolor",
+            "R": "188",
+            "G": "105",
+            "B": "1",
+            "Hex": "#BC6901"
+        },
+        {
+            "Name": "Vermelho Bord\u00f4",
+            "Code": "NM25",
+            "Type": "Aquacolor",
+            "R": "98",
+            "G": "33",
+            "B": "27",
+            "Hex": "#62211B"
+        },
+        {
+            "Name": "Azul Turquesa",
+            "Code": "NM24",
+            "Type": "Aquacolor",
+            "R": "47",
+            "G": "95",
+            "B": "131",
+            "Hex": "#2F5F83"
+        },
+        {
+            "Name": "Escarlate",
+            "Code": "NM15",
+            "Type": "Aquacolor",
+            "R": "118",
+            "G": "15",
+            "B": "44",
+            "Hex": "#760F2C"
+        },
+        {
+            "Name": "Uva",
+            "Code": "NM11",
+            "Type": "Aquacolor",
+            "R": "42",
+            "G": "23",
+            "B": "79",
+            "Hex": "#2A174F"
+        },
+        {
+            "Name": "Marfim",
+            "Code": "NM04",
+            "Type": "Aquacolor",
+            "R": "196",
+            "G": "197",
+            "B": "163",
+            "Hex": "#C4C5A3"
+        },
+        {
+            "Name": "Marrom Chocolate",
+            "Code": "NM08",
+            "Type": "Aquacolor",
+            "R": "74",
+            "G": "46",
+            "B": "24",
+            "Hex": "#4A2E18"
+        },
+        {
+            "Name": "Lil\u00e1s Baby",
+            "Code": "NM09",
+            "Type": "Aquacolor",
+            "R": "153",
+            "G": "135",
+            "B": "187",
+            "Hex": "#9987BB"
+        },
+        {
+            "Name": "Bege Natural",
+            "Code": "NM35",
+            "Type": "Aquacolor",
+            "R": "173",
+            "G": "159",
+            "B": "124",
+            "Hex": "#AD9F7C"
+        },
+        {
+            "Name": "Marrom",
+            "Code": "NM82",
+            "Type": "Aquacolor",
+            "R": "95",
+            "G": "48",
+            "B": "4",
+            "Hex": "#5F3004"
+        },
+        {
+            "Name": "Marrom Caf\u00e9",
+            "Code": "NM57",
+            "Type": "Aquacolor",
+            "R": "82",
+            "G": "49",
+            "B": "8",
+            "Hex": "#523108"
+        },
+        {
+            "Name": "Azul Lumen",
+            "Code": "NM34",
+            "Type": "Aquacolor",
+            "R": "1",
+            "G": "178",
+            "B": "254",
+            "Hex": "#01B2FE"
+        },
+        {
+            "Name": "Cinza Escuro",
+            "Code": "NM31",
+            "Type": "Aquacolor",
+            "R": "69",
+            "G": "69",
+            "B": "69",
+            "Hex": "#454545"
+        }
+    ],
     "Citadel": [
         {
             "Name": "'Ardcoat",
