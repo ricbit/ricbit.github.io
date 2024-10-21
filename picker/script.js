@@ -81,6 +81,34 @@ function showColor() {
     generateBrandButtons(R, G, B, colorData.Name);
 }
 
+// Show color based on entered hex value and generate brand buttons
+function showRGB() {
+    let hexInput = document.getElementById("paintRGB").value.trim();
+
+    // Make the '#' optional, so if it is not present, we add it.
+    if (!hexInput.startsWith("#")) {
+        hexInput = "#" + hexInput;
+    }
+
+    // Validate the hex code (it should be 7 characters long, including the '#')
+    const hexMatch = /^#([0-9A-Fa-f]{6})$/.test(hexInput);
+    if (!hexMatch) {
+        return;
+    }
+
+    // Convert hex to RGB
+    const R = parseInt(hexInput.slice(1, 3), 16);
+    const G = parseInt(hexInput.slice(3, 5), 16);
+    const B = parseInt(hexInput.slice(5, 7), 16);
+
+    // Update the selected color box
+    const colorBox = document.getElementById("colorBox");
+    colorBox.style.backgroundColor = hexInput.toUpperCase();
+
+    // Generate brand buttons to find similar colors
+    generateBrandButtons(R, G, B, hexInput);
+}
+
 // Generate brand buttons and show the default brand (first one)
 function generateBrandButtons(r, g, b, selectedName) {
     const brandsContainer = document.getElementById("brandsContainer");
