@@ -4234,6 +4234,179 @@
             "Hex": "#454545"
         }
     ],
+    "Talento": [
+        {
+            "Name": "Pearl",
+            "Code": "2000",
+            "Type": "Acrylic Color Game",
+            "R": "155",
+            "G": "147",
+            "B": "134",
+            "Hex": "#9B9386"
+        },
+        {
+            "Name": "Light Yellow",
+            "Code": "2001",
+            "Type": "Acrylic Color Game",
+            "R": "232",
+            "G": "172",
+            "B": "34",
+            "Hex": "#E8AC22"
+        },
+        {
+            "Name": "Peach",
+            "Code": "2002",
+            "Type": "Acrylic Color Game",
+            "R": "231",
+            "G": "133",
+            "B": "60",
+            "Hex": "#E7853C"
+        },
+        {
+            "Name": "Deep Orange",
+            "Code": "2003",
+            "Type": "Acrylic Color Game",
+            "R": "233",
+            "G": "81",
+            "B": "36",
+            "Hex": "#E95124"
+        },
+        {
+            "Name": "Eletric Crimson",
+            "Code": "2004",
+            "Type": "Acrylic Color Game",
+            "R": "205",
+            "G": "36",
+            "B": "62",
+            "Hex": "#CD243E"
+        },
+        {
+            "Name": "Pyrrole Red",
+            "Code": "2005",
+            "Type": "Acrylic Color Game",
+            "R": "154",
+            "G": "27",
+            "B": "31",
+            "Hex": "#9A1B1F"
+        },
+        {
+            "Name": "Deep Red",
+            "Code": "2006",
+            "Type": "Acrylic Color Game",
+            "R": "118",
+            "G": "16",
+            "B": "18",
+            "Hex": "#761012"
+        },
+        {
+            "Name": "Yellow Green",
+            "Code": "2007",
+            "Type": "Acrylic Color Game",
+            "R": "133",
+            "G": "189",
+            "B": "65",
+            "Hex": "#85BD41"
+        },
+        {
+            "Name": "Light Green",
+            "Code": "2008",
+            "Type": "Acrylic Color Game",
+            "R": "0",
+            "G": "99",
+            "B": "54",
+            "Hex": "#006336"
+        },
+        {
+            "Name": "Viridian Green",
+            "Code": "2009",
+            "Type": "Acrylic Color Game",
+            "R": "0",
+            "G": "42",
+            "B": "30",
+            "Hex": "#002A1E"
+        },
+        {
+            "Name": "Deep Violet",
+            "Code": "2010",
+            "Type": "Acrylic Color Game",
+            "R": "37",
+            "G": "32",
+            "B": "90",
+            "Hex": "#25205A"
+        },
+        {
+            "Name": "Deep Blue",
+            "Code": "2011",
+            "Type": "Acrylic Color Game",
+            "R": "30",
+            "G": "61",
+            "B": "118",
+            "Hex": "#1E3D76"
+        },
+        {
+            "Name": "Turquoise",
+            "Code": "2012",
+            "Type": "Acrylic Color Game",
+            "R": "12",
+            "G": "30",
+            "B": "67",
+            "Hex": "#0C1E43"
+        },
+        {
+            "Name": "Deep Brown",
+            "Code": "2013",
+            "Type": "Acrylic Color Game",
+            "R": "56",
+            "G": "17",
+            "B": "25",
+            "Hex": "#381119"
+        },
+        {
+            "Name": "Salmon",
+            "Code": "2014",
+            "Type": "Acrylic Color Game",
+            "R": "226",
+            "G": "108",
+            "B": "62",
+            "Hex": "#E26C3E"
+        },
+        {
+            "Name": "Orange Yellow \u00abJoker\u00bb",
+            "Code": "2015",
+            "Type": "Acrylic Color Game",
+            "R": "244",
+            "G": "187",
+            "B": "25",
+            "Hex": "#F4BB19"
+        },
+        {
+            "Name": "Jade \u00abJoker\u00bb",
+            "Code": "2016",
+            "Type": "Acrylic Color Game",
+            "R": "0",
+            "G": "99",
+            "B": "54",
+            "Hex": "#006336"
+        },
+        {
+            "Name": "Fire Yellow \u00abJoker\u00bb",
+            "Code": "2017",
+            "Type": "Acrylic Color Game",
+            "R": "246",
+            "G": "230",
+            "B": "0",
+            "Hex": "#F6E600"
+        },
+        {
+            "Name": "Red \u00abJoker\u00bb",
+            "Code": "2018",
+            "Type": "Acrylic Color Game",
+            "R": "237",
+            "G": "28",
+            "B": "36",
+            "Hex": "#ED1C24"
+        }
+    ],
     "Citadel": [
         {
             "Name": "'Ardcoat",
