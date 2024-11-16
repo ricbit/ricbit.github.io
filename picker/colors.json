@@ -32034,1344 +32034,1344 @@
     "GreenStuffWorld": [
         {
             "Name": "Abyss Blue",
-            "Code": "Acrylic Colors",
-            "Type": "1",
-            "R": "0",
-            "G": "76",
-            "B": "#01004C",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "1",
+            "G": "0",
+            "B": "76",
+            "Hex": "#01004C"
         },
         {
             "Name": "Aether Blue",
-            "Code": "Wash Ink",
-            "Type": "102",
-            "R": "110",
-            "G": "208",
-            "B": "#666ED0",
-            "Hex": ""
+            "Code": "",
+            "Type": "Wash Ink",
+            "R": "102",
+            "G": "110",
+            "B": "208",
+            "Hex": "#666ED0"
         },
         {
             "Name": "Amber Orange",
-            "Code": "Candy Ink Metallic",
-            "Type": "244",
-            "R": "177",
-            "G": "26",
-            "B": "#F4B11A",
-            "Hex": ""
+            "Code": "",
+            "Type": "Candy Ink Metallic",
+            "R": "244",
+            "G": "177",
+            "B": "26",
+            "Hex": "#F4B11A"
         },
         {
             "Name": "Amethyst Purple",
-            "Code": "Candy Ink Metallic",
-            "Type": "215",
-            "R": "167",
-            "G": "241",
-            "B": "#D7A7F1",
-            "Hex": ""
+            "Code": "",
+            "Type": "Candy Ink Metallic",
+            "R": "215",
+            "G": "167",
+            "B": "241",
+            "Hex": "#D7A7F1"
         },
         {
             "Name": "Ancient Sepia",
-            "Code": "Wash Ink",
-            "Type": "170",
-            "R": "161",
-            "G": "104",
-            "B": "#AAA168",
-            "Hex": ""
+            "Code": "",
+            "Type": "Wash Ink",
+            "R": "170",
+            "G": "161",
+            "B": "104",
+            "Hex": "#AAA168"
         },
         {
             "Name": "Andalusian Earth",
-            "Code": "Wash Ink",
-            "Type": "118",
-            "R": "107",
-            "G": "89",
-            "B": "#766B59",
-            "Hex": ""
+            "Code": "",
+            "Type": "Wash Ink",
+            "R": "118",
+            "G": "107",
+            "B": "89",
+            "Hex": "#766B59"
         },
         {
             "Name": "Anthrax Metal",
-            "Code": "Metallic Colors",
-            "Type": "123",
-            "R": "126",
-            "G": "131",
-            "B": "#7B7E83",
-            "Hex": ""
+            "Code": "",
+            "Type": "Metallic Colors",
+            "R": "123",
+            "G": "126",
+            "B": "131",
+            "Hex": "#7B7E83"
         },
         {
             "Name": "Antique Gold",
-            "Code": "Metallic Colors",
-            "Type": "149",
-            "R": "126",
-            "G": "56",
-            "B": "#957E38",
-            "Hex": ""
+            "Code": "",
+            "Type": "Metallic Colors",
+            "R": "149",
+            "G": "126",
+            "B": "56",
+            "Hex": "#957E38"
         },
         {
             "Name": "Aqua Turquoise",
-            "Code": "Metallic Colors",
-            "Type": "155",
-            "R": "209",
+            "Code": "",
+            "Type": "Metallic Colors",
+            "R": "155",
             "G": "209",
-            "B": "#9BD1D1",
-            "Hex": ""
+            "B": "209",
+            "Hex": "#9BD1D1"
         },
         {
             "Name": "Atramentum Black",
-            "Code": "Wash Ink",
-            "Type": "81",
+            "Code": "",
+            "Type": "Wash Ink",
             "R": "81",
             "G": "81",
-            "B": "#515151",
-            "Hex": ""
+            "B": "81",
+            "Hex": "#515151"
         },
         {
             "Name": "Banana Split",
-            "Code": "Acrylic Colors",
-            "Type": "234",
-            "R": "224",
-            "G": "65",
-            "B": "#EAE041",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "234",
+            "G": "224",
+            "B": "65",
+            "Hex": "#EAE041"
         },
         {
             "Name": "Barrel Grey",
-            "Code": "Acrylic Colors",
-            "Type": "41",
-            "R": "38",
-            "G": "33",
-            "B": "#292621",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "41",
+            "G": "38",
+            "B": "33",
+            "Hex": "#292621"
         },
         {
             "Name": "Bestial Brown",
-            "Code": "Acrylic Colors",
-            "Type": "45",
-            "R": "30",
-            "G": "1",
-            "B": "#2D1E01",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "45",
+            "G": "30",
+            "B": "1",
+            "Hex": "#2D1E01"
         },
         {
             "Name": "Black Stallion",
-            "Code": "Acrylic Colors",
-            "Type": "5",
-            "R": "0",
-            "G": "6",
-            "B": "#050006",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "5",
+            "G": "0",
+            "B": "6",
+            "Hex": "#050006"
         },
         {
             "Name": "Blue",
-            "Code": "Fluor Metallic",
-            "Type": "94",
-            "R": "136",
-            "G": "255",
-            "B": "#5E88FF",
-            "Hex": ""
+            "Code": "",
+            "Type": "Fluor Metallic",
+            "R": "94",
+            "G": "136",
+            "B": "255",
+            "Hex": "#5E88FF"
         },
         {
             "Name": "Bluegrey Dusk",
-            "Code": "Acrylic Colors",
-            "Type": "42",
-            "R": "45",
-            "G": "64",
-            "B": "#2A2D40",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "42",
+            "G": "45",
+            "B": "64",
+            "Hex": "#2A2D40"
         },
         {
             "Name": "Blush Red",
-            "Code": "Wash Ink",
-            "Type": "219",
-            "R": "116",
-            "G": "109",
-            "B": "#DB746D",
-            "Hex": ""
+            "Code": "",
+            "Type": "Wash Ink",
+            "R": "219",
+            "G": "116",
+            "B": "109",
+            "Hex": "#DB746D"
         },
         {
             "Name": "Blushing Flesh",
-            "Code": "Acrylic Colors",
-            "Type": "189",
-            "R": "82",
-            "G": "62",
-            "B": "#BD523E",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "189",
+            "G": "82",
+            "B": "62",
+            "Hex": "#BD523E"
         },
         {
             "Name": "Borealis Green",
-            "Code": "Chameleon Colorshift Metallic",
-            "Type": "122",
-            "R": "201",
-            "G": "214",
-            "B": "#7AC9D6",
-            "Hex": ""
+            "Code": "",
+            "Type": "Chameleon Colorshift Metallic",
+            "R": "122",
+            "G": "201",
+            "B": "214",
+            "Hex": "#7AC9D6"
         },
         {
             "Name": "Burning Gold",
-            "Code": "Chameleon Colorshift Metallic",
-            "Type": "242",
-            "R": "222",
-            "G": "47",
-            "B": "#F2DE2F",
-            "Hex": ""
+            "Code": "",
+            "Type": "Chameleon Colorshift Metallic",
+            "R": "242",
+            "G": "222",
+            "B": "47",
+            "Hex": "#F2DE2F"
         },
         {
             "Name": "Caesar Red",
-            "Code": "Metallic Colors",
-            "Type": "200",
-            "R": "96",
-            "G": "107",
-            "B": "#C8606B",
-            "Hex": ""
+            "Code": "",
+            "Type": "Metallic Colors",
+            "R": "200",
+            "G": "96",
+            "B": "107",
+            "Hex": "#C8606B"
         },
         {
             "Name": "Camouflage Green",
-            "Code": "Acrylic Colors",
-            "Type": "101",
-            "R": "97",
-            "G": "0",
-            "B": "#656100",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "101",
+            "G": "97",
+            "B": "0",
+            "Hex": "#656100"
         },
         {
             "Name": "Celestial Azure",
-            "Code": "Chameleon Colorshift Metallic",
-            "Type": "124",
-            "R": "200",
-            "G": "214",
-            "B": "#7CC8D6",
-            "Hex": ""
+            "Code": "",
+            "Type": "Chameleon Colorshift Metallic",
+            "R": "124",
+            "G": "200",
+            "B": "214",
+            "Hex": "#7CC8D6"
         },
         {
             "Name": "Choco Brown",
-            "Code": "Acrylic Colors",
-            "Type": "40",
-            "R": "0",
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "40",
             "G": "0",
-            "B": "#280000",
-            "Hex": ""
+            "B": "0",
+            "Hex": "#280000"
         },
         {
             "Name": "Chrome Paint",
-            "Code": "Metallic Colors",
-            "Type": "252",
-            "R": "253",
-            "G": "255",
-            "B": "#FCFDFF",
-            "Hex": ""
+            "Code": "",
+            "Type": "Metallic Colors",
+            "R": "252",
+            "G": "253",
+            "B": "255",
+            "Hex": "#FCFDFF"
         },
         {
             "Name": "Citrine Yellow",
-            "Code": "Candy Ink Metallic",
-            "Type": "255",
-            "R": "246",
-            "G": "79",
-            "B": "#FFF64F",
-            "Hex": ""
+            "Code": "",
+            "Type": "Candy Ink Metallic",
+            "R": "255",
+            "G": "246",
+            "B": "79",
+            "Hex": "#FFF64F"
         },
         {
             "Name": "Cobalt Blue",
-            "Code": "Chameleon Colorshift Metallic",
-            "Type": "68",
-            "R": "118",
-            "G": "215",
-            "B": "#4476D7",
-            "Hex": ""
+            "Code": "",
+            "Type": "Chameleon Colorshift Metallic",
+            "R": "68",
+            "G": "118",
+            "B": "215",
+            "Hex": "#4476D7"
         },
         {
             "Name": "Coyote Brown",
-            "Code": "Acrylic Colors",
-            "Type": "110",
-            "R": "97",
-            "G": "55",
-            "B": "#6E6137",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "110",
+            "G": "97",
+            "B": "55",
+            "Hex": "#6E6137"
         },
         {
             "Name": "Crimson Magenta",
-            "Code": "Intensity Ink",
-            "Type": "255",
-            "R": "90",
-            "G": "148",
-            "B": "#FF5A94",
-            "Hex": ""
+            "Code": "",
+            "Type": "Intensity Ink",
+            "R": "255",
+            "G": "90",
+            "B": "148",
+            "Hex": "#FF5A94"
         },
         {
             "Name": "Cutthroat Red",
-            "Code": "Acrylic Colors",
-            "Type": "187",
-            "R": "0",
-            "G": "9",
-            "B": "#BB0009",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "187",
+            "G": "0",
+            "B": "9",
+            "Hex": "#BB0009"
         },
         {
             "Name": "Cyber Yellow",
-            "Code": "Acrylic Colors",
-            "Type": "251",
-            "R": "215",
-            "G": "19",
-            "B": "#FBD713",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "251",
+            "G": "215",
+            "B": "19",
+            "Hex": "#FBD713"
         },
         {
             "Name": "Dark Beige",
-            "Code": "Acrylic Colors",
-            "Type": "108",
-            "R": "92",
-            "G": "67",
-            "B": "#6C5C43",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "108",
+            "G": "92",
+            "B": "67",
+            "Hex": "#6C5C43"
         },
         {
             "Name": "Dark Elder Bronze",
-            "Code": "Metallic Colors",
-            "Type": "62",
-            "R": "44",
-            "G": "20",
-            "B": "#3E2C14",
-            "Hex": ""
+            "Code": "",
+            "Type": "Metallic Colors",
+            "R": "62",
+            "G": "44",
+            "B": "20",
+            "Hex": "#3E2C14"
         },
         {
             "Name": "Dark Umber",
-            "Code": "Acrylic Colors",
-            "Type": "60",
-            "R": "46",
-            "G": "45",
-            "B": "#3C2E2D",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "60",
+            "G": "46",
+            "B": "45",
+            "Hex": "#3C2E2D"
         },
         {
             "Name": "Darth Blue",
-            "Code": "Chameleon Colorshift Metallic",
-            "Type": "68",
-            "R": "118",
-            "G": "217",
-            "B": "#4476D9",
-            "Hex": ""
+            "Code": "",
+            "Type": "Chameleon Colorshift Metallic",
+            "R": "68",
+            "G": "118",
+            "B": "217",
+            "Hex": "#4476D9"
         },
         {
             "Name": "Deck Grey",
-            "Code": "Acrylic Colors",
-            "Type": "202",
-            "R": "191",
-            "G": "163",
-            "B": "#CABFA3",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "202",
+            "G": "191",
+            "B": "163",
+            "Hex": "#CABFA3"
         },
         {
             "Name": "Desert Camo",
-            "Code": "Acrylic Colors",
-            "Type": "132",
-            "R": "111",
-            "G": "54",
-            "B": "#846F36",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "132",
+            "G": "111",
+            "B": "54",
+            "Hex": "#846F36"
         },
         {
             "Name": "Dwarven Flesh",
-            "Code": "Acrylic Colors",
-            "Type": "228",
-            "R": "123",
-            "G": "76",
-            "B": "#E47B4C",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "228",
+            "G": "123",
+            "B": "76",
+            "Hex": "#E47B4C"
         },
         {
             "Name": "El Dorado",
-            "Code": "Metallic Colors",
-            "Type": "186",
-            "R": "147",
-            "G": "28",
-            "B": "#BA931C",
-            "Hex": ""
+            "Code": "",
+            "Type": "Metallic Colors",
+            "R": "186",
+            "G": "147",
+            "B": "28",
+            "Hex": "#BA931C"
         },
         {
             "Name": "Elven Flesh",
-            "Code": "Acrylic Colors",
-            "Type": "242",
-            "R": "170",
-            "G": "130",
-            "B": "#F2AA82",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "242",
+            "G": "170",
+            "B": "130",
+            "Hex": "#F2AA82"
         },
         {
             "Name": "Ember Orange",
-            "Code": "Acrylic Colors",
-            "Type": "230",
-            "R": "71",
-            "G": "29",
-            "B": "#E6471D",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "230",
+            "G": "71",
+            "B": "29",
+            "Hex": "#E6471D"
         },
         {
             "Name": "Emerald Getaway",
-            "Code": "Chameleon Colorshift Metallic",
-            "Type": "51",
-            "R": "174",
-            "G": "146",
-            "B": "#33AE92",
-            "Hex": ""
+            "Code": "",
+            "Type": "Chameleon Colorshift Metallic",
+            "R": "51",
+            "G": "174",
+            "B": "146",
+            "Hex": "#33AE92"
         },
         {
             "Name": "English Field Brown",
-            "Code": "Acrylic Colors",
-            "Type": "100",
-            "R": "72",
-            "G": "32",
-            "B": "#644820",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "100",
+            "G": "72",
+            "B": "32",
+            "Hex": "#644820"
         },
         {
             "Name": "Evil Forest",
-            "Code": "Chameleon Colorshift Metallic",
-            "Type": "83",
-            "R": "21",
-            "G": "22",
-            "B": "#531516",
-            "Hex": ""
+            "Code": "",
+            "Type": "Chameleon Colorshift Metallic",
+            "R": "83",
+            "G": "21",
+            "B": "22",
+            "Hex": "#531516"
         },
         {
             "Name": "Field Green-grey",
-            "Code": "Acrylic Colors",
-            "Type": "46",
-            "R": "71",
-            "G": "41",
-            "B": "#2E4729",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "46",
+            "G": "71",
+            "B": "41",
+            "Hex": "#2E4729"
         },
         {
             "Name": "Flaming Orange",
-            "Code": "Acrylic Colors",
-            "Type": "255",
-            "R": "114",
-            "G": "0",
-            "B": "#FF7200",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "255",
+            "G": "114",
+            "B": "0",
+            "Hex": "#FF7200"
         },
         {
             "Name": "Flubber Green",
-            "Code": "Acrylic Colors",
-            "Type": "105",
-            "R": "229",
-            "G": "43",
-            "B": "#69E52B",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "105",
+            "G": "229",
+            "B": "43",
+            "Hex": "#69E52B"
         },
         {
             "Name": "Forest Green",
-            "Code": "Acrylic Colors",
-            "Type": "0",
-            "R": "58",
-            "G": "8",
-            "B": "#003A08",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "0",
+            "G": "58",
+            "B": "8",
+            "Hex": "#003A08"
         },
         {
             "Name": "Foxhide Brown",
-            "Code": "Acrylic Colors",
-            "Type": "193",
-            "R": "94",
-            "G": "0",
-            "B": "#C15E00",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "193",
+            "G": "94",
+            "B": "0",
+            "Hex": "#C15E00"
         },
         {
             "Name": "Gangrene",
-            "Code": "Acrylic Colors",
-            "Type": "63",
-            "R": "68",
-            "G": "28",
-            "B": "#3F441C",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "63",
+            "G": "68",
+            "B": "28",
+            "Hex": "#3F441C"
         },
         {
             "Name": "Gengis Khaki",
-            "Code": "Acrylic Colors",
-            "Type": "100",
-            "R": "91",
-            "G": "62",
-            "B": "#645B3E",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "100",
+            "G": "91",
+            "B": "62",
+            "Hex": "#645B3E"
         },
         {
             "Name": "Gladius Bronze",
-            "Code": "Metallic Colors",
-            "Type": "225",
-            "R": "167",
-            "G": "103",
-            "B": "#E1A767",
-            "Hex": ""
+            "Code": "",
+            "Type": "Metallic Colors",
+            "R": "225",
+            "G": "167",
+            "B": "103",
+            "Hex": "#E1A767"
         },
         {
             "Name": "Go Mango",
-            "Code": "Acrylic Colors",
-            "Type": "255",
-            "R": "168",
-            "G": "0",
-            "B": "#FFA800",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "255",
+            "G": "168",
+            "B": "0",
+            "Hex": "#FFA800"
         },
         {
             "Name": "Gorgon Dark Green",
-            "Code": "Intensity Ink",
-            "Type": "110",
-            "R": "168",
-            "G": "127",
-            "B": "#6EA87F",
-            "Hex": ""
+            "Code": "",
+            "Type": "Intensity Ink",
+            "R": "110",
+            "G": "168",
+            "B": "127",
+            "Hex": "#6EA87F"
         },
         {
             "Name": "Gunmetal Grey",
-            "Code": "Metallic Colors",
-            "Type": "172",
-            "R": "177",
-            "G": "183",
-            "B": "#ACB1B7",
-            "Hex": ""
+            "Code": "",
+            "Type": "Metallic Colors",
+            "R": "172",
+            "G": "177",
+            "B": "183",
+            "Hex": "#ACB1B7"
         },
         {
             "Name": "Hellfire Red",
-            "Code": "Acrylic Colors",
-            "Type": "225",
-            "R": "1",
-            "G": "9",
-            "B": "#E10109",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "225",
+            "G": "1",
+            "B": "9",
+            "Hex": "#E10109"
         },
         {
             "Name": "Hunter Green",
-            "Code": "Acrylic Colors",
-            "Type": "0",
-            "R": "144",
-            "G": "20",
-            "B": "#009014",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "0",
+            "G": "144",
+            "B": "20",
+            "Hex": "#009014"
         },
         {
             "Name": "Hydromiel Yellow",
-            "Code": "Intensity Ink",
-            "Type": "245",
-            "R": "240",
-            "G": "146",
-            "B": "#F5F092",
-            "Hex": ""
+            "Code": "",
+            "Type": "Intensity Ink",
+            "R": "245",
+            "G": "240",
+            "B": "146",
+            "Hex": "#F5F092"
         },
         {
             "Name": "Imperium Blue",
-            "Code": "Acrylic Colors",
-            "Type": "26",
-            "R": "46",
-            "G": "133",
-            "B": "#1A2E85",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "26",
+            "G": "46",
+            "B": "133",
+            "Hex": "#1A2E85"
         },
         {
             "Name": "Ivory Tusk",
-            "Code": "Acrylic Colors",
-            "Type": "255",
-            "R": "253",
-            "G": "215",
-            "B": "#FFFDD7",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "255",
+            "G": "253",
+            "B": "215",
+            "Hex": "#FFFDD7"
         },
         {
             "Name": "Jade Green",
-            "Code": "Candy Ink Metallic",
-            "Type": "155",
-            "R": "255",
-            "G": "212",
-            "B": "#9BFFD4",
-            "Hex": ""
+            "Code": "",
+            "Type": "Candy Ink Metallic",
+            "R": "155",
+            "G": "255",
+            "B": "212",
+            "Hex": "#9BFFD4"
         },
         {
             "Name": "Komodo Khaki",
-            "Code": "Acrylic Colors",
-            "Type": "132",
-            "R": "94",
-            "G": "49",
-            "B": "#845E31",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "132",
+            "G": "94",
+            "B": "49",
+            "Hex": "#845E31"
         },
         {
             "Name": "Kraken Green",
-            "Code": "Acrylic Colors",
-            "Type": "3",
-            "R": "78",
-            "G": "58",
-            "B": "#034E3A",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "3",
+            "G": "78",
+            "B": "58",
+            "Hex": "#034E3A"
         },
         {
             "Name": "Leather Brown",
-            "Code": "Acrylic Colors",
-            "Type": "174",
-            "R": "103",
-            "G": "21",
-            "B": "#AE6715",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "174",
+            "G": "103",
+            "B": "21",
+            "Hex": "#AE6715"
         },
         {
             "Name": "Liche Purple",
-            "Code": "Acrylic Colors",
-            "Type": "69",
-            "R": "29",
-            "G": "91",
-            "B": "#451D5B",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "69",
+            "G": "29",
+            "B": "91",
+            "Hex": "#451D5B"
         },
         {
             "Name": "Lime",
-            "Code": "Fluor Metallic",
-            "Type": "78",
-            "R": "255",
-            "G": "113",
-            "B": "#4EFF71",
-            "Hex": ""
+            "Code": "",
+            "Type": "Fluor Metallic",
+            "R": "78",
+            "G": "255",
+            "B": "113",
+            "Hex": "#4EFF71"
         },
         {
             "Name": "Lollipop Magenta",
-            "Code": "Acrylic Colors",
-            "Type": "171",
-            "R": "0",
-            "G": "97",
-            "B": "#AB0061",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "171",
+            "G": "0",
+            "B": "97",
+            "Hex": "#AB0061"
         },
         {
             "Name": "Majin Pink",
-            "Code": "Acrylic Colors",
-            "Type": "228",
-            "R": "101",
-            "G": "152",
-            "B": "#E46598",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "228",
+            "G": "101",
+            "B": "152",
+            "Hex": "#E46598"
         },
         {
             "Name": "Malefic Purple",
-            "Code": "Acrylic Colors",
-            "Type": "24",
-            "R": "22",
-            "G": "72",
-            "B": "#181648",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "24",
+            "G": "22",
+            "B": "72",
+            "Hex": "#181648"
         },
         {
             "Name": "Marine Blue",
-            "Code": "Acrylic Colors",
-            "Type": "21",
-            "R": "66",
-            "G": "131",
-            "B": "#154283",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "21",
+            "G": "66",
+            "B": "131",
+            "Hex": "#154283"
         },
         {
             "Name": "Martian Green",
-            "Code": "Chameleon Colorshift Metallic",
-            "Type": "134",
-            "R": "155",
-            "G": "98",
-            "B": "#869B62",
-            "Hex": ""
+            "Code": "",
+            "Type": "Chameleon Colorshift Metallic",
+            "R": "134",
+            "G": "155",
+            "B": "98",
+            "Hex": "#869B62"
         },
         {
             "Name": "Military Green",
-            "Code": "Acrylic Colors",
-            "Type": "39",
-            "R": "40",
-            "G": "22",
-            "B": "#272816",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "39",
+            "G": "40",
+            "B": "22",
+            "Hex": "#272816"
         },
         {
             "Name": "Mirage Blue",
-            "Code": "Acrylic Colors",
-            "Type": "53",
-            "R": "68",
-            "G": "89",
-            "B": "#354459",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "53",
+            "G": "68",
+            "B": "89",
+            "Hex": "#354459"
         },
         {
             "Name": "Moonstone Grey",
-            "Code": "Acrylic Colors",
-            "Type": "140",
+            "Code": "",
+            "Type": "Acrylic Colors",
             "R": "140",
             "G": "140",
-            "B": "#8C8C8C",
-            "Hex": ""
+            "B": "140",
+            "Hex": "#8C8C8C"
         },
         {
             "Name": "Moss Green",
-            "Code": "Wash Ink",
-            "Type": "110",
-            "R": "172",
-            "G": "86",
-            "B": "#6EAC56",
-            "Hex": ""
+            "Code": "",
+            "Type": "Wash Ink",
+            "R": "110",
+            "G": "172",
+            "B": "86",
+            "Hex": "#6EAC56"
         },
         {
             "Name": "Mustard Yellow",
-            "Code": "Acrylic Colors",
-            "Type": "151",
-            "R": "103",
-            "G": "1",
-            "B": "#976701",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "151",
+            "G": "103",
+            "B": "1",
+            "Hex": "#976701"
         },
         {
             "Name": "Mystic Gold",
-            "Code": "Chameleon Colorshift Metallic",
-            "Type": "242",
-            "R": "222",
-            "G": "47",
-            "B": "#F2DE2F",
-            "Hex": ""
+            "Code": "",
+            "Type": "Chameleon Colorshift Metallic",
+            "R": "242",
+            "G": "222",
+            "B": "47",
+            "Hex": "#F2DE2F"
         },
         {
             "Name": "Mystic White",
-            "Code": "Metallic Colors",
-            "Type": "239",
-            "R": "240",
-            "G": "244",
-            "B": "#EFF0F4",
-            "Hex": ""
+            "Code": "",
+            "Type": "Metallic Colors",
+            "R": "239",
+            "G": "240",
+            "B": "244",
+            "Hex": "#EFF0F4"
         },
         {
             "Name": "Nebula Copper",
-            "Code": "Chameleon Colorshift Metallic",
-            "Type": "201",
-            "R": "79",
-            "G": "166",
-            "B": "#C94FA6",
-            "Hex": ""
+            "Code": "",
+            "Type": "Chameleon Colorshift Metallic",
+            "R": "201",
+            "G": "79",
+            "B": "166",
+            "Hex": "#C94FA6"
         },
         {
             "Name": "Neptunus Blue",
-            "Code": "Metallic Colors",
-            "Type": "96",
-            "R": "186",
-            "G": "248",
-            "B": "#60BAF8",
-            "Hex": ""
+            "Code": "",
+            "Type": "Metallic Colors",
+            "R": "96",
+            "G": "186",
+            "B": "248",
+            "Hex": "#60BAF8"
         },
         {
             "Name": "Nuclear White",
-            "Code": "Acrylic Colors",
-            "Type": "254",
+            "Code": "",
+            "Type": "Acrylic Colors",
             "R": "254",
             "G": "254",
-            "B": "#FEFEFE",
-            "Hex": ""
+            "B": "254",
+            "Hex": "#FEFEFE"
         },
         {
             "Name": "Ochre Desert",
-            "Code": "Acrylic Colors",
-            "Type": "200",
-            "R": "132",
-            "G": "0",
-            "B": "#C88400",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "200",
+            "G": "132",
+            "B": "0",
+            "Hex": "#C88400"
         },
         {
             "Name": "Olive-brown Ops",
-            "Code": "Acrylic Colors",
-            "Type": "55",
-            "R": "48",
-            "G": "20",
-            "B": "#373014",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "55",
+            "G": "48",
+            "B": "20",
+            "Hex": "#373014"
         },
         {
             "Name": "Olivegrove Green",
-            "Code": "Acrylic Colors",
-            "Type": "30",
-            "R": "40",
-            "G": "15",
-            "B": "#1E280F",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "30",
+            "G": "40",
+            "B": "15",
+            "Hex": "#1E280F"
         },
         {
             "Name": "Opulentus Black",
-            "Code": "Intensity Ink",
-            "Type": "81",
+            "Code": "",
+            "Type": "Intensity Ink",
             "R": "81",
             "G": "81",
-            "B": "#515151",
-            "Hex": ""
+            "B": "81",
+            "Hex": "#515151"
         },
         {
             "Name": "Orange",
-            "Code": "Fluor Metallic",
-            "Type": "249",
-            "R": "110",
-            "G": "51",
-            "B": "#F96E33",
-            "Hex": ""
+            "Code": "",
+            "Type": "Fluor Metallic",
+            "R": "249",
+            "G": "110",
+            "B": "51",
+            "Hex": "#F96E33"
         },
         {
             "Name": "Orchid Purple",
-            "Code": "Metallic Colors",
-            "Type": "115",
-            "R": "68",
-            "G": "114",
-            "B": "#734472",
-            "Hex": ""
+            "Code": "",
+            "Type": "Metallic Colors",
+            "R": "115",
+            "G": "68",
+            "B": "114",
+            "Hex": "#734472"
         },
         {
             "Name": "Overlord Olive",
-            "Code": "Acrylic Colors",
-            "Type": "55",
-            "R": "52",
-            "G": "37",
-            "B": "#373425",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "55",
+            "G": "52",
+            "B": "37",
+            "Hex": "#373425"
         },
         {
             "Name": "Pale Flesh",
-            "Code": "Acrylic Colors",
-            "Type": "231",
-            "R": "184",
-            "G": "164",
-            "B": "#E7B8A4",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "231",
+            "G": "184",
+            "B": "164",
+            "Hex": "#E7B8A4"
         },
         {
             "Name": "Peach Flesh",
-            "Code": "Acrylic Colors",
-            "Type": "217",
-            "R": "116",
-            "G": "0",
-            "B": "#D97400",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "217",
+            "G": "116",
+            "B": "0",
+            "Hex": "#D97400"
         },
         {
             "Name": "Pecatum Flesh",
-            "Code": "Wash Ink",
-            "Type": "244",
-            "R": "146",
-            "G": "159",
-            "B": "#F4929F",
-            "Hex": ""
+            "Code": "",
+            "Type": "Wash Ink",
+            "R": "244",
+            "G": "146",
+            "B": "159",
+            "Hex": "#F4929F"
         },
         {
             "Name": "Persian Violet",
-            "Code": "Metallic Colors",
-            "Type": "65",
-            "R": "36",
-            "G": "128",
-            "B": "#412480",
-            "Hex": ""
+            "Code": "",
+            "Type": "Metallic Colors",
+            "R": "65",
+            "G": "36",
+            "B": "128",
+            "Hex": "#412480"
         },
         {
             "Name": "Phoenix Orange",
-            "Code": "Intensity Ink",
-            "Type": "241",
-            "R": "167",
-            "G": "96",
-            "B": "#F1A760",
-            "Hex": ""
+            "Code": "",
+            "Type": "Intensity Ink",
+            "R": "241",
+            "G": "167",
+            "B": "96",
+            "Hex": "#F1A760"
         },
         {
             "Name": "Pinky Blue",
-            "Code": "Chameleon Colorshift Metallic",
-            "Type": "120",
-            "R": "205",
-            "G": "210",
-            "B": "#78CDD2",
-            "Hex": ""
+            "Code": "",
+            "Type": "Chameleon Colorshift Metallic",
+            "R": "120",
+            "G": "205",
+            "B": "210",
+            "Hex": "#78CDD2"
         },
         {
             "Name": "Primer Black",
-            "Code": "Matt Surface",
-            "Type": "26",
+            "Code": "",
+            "Type": "Matt Surface",
             "R": "26",
             "G": "26",
-            "B": "#1A1A1A",
-            "Hex": ""
+            "B": "26",
+            "Hex": "#1A1A1A"
         },
         {
             "Name": "Primer Black",
-            "Code": "Gloss Surface",
-            "Type": "32",
+            "Code": "",
+            "Type": "Gloss Surface",
             "R": "32",
             "G": "32",
-            "B": "#202020",
-            "Hex": ""
+            "B": "32",
+            "Hex": "#202020"
         },
         {
             "Name": "Primer Green",
-            "Code": "Matt Surface",
-            "Type": "72",
-            "R": "90",
-            "G": "4",
-            "B": "#485A04",
-            "Hex": ""
+            "Code": "",
+            "Type": "Matt Surface",
+            "R": "72",
+            "G": "90",
+            "B": "4",
+            "Hex": "#485A04"
         },
         {
             "Name": "Primer Grey",
-            "Code": "Matt Surface",
-            "Type": "204",
+            "Code": "",
+            "Type": "Matt Surface",
             "R": "204",
             "G": "204",
-            "B": "#CCCCCC",
-            "Hex": ""
+            "B": "204",
+            "Hex": "#CCCCCC"
         },
         {
             "Name": "Primer Red",
-            "Code": "Matt Surface",
-            "Type": "136",
-            "R": "42",
-            "G": "30",
-            "B": "#882A1E",
-            "Hex": ""
+            "Code": "",
+            "Type": "Matt Surface",
+            "R": "136",
+            "G": "42",
+            "B": "30",
+            "Hex": "#882A1E"
         },
         {
             "Name": "Primer White",
-            "Code": "Matt Surface",
-            "Type": "253",
+            "Code": "",
+            "Type": "Matt Surface",
             "R": "253",
             "G": "253",
-            "B": "#FDFDFD",
-            "Hex": ""
+            "B": "253",
+            "Hex": "#FDFDFD"
         },
         {
             "Name": "Prussian Green",
-            "Code": "Acrylic Colors",
-            "Type": "36",
-            "R": "48",
-            "G": "34",
-            "B": "#243022",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "36",
+            "G": "48",
+            "B": "34",
+            "Hex": "#243022"
         },
         {
             "Name": "Psychotic Illusions",
-            "Code": "Chameleon Colorshift Metallic",
-            "Type": "105",
-            "R": "172",
-            "G": "181",
-            "B": "#69ACB5",
-            "Hex": ""
+            "Code": "",
+            "Type": "Chameleon Colorshift Metallic",
+            "R": "105",
+            "G": "172",
+            "B": "181",
+            "Hex": "#69ACB5"
         },
         {
             "Name": "Quartz Magenta",
-            "Code": "Candy Ink Metallic",
-            "Type": "234",
-            "R": "134",
-            "G": "170",
-            "B": "#EA86AA",
-            "Hex": ""
+            "Code": "",
+            "Type": "Candy Ink Metallic",
+            "R": "234",
+            "G": "134",
+            "B": "170",
+            "Hex": "#EA86AA"
         },
         {
             "Name": "Quicksand Brown",
-            "Code": "Acrylic Colors",
-            "Type": "123",
-            "R": "73",
-            "G": "24",
-            "B": "#7B4918",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "123",
+            "G": "73",
+            "B": "24",
+            "Hex": "#7B4918"
         },
         {
             "Name": "Quicksilver",
-            "Code": "Metallic Colors",
-            "Type": "224",
-            "R": "227",
-            "G": "232",
-            "B": "#E0E3E8",
-            "Hex": ""
+            "Code": "",
+            "Type": "Metallic Colors",
+            "R": "224",
+            "G": "227",
+            "B": "232",
+            "Hex": "#E0E3E8"
         },
         {
             "Name": "Red",
-            "Code": "Fluor Metallic",
-            "Type": "240",
-            "R": "60",
-            "G": "37",
-            "B": "#F03C25",
-            "Hex": ""
+            "Code": "",
+            "Type": "Fluor Metallic",
+            "R": "240",
+            "G": "60",
+            "B": "37",
+            "Hex": "#F03C25"
         },
         {
             "Name": "Red Goblin",
-            "Code": "Chameleon Colorshift Metallic",
-            "Type": "169",
-            "R": "186",
-            "G": "115",
-            "B": "#A9BA73",
-            "Hex": ""
+            "Code": "",
+            "Type": "Chameleon Colorshift Metallic",
+            "R": "169",
+            "G": "186",
+            "B": "115",
+            "Hex": "#A9BA73"
         },
         {
             "Name": "Redwood Brown",
-            "Code": "Acrylic Colors",
-            "Type": "63",
-            "R": "14",
-            "G": "0",
-            "B": "#3F0E00",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "63",
+            "G": "14",
+            "B": "0",
+            "Hex": "#3F0E00"
         },
         {
             "Name": "Rocket Green",
-            "Code": "Acrylic Colors",
-            "Type": "76",
-            "R": "96",
-            "G": "45",
-            "B": "#4C602D",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "76",
+            "G": "96",
+            "B": "45",
+            "Hex": "#4C602D"
         },
         {
             "Name": "Rose",
-            "Code": "Fluor Metallic",
-            "Type": "244",
-            "R": "112",
-            "G": "161",
-            "B": "#F470A1",
-            "Hex": ""
+            "Code": "",
+            "Type": "Fluor Metallic",
+            "R": "244",
+            "G": "112",
+            "B": "161",
+            "Hex": "#F470A1"
         },
         {
             "Name": "Royal Burgundy",
-            "Code": "Chameleon Colorshift Metallic",
-            "Type": "144",
-            "R": "163",
-            "G": "117",
-            "B": "#90A375",
-            "Hex": ""
+            "Code": "",
+            "Type": "Chameleon Colorshift Metallic",
+            "R": "144",
+            "G": "163",
+            "B": "117",
+            "Hex": "#90A375"
         },
         {
             "Name": "Ruby Red",
-            "Code": "Candy Ink Metallic",
-            "Type": "245",
-            "R": "144",
-            "G": "76",
-            "B": "#F5904C",
-            "Hex": ""
+            "Code": "",
+            "Type": "Candy Ink Metallic",
+            "R": "245",
+            "G": "144",
+            "B": "76",
+            "Hex": "#F5904C"
         },
         {
             "Name": "Sacra Purple",
-            "Code": "Intensity Ink",
-            "Type": "136",
-            "R": "105",
-            "G": "185",
-            "B": "#8869B9",
-            "Hex": ""
+            "Code": "",
+            "Type": "Intensity Ink",
+            "R": "136",
+            "G": "105",
+            "B": "185",
+            "Hex": "#8869B9"
         },
         {
             "Name": "Sandstorm",
-            "Code": "Acrylic Colors",
-            "Type": "179",
-            "R": "156",
-            "G": "104",
-            "B": "#B39C68",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "179",
+            "G": "156",
+            "B": "104",
+            "Hex": "#B39C68"
         },
         {
             "Name": "Sangria Red",
-            "Code": "Acrylic Colors",
-            "Type": "123",
-            "R": "1",
-            "G": "24",
-            "B": "#7B0118",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "123",
+            "G": "1",
+            "B": "24",
+            "Hex": "#7B0118"
         },
         {
             "Name": "Sanguinem Red",
-            "Code": "Intensity Ink",
-            "Type": "255",
-            "R": "96",
-            "G": "80",
-            "B": "#FF6050",
-            "Hex": ""
+            "Code": "",
+            "Type": "Intensity Ink",
+            "R": "255",
+            "G": "96",
+            "B": "80",
+            "Hex": "#FF6050"
         },
         {
             "Name": "Sapphire Blue",
-            "Code": "Candy Ink Metallic",
-            "Type": "172",
-            "R": "201",
-            "G": "255",
-            "B": "#ACC9FF",
-            "Hex": ""
+            "Code": "",
+            "Type": "Candy Ink Metallic",
+            "R": "172",
+            "G": "201",
+            "B": "255",
+            "Hex": "#ACC9FF"
         },
         {
             "Name": "Scorched Wood",
-            "Code": "Acrylic Colors",
-            "Type": "42",
-            "R": "25",
-            "G": "18",
-            "B": "#2A1912",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "42",
+            "G": "25",
+            "B": "18",
+            "Hex": "#2A1912"
         },
         {
             "Name": "Sepia Vetus",
-            "Code": "Intensity Ink",
-            "Type": "171",
-            "R": "162",
-            "G": "105",
-            "B": "#ABA269",
-            "Hex": ""
+            "Code": "",
+            "Type": "Intensity Ink",
+            "R": "171",
+            "G": "162",
+            "B": "105",
+            "Hex": "#ABA269"
         },
         {
             "Name": "Sharkfin Blue",
-            "Code": "Metallic Colors",
-            "Type": "149",
-            "R": "202",
-            "G": "246",
-            "B": "#95CAF6",
-            "Hex": ""
+            "Code": "",
+            "Type": "Metallic Colors",
+            "R": "149",
+            "G": "202",
+            "B": "246",
+            "Hex": "#95CAF6"
         },
         {
             "Name": "Shiny Gold",
-            "Code": "Metallic Colors",
-            "Type": "191",
-            "R": "162",
-            "G": "44",
-            "B": "#BFA22C",
-            "Hex": ""
+            "Code": "",
+            "Type": "Metallic Colors",
+            "R": "191",
+            "G": "162",
+            "B": "44",
+            "Hex": "#BFA22C"
         },
         {
             "Name": "Sirenscale Green",
-            "Code": "Metallic Colors",
-            "Type": "5",
-            "R": "193",
-            "G": "142",
-            "B": "#05C18E",
-            "Hex": ""
+            "Code": "",
+            "Type": "Metallic Colors",
+            "R": "5",
+            "G": "193",
+            "B": "142",
+            "Hex": "#05C18E"
         },
         {
             "Name": "Slate Grey",
-            "Code": "Acrylic Colors",
-            "Type": "86",
+            "Code": "",
+            "Type": "Acrylic Colors",
             "R": "86",
             "G": "86",
-            "B": "#565656",
-            "Hex": ""
+            "B": "86",
+            "Hex": "#565656"
         },
         {
             "Name": "Solar Anomalie",
-            "Code": "Chameleon Colorshift Metallic",
-            "Type": "209",
-            "R": "84",
-            "G": "162",
-            "B": "#D154A2",
-            "Hex": ""
+            "Code": "",
+            "Type": "Chameleon Colorshift Metallic",
+            "R": "209",
+            "G": "84",
+            "B": "162",
+            "Hex": "#D154A2"
         },
         {
             "Name": "Steampunk Copper",
-            "Code": "Metallic Colors",
-            "Type": "221",
-            "R": "163",
-            "G": "126",
-            "B": "#DDA37E",
-            "Hex": ""
+            "Code": "",
+            "Type": "Metallic Colors",
+            "R": "221",
+            "G": "163",
+            "B": "126",
+            "Hex": "#DDA37E"
         },
         {
             "Name": "Steel Grey",
-            "Code": "Acrylic Colors",
-            "Type": "41",
-            "R": "49",
-            "G": "60",
-            "B": "#29313C",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "41",
+            "G": "49",
+            "B": "60",
+            "Hex": "#29313C"
         },
         {
             "Name": "Storm Surge Green",
-            "Code": "Chameleon Colorshift Metallic",
-            "Type": "97",
-            "R": "166",
-            "G": "148",
-            "B": "#61A694",
-            "Hex": ""
+            "Code": "",
+            "Type": "Chameleon Colorshift Metallic",
+            "R": "97",
+            "G": "166",
+            "B": "148",
+            "Hex": "#61A694"
         },
         {
             "Name": "Summersea Blue",
-            "Code": "Acrylic Colors",
-            "Type": "28",
-            "R": "100",
-            "G": "208",
-            "B": "#1C64D0",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "28",
+            "G": "100",
+            "B": "208",
+            "Hex": "#1C64D0"
         },
         {
             "Name": "Sun-bleached Bone",
-            "Code": "Acrylic Colors",
-            "Type": "192",
-            "R": "142",
-            "G": "83",
-            "B": "#C08E53",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "192",
+            "G": "142",
+            "B": "83",
+            "Hex": "#C08E53"
         },
         {
             "Name": "Swamp Brown",
-            "Code": "Intensity Ink",
-            "Type": "168",
-            "R": "93",
-            "G": "70",
-            "B": "#A85D46",
-            "Hex": ""
+            "Code": "",
+            "Type": "Intensity Ink",
+            "R": "168",
+            "G": "93",
+            "B": "70",
+            "Hex": "#A85D46"
         },
         {
             "Name": "Tenebris Blue",
-            "Code": "Intensity Ink",
-            "Type": "103",
-            "R": "111",
-            "G": "209",
-            "B": "#676FD1",
-            "Hex": ""
+            "Code": "",
+            "Type": "Intensity Ink",
+            "R": "103",
+            "G": "111",
+            "B": "209",
+            "Hex": "#676FD1"
         },
         {
             "Name": "Tiger Eye Brown",
-            "Code": "Candy Ink Metallic",
-            "Type": "232",
-            "R": "193",
-            "G": "150",
-            "B": "#E8C196",
-            "Hex": ""
+            "Code": "",
+            "Type": "Candy Ink Metallic",
+            "R": "232",
+            "G": "193",
+            "B": "150",
+            "Hex": "#E8C196"
         },
         {
             "Name": "Tinmetal Grey",
-            "Code": "Metallic Colors",
-            "Type": "185",
-            "R": "173",
+            "Code": "",
+            "Type": "Metallic Colors",
+            "R": "185",
             "G": "173",
-            "B": "#B9ADAD",
-            "Hex": ""
+            "B": "173",
+            "Hex": "#B9ADAD"
         },
         {
             "Name": "Toxic Purple",
-            "Code": "Chameleon Colorshift Metallic",
-            "Type": "122",
-            "R": "57",
-            "G": "141",
-            "B": "#7A398D",
-            "Hex": ""
+            "Code": "",
+            "Type": "Chameleon Colorshift Metallic",
+            "R": "122",
+            "G": "57",
+            "B": "141",
+            "Hex": "#7A398D"
         },
         {
             "Name": "Tropical Green",
-            "Code": "Chameleon Colorshift Metallic",
-            "Type": "179",
-            "R": "217",
-            "G": "36",
-            "B": "#B3D924",
-            "Hex": ""
+            "Code": "",
+            "Type": "Chameleon Colorshift Metallic",
+            "R": "179",
+            "G": "217",
+            "B": "36",
+            "Hex": "#B3D924"
         },
         {
             "Name": "Tropical Turquoise",
-            "Code": "Acrylic Colors",
-            "Type": "45",
-            "R": "192",
-            "G": "176",
-            "B": "#2DC0B0",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "45",
+            "G": "192",
+            "B": "176",
+            "Hex": "#2DC0B0"
         },
         {
             "Name": "Valkyrie Yellow",
-            "Code": "Acrylic Colors",
-            "Type": "226",
-            "R": "217",
-            "G": "116",
-            "B": "#E2D974",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "226",
+            "G": "217",
+            "B": "116",
+            "Hex": "#E2D974"
         },
         {
             "Name": "Vicious Purple",
-            "Code": "Wash Ink",
-            "Type": "135",
-            "R": "103",
-            "G": "186",
-            "B": "#8767BA",
-            "Hex": ""
+            "Code": "",
+            "Type": "Wash Ink",
+            "R": "135",
+            "G": "103",
+            "B": "186",
+            "Hex": "#8767BA"
         },
         {
             "Name": "Violet",
-            "Code": "Fluor Metallic",
-            "Type": "190",
-            "R": "104",
-            "G": "227",
-            "B": "#BE68E3",
-            "Hex": ""
+            "Code": "",
+            "Type": "Fluor Metallic",
+            "R": "190",
+            "G": "104",
+            "B": "227",
+            "Hex": "#BE68E3"
         },
         {
             "Name": "Viridis Green",
-            "Code": "Intensity Ink",
-            "Type": "90",
-            "R": "163",
-            "G": "143",
-            "B": "#5AA38F",
-            "Hex": ""
+            "Code": "",
+            "Type": "Intensity Ink",
+            "R": "90",
+            "G": "163",
+            "B": "143",
+            "Hex": "#5AA38F"
         },
         {
             "Name": "Walnut Brown",
-            "Code": "Intensity Ink",
-            "Type": "119",
-            "R": "108",
-            "G": "90",
-            "B": "#776C5A",
-            "Hex": ""
+            "Code": "",
+            "Type": "Intensity Ink",
+            "R": "119",
+            "G": "108",
+            "B": "90",
+            "Hex": "#776C5A"
         },
         {
             "Name": "Warcry Green",
-            "Code": "Acrylic Colors",
-            "Type": "62",
-            "R": "100",
-            "G": "0",
-            "B": "#3E6400",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "62",
+            "G": "100",
+            "B": "0",
+            "Hex": "#3E6400"
         },
         {
             "Name": "White",
-            "Code": "Fluor Metallic",
-            "Type": "255",
+            "Code": "",
+            "Type": "Fluor Metallic",
             "R": "255",
             "G": "255",
-            "B": "#FFFFFF",
-            "Hex": ""
+            "B": "255",
+            "Hex": "#FFFFFF"
         },
         {
             "Name": "Wolven Grey",
-            "Code": "Acrylic Colors",
-            "Type": "175",
-            "R": "181",
-            "G": "197",
-            "B": "#AFB5C5",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "175",
+            "G": "181",
+            "B": "197",
+            "Hex": "#AFB5C5"
         },
         {
             "Name": "Yellow",
-            "Code": "Fluor Metallic",
-            "Type": "248",
-            "R": "251",
-            "G": "72",
-            "B": "#F8FB48",
-            "Hex": ""
+            "Code": "",
+            "Type": "Fluor Metallic",
+            "R": "248",
+            "G": "251",
+            "B": "72",
+            "Hex": "#F8FB48"
         },
         {
             "Name": "Yellow-brown Ops",
-            "Code": "Acrylic Colors",
-            "Type": "125",
-            "R": "92",
-            "G": "41",
-            "B": "#7D5C29",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "125",
+            "G": "92",
+            "B": "41",
+            "Hex": "#7D5C29"
         },
         {
             "Name": "Yellow-orange",
-            "Code": "Fluor Metallic",
-            "Type": "248",
-            "R": "157",
-            "G": "104",
-            "B": "#F89D68",
-            "Hex": ""
+            "Code": "",
+            "Type": "Fluor Metallic",
+            "R": "248",
+            "G": "157",
+            "B": "104",
+            "Hex": "#F89D68"
         },
         {
             "Name": "Zima Blue",
-            "Code": "Acrylic Colors",
-            "Type": "72",
-            "R": "172",
-            "G": "204",
-            "B": "#48ACCC",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "72",
+            "G": "172",
+            "B": "204",
+            "Hex": "#48ACCC"
         },
         {
             "Name": "Zombie Flesh",
-            "Code": "Acrylic Colors",
-            "Type": "208",
-            "R": "175",
-            "G": "108",
-            "B": "#D0AF6C",
-            "Hex": ""
+            "Code": "",
+            "Type": "Acrylic Colors",
+            "R": "208",
+            "G": "175",
+            "B": "108",
+            "Hex": "#D0AF6C"
         }
     ]
 }
