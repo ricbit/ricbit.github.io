@@ -33373,5 +33373,3625 @@
             "B": "108",
             "Hex": "#D0AF6C"
         }
+    ],
+    "Army Painter": [
+        {
+            "Name": "Abomination Gore",
+            "Code": "WP1401",
+            "Type": "Warpaints",
+            "R": "163",
+            "G": "47",
+            "B": "38",
+            "Hex": "#A32F26"
+        },
+        {
+            "Name": "Absolution Green",
+            "Code": "",
+            "Type": "Speedpaint Set",
+            "R": "34",
+            "G": "49",
+            "B": "31",
+            "Hex": "#22311F"
+        },
+        {
+            "Name": "Abyssal Black",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "33",
+            "G": "32",
+            "B": "29",
+            "Hex": "#21201D"
+        },
+        {
+            "Name": "Aegis Suit Satin Varnish",
+            "Code": "CP3027",
+            "Type": "Warpaints Primer",
+            "R": "244",
+            "G": "247",
+            "B": "247",
+            "Hex": "#F4F7F7"
+        },
+        {
+            "Name": "Alien Purple",
+            "Code": "WP1128",
+            "Type": "Warpaints",
+            "R": "70",
+            "G": "45",
+            "B": "89",
+            "Hex": "#462D59"
+        },
+        {
+            "Name": "Alien Purple",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "61",
+            "G": "37",
+            "B": "96",
+            "Hex": "#3D2560"
+        },
+        {
+            "Name": "Alien Purple",
+            "Code": "CP3019",
+            "Type": "Warpaints Primer",
+            "R": "73",
+            "G": "43",
+            "B": "121",
+            "Hex": "#492B79"
+        },
+        {
+            "Name": "Amber Skin",
+            "Code": "",
+            "Type": "Skin Tones Paint Set",
+            "R": "172",
+            "G": "131",
+            "B": "93",
+            "Hex": "#AC835D"
+        },
+        {
+            "Name": "Ancient Mummy",
+            "Code": "",
+            "Type": "D&D Underdark Set",
+            "R": "253",
+            "G": "234",
+            "B": "169",
+            "Hex": "#FDEAA9"
+        },
+        {
+            "Name": "Angel Green",
+            "Code": "WP1112",
+            "Type": "Warpaints",
+            "R": "15",
+            "G": "53",
+            "B": "21",
+            "Hex": "#0F3515"
+        },
+        {
+            "Name": "Angel Green",
+            "Code": "CP3020",
+            "Type": "Warpaints Primer",
+            "R": "39",
+            "G": "59",
+            "B": "47",
+            "Hex": "#273B2F"
+        },
+        {
+            "Name": "Angel Green",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "32",
+            "G": "50",
+            "B": "29",
+            "Hex": "#20321D"
+        },
+        {
+            "Name": "Angelic Yellow",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "249",
+            "G": "223",
+            "B": "28",
+            "Hex": "#F9DF1C"
+        },
+        {
+            "Name": "Anti-Shine Matt Varnish",
+            "Code": "WP1103",
+            "Type": "Warpaints Wash",
+            "R": "240",
+            "G": "240",
+            "B": "240",
+            "Hex": "#F0F0F0"
+        },
+        {
+            "Name": "Anti-Shine Matt Varnish",
+            "Code": "CP3003",
+            "Type": "Warpaints Primer",
+            "R": "240",
+            "G": "240",
+            "B": "240",
+            "Hex": "#F0F0F0"
+        },
+        {
+            "Name": "Archangel Red",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "197",
+            "G": "40",
+            "B": "34",
+            "Hex": "#C52822"
+        },
+        {
+            "Name": "Arid Earth",
+            "Code": "WP1402",
+            "Type": "Warpaints",
+            "R": "253",
+            "G": "237",
+            "B": "199",
+            "Hex": "#FDEDC7"
+        },
+        {
+            "Name": "Army Green",
+            "Code": "WP1110",
+            "Type": "Warpaints",
+            "R": "116",
+            "G": "114",
+            "B": "96",
+            "Hex": "#747260"
+        },
+        {
+            "Name": "Army Green",
+            "Code": "CP3005",
+            "Type": "Warpaints Primer",
+            "R": "102",
+            "G": "105",
+            "B": "58",
+            "Hex": "#66693A"
+        },
+        {
+            "Name": "Army Green",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "83",
+            "G": "102",
+            "B": "56",
+            "Hex": "#536638"
+        },
+        {
+            "Name": "Ash Grey",
+            "Code": "WP1117",
+            "Type": "Warpaints",
+            "R": "149",
+            "G": "149",
+            "B": "159",
+            "Hex": "#95959F"
+        },
+        {
+            "Name": "Azure Magic",
+            "Code": "",
+            "Type": "Metallic Colours Paint Set",
+            "R": "0",
+            "G": "93",
+            "B": "120",
+            "Hex": "#005D78"
+        },
+        {
+            "Name": "Azure Magic",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "21",
+            "G": "63",
+            "B": "81",
+            "Hex": "#153F51"
+        },
+        {
+            "Name": "Babe Blonde",
+            "Code": "WP1403",
+            "Type": "Warpaints",
+            "R": "251",
+            "G": "220",
+            "B": "4",
+            "Hex": "#FBDC04"
+        },
+        {
+            "Name": "Banshee Brown",
+            "Code": "WP1404",
+            "Type": "Warpaints",
+            "R": "191",
+            "G": "165",
+            "B": "155",
+            "Hex": "#BFA59B"
+        },
+        {
+            "Name": "Barbarian Flesh",
+            "Code": "CP3007",
+            "Type": "Warpaints Primer",
+            "R": "229",
+            "G": "155",
+            "B": "102",
+            "Hex": "#E59B66"
+        },
+        {
+            "Name": "Barbarian Flesh",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "210",
+            "G": "141",
+            "B": "87",
+            "Hex": "#D28D57"
+        },
+        {
+            "Name": "Barbarian Flesh",
+            "Code": "WP1126",
+            "Type": "Warpaints",
+            "R": "227",
+            "G": "140",
+            "B": "127",
+            "Hex": "#E38C7F"
+        },
+        {
+            "Name": "Barren Yellow",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "132",
+            "G": "91",
+            "B": "37",
+            "Hex": "#845B25"
+        },
+        {
+            "Name": "Basilisk Brown",
+            "Code": "WP1405",
+            "Type": "Warpaints",
+            "R": "207",
+            "G": "129",
+            "B": "0",
+            "Hex": "#CF8100"
+        },
+        {
+            "Name": "Beholder Purple",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "168",
+            "G": "147",
+            "B": "179",
+            "Hex": "#A893B3"
+        },
+        {
+            "Name": "Bleached Bone",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "223",
+            "G": "217",
+            "B": "183",
+            "Hex": "#DFD9B7"
+        },
+        {
+            "Name": "Bleached Skull",
+            "Code": "",
+            "Type": "D&D Undead Set",
+            "R": "245",
+            "G": "244",
+            "B": "240",
+            "Hex": "#F5F4F0"
+        },
+        {
+            "Name": "Blood Red",
+            "Code": "",
+            "Type": "Speedpaint Set",
+            "R": "168",
+            "G": "20",
+            "B": "31",
+            "Hex": "#A8141F"
+        },
+        {
+            "Name": "Blue Flux",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "0",
+            "G": "139",
+            "B": "189",
+            "Hex": "#008BBD"
+        },
+        {
+            "Name": "Blue Tone",
+            "Code": "WP1139",
+            "Type": "Warpaints Tone",
+            "R": "17",
+            "G": "42",
+            "B": "71",
+            "Hex": "#112A47"
+        },
+        {
+            "Name": "Blue Tone",
+            "Code": "",
+            "Type": "Quickshade Washes Set",
+            "R": "13",
+            "G": "37",
+            "B": "64",
+            "Hex": "#0D2540"
+        },
+        {
+            "Name": "Bogey Green",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "161",
+            "G": "189",
+            "B": "103",
+            "Hex": "#A1BD67"
+        },
+        {
+            "Name": "Brainmatter Beige",
+            "Code": "WP1405",
+            "Type": "Warpaints",
+            "R": "241",
+            "G": "242",
+            "B": "226",
+            "Hex": "#F1F2E2"
+        },
+        {
+            "Name": "Brethil Flesh",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "196",
+            "G": "145",
+            "B": "90",
+            "Hex": "#C4915A"
+        },
+        {
+            "Name": "Bright Gold",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "180",
+            "G": "128",
+            "B": "36",
+            "Hex": "#B48024"
+        },
+        {
+            "Name": "Bright Gold",
+            "Code": "WP1144",
+            "Type": "Warpaints",
+            "R": "187",
+            "G": "135",
+            "B": "2",
+            "Hex": "#BB8702"
+        },
+        {
+            "Name": "Broodmother Purple",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "38",
+            "G": "35",
+            "B": "59",
+            "Hex": "#26233B"
+        },
+        {
+            "Name": "Brown Wash",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments Wash",
+            "R": "53",
+            "G": "42",
+            "B": "22",
+            "Hex": "#352A16"
+        },
+        {
+            "Name": "Brush-On Primer",
+            "Code": "WP1472",
+            "Type": "Warpaints Primer",
+            "R": "160",
+            "G": "163",
+            "B": "162",
+            "Hex": "#A0A3A2"
+        },
+        {
+            "Name": "Bugbear Brown",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "123",
+            "G": "86",
+            "B": "30",
+            "Hex": "#7B561E"
+        },
+        {
+            "Name": "Bullwhack Brown",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "138",
+            "G": "98",
+            "B": "67",
+            "Hex": "#8A6243"
+        },
+        {
+            "Name": "Cadre Grey",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "142",
+            "G": "153",
+            "B": "153",
+            "Hex": "#8E9999"
+        },
+        {
+            "Name": "Cambion Crimson",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "156",
+            "G": "26",
+            "B": "29",
+            "Hex": "#9C1A1D"
+        },
+        {
+            "Name": "Camo Cloak",
+            "Code": "",
+            "Type": "Speedpaint Set",
+            "R": "83",
+            "G": "102",
+            "B": "57",
+            "Hex": "#536639"
+        },
+        {
+            "Name": "Canopy Green",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "171",
+            "G": "190",
+            "B": "85",
+            "Hex": "#ABBE55"
+        },
+        {
+            "Name": "Castle Grey",
+            "Code": "WP1407",
+            "Type": "Warpaints",
+            "R": "141",
+            "G": "136",
+            "B": "127",
+            "Hex": "#8D887F"
+        },
+        {
+            "Name": "Centaur Skin",
+            "Code": "WP1408",
+            "Type": "Warpaints",
+            "R": "227",
+            "G": "177",
+            "B": "165",
+            "Hex": "#E3B1A5"
+        },
+        {
+            "Name": "Chaotic Red",
+            "Code": "CP3026",
+            "Type": "Warpaints Primer",
+            "R": "108",
+            "G": "42",
+            "B": "49",
+            "Hex": "#6C2A31"
+        },
+        {
+            "Name": "Chaotic Red",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "88",
+            "G": "32",
+            "B": "19",
+            "Hex": "#582013"
+        },
+        {
+            "Name": "Chaotic Red",
+            "Code": "WP1142",
+            "Type": "Warpaints",
+            "R": "111",
+            "G": "29",
+            "B": "6",
+            "Hex": "#6F1D06"
+        },
+        {
+            "Name": "Charred Bone",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "140",
+            "G": "119",
+            "B": "87",
+            "Hex": "#8C7757"
+        },
+        {
+            "Name": "Chimera Red",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "98",
+            "G": "23",
+            "B": "35",
+            "Hex": "#621723"
+        },
+        {
+            "Name": "Cloudburst Blue",
+            "Code": "",
+            "Type": "Speedpaint Set",
+            "R": "54",
+            "G": "70",
+            "B": "83",
+            "Hex": "#364653"
+        },
+        {
+            "Name": "Cold Flesh",
+            "Code": "",
+            "Type": "D&D Undead Set",
+            "R": "231",
+            "G": "240",
+            "B": "249",
+            "Hex": "#E7F0F9"
+        },
+        {
+            "Name": "Combat Fatigues",
+            "Code": "WP1409",
+            "Type": "Warpaints",
+            "R": "134",
+            "G": "142",
+            "B": "89",
+            "Hex": "#868E59"
+        },
+        {
+            "Name": "Commando Green",
+            "Code": "WP1410",
+            "Type": "Warpaints",
+            "R": "132",
+            "G": "127",
+            "B": "55",
+            "Hex": "#847F37"
+        },
+        {
+            "Name": "Consul Blue",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "82",
+            "G": "104",
+            "B": "153",
+            "Hex": "#526899"
+        },
+        {
+            "Name": "Corpse Pale",
+            "Code": "WP1411",
+            "Type": "Warpaints",
+            "R": "239",
+            "G": "208",
+            "B": "175",
+            "Hex": "#EFD0AF"
+        },
+        {
+            "Name": "Cosmic Dust",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "238",
+            "G": "228",
+            "B": "125",
+            "Hex": "#EEE47D"
+        },
+        {
+            "Name": "Coven Purple",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "123",
+            "G": "90",
+            "B": "133",
+            "Hex": "#7B5A85"
+        },
+        {
+            "Name": "Crow Hue",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "66",
+            "G": "75",
+            "B": "71",
+            "Hex": "#424B47"
+        },
+        {
+            "Name": "Crusader Skin",
+            "Code": "",
+            "Type": "Speedpaint Set",
+            "R": "210",
+            "G": "141",
+            "B": "87",
+            "Hex": "#D28D57"
+        },
+        {
+            "Name": "Crusted Sore",
+            "Code": "WP1412",
+            "Type": "Warpaints",
+            "R": "132",
+            "G": "48",
+            "B": "70",
+            "Hex": "#843046"
+        },
+        {
+            "Name": "Crypt Wraith",
+            "Code": "WP1413",
+            "Type": "Warpaints",
+            "R": "93",
+            "G": "95",
+            "B": "77",
+            "Hex": "#5D5F4D"
+        },
+        {
+            "Name": "Crystal Blue",
+            "Code": "CP3017",
+            "Type": "Warpaints Primer",
+            "R": "37",
+            "G": "128",
+            "B": "186",
+            "Hex": "#2580BA"
+        },
+        {
+            "Name": "Crystal Blue",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "16",
+            "G": "109",
+            "B": "172",
+            "Hex": "#106DAC"
+        },
+        {
+            "Name": "Crystal Blue",
+            "Code": "WP1114",
+            "Type": "Warpaints",
+            "R": "37",
+            "G": "121",
+            "B": "187",
+            "Hex": "#2579BB"
+        },
+        {
+            "Name": "Cultist Robe",
+            "Code": "WP1414",
+            "Type": "Warpaints",
+            "R": "120",
+            "G": "113",
+            "B": "100",
+            "Hex": "#787164"
+        },
+        {
+            "Name": "Cursed Blade",
+            "Code": "",
+            "Type": "D&D Undead Set",
+            "R": "123",
+            "G": "72",
+            "B": "42",
+            "Hex": "#7B482A"
+        },
+        {
+            "Name": "Cypress Brown",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "84",
+            "G": "69",
+            "B": "55",
+            "Hex": "#544537"
+        },
+        {
+            "Name": "Daemonic Yellow",
+            "Code": "CP3015",
+            "Type": "Warpaints Primer",
+            "R": "247",
+            "G": "210",
+            "B": "1",
+            "Hex": "#F7D201"
+        },
+        {
+            "Name": "Daemonic Yellow",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "241",
+            "G": "209",
+            "B": "47",
+            "Hex": "#F1D12F"
+        },
+        {
+            "Name": "Daemonic Yellow",
+            "Code": "WP1107",
+            "Type": "Warpaints",
+            "R": "248",
+            "G": "191",
+            "B": "62",
+            "Hex": "#F8BF3E"
+        },
+        {
+            "Name": "Dark Skin Wash",
+            "Code": "",
+            "Type": "Skin Tones Paint Set - Washes",
+            "R": "51",
+            "G": "33",
+            "B": "35",
+            "Hex": "#332123"
+        },
+        {
+            "Name": "Dark Sky",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "53",
+            "G": "70",
+            "B": "83",
+            "Hex": "#354653"
+        },
+        {
+            "Name": "Dark Sky",
+            "Code": "WP1415",
+            "Type": "Warpaints",
+            "R": "49",
+            "G": "79",
+            "B": "94",
+            "Hex": "#314F5E"
+        },
+        {
+            "Name": "Dark Stone",
+            "Code": "WP1425",
+            "Type": "Warpaints",
+            "R": "73",
+            "G": "56",
+            "B": "60",
+            "Hex": "#49383C"
+        },
+        {
+            "Name": "Dark Tone",
+            "Code": "WP1136",
+            "Type": "Warpaints Tone",
+            "R": "5",
+            "G": "5",
+            "B": "5",
+            "Hex": "#050505"
+        },
+        {
+            "Name": "Dark Tone",
+            "Code": "",
+            "Type": "Quickshade Washes Set",
+            "R": "12",
+            "G": "6",
+            "B": "14",
+            "Hex": "#0C060E"
+        },
+        {
+            "Name": "Dark Wood",
+            "Code": "",
+            "Type": "Speedpaint Set",
+            "R": "58",
+            "G": "36",
+            "B": "21",
+            "Hex": "#3A2415"
+        },
+        {
+            "Name": "Deep Blue",
+            "Code": "WP1116",
+            "Type": "Warpaints",
+            "R": "14",
+            "G": "78",
+            "B": "118",
+            "Hex": "#0E4E76"
+        },
+        {
+            "Name": "Desert Yellow",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "185",
+            "G": "144",
+            "B": "41",
+            "Hex": "#B99029"
+        },
+        {
+            "Name": "Desert Yellow",
+            "Code": "CP3011",
+            "Type": "Warpaints Primer",
+            "R": "193",
+            "G": "140",
+            "B": "23",
+            "Hex": "#C18C17"
+        },
+        {
+            "Name": "Desert Yellow",
+            "Code": "WP1121",
+            "Type": "Warpaints",
+            "R": "215",
+            "G": "149",
+            "B": "90",
+            "Hex": "#D7955A"
+        },
+        {
+            "Name": "Dirt Spatter",
+            "Code": "WP1415",
+            "Type": "Warpaints",
+            "R": "96",
+            "G": "57",
+            "B": "32",
+            "Hex": "#603920"
+        },
+        {
+            "Name": "Disgusting Slime",
+            "Code": "WP1477",
+            "Type": "Warpaints",
+            "R": "203",
+            "G": "181",
+            "B": "3",
+            "Hex": "#CBB503"
+        },
+        {
+            "Name": "Dorado Skin",
+            "Code": "",
+            "Type": "Skin Tones Paint Set",
+            "R": "169",
+            "G": "119",
+            "B": "97",
+            "Hex": "#A97761"
+        },
+        {
+            "Name": "Drab Green",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "127",
+            "G": "129",
+            "B": "92",
+            "Hex": "#7F815C"
+        },
+        {
+            "Name": "Dragon Red",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "124",
+            "G": "25",
+            "B": "27",
+            "Hex": "#7C191B"
+        },
+        {
+            "Name": "Dragon Red",
+            "Code": "WP1105",
+            "Type": "Warpaints",
+            "R": "185",
+            "G": "17",
+            "B": "48",
+            "Hex": "#B91130"
+        },
+        {
+            "Name": "Dragon Red",
+            "Code": "CP3018",
+            "Type": "Warpaints Primer",
+            "R": "149",
+            "G": "37",
+            "B": "38",
+            "Hex": "#952526"
+        },
+        {
+            "Name": "Dragonfire Red",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "207",
+            "G": "37",
+            "B": "41",
+            "Hex": "#CF2529"
+        },
+        {
+            "Name": "Drake Tooth",
+            "Code": "WP1417",
+            "Type": "Warpaints",
+            "R": "213",
+            "G": "210",
+            "B": "189",
+            "Hex": "#D5D2BD"
+        },
+        {
+            "Name": "Drakolich Scales",
+            "Code": "",
+            "Type": "D&D Undead Set",
+            "R": "109",
+            "G": "127",
+            "B": "163",
+            "Hex": "#6D7FA3"
+        },
+        {
+            "Name": "Dry Rust",
+            "Code": "WP1479",
+            "Type": "Warpaints",
+            "R": "231",
+            "G": "79",
+            "B": "53",
+            "Hex": "#E74F35"
+        },
+        {
+            "Name": "Duergar Metal",
+            "Code": "",
+            "Type": "D&D Underdark Set",
+            "R": "88",
+            "G": "33",
+            "B": "33",
+            "Hex": "#582121"
+        },
+        {
+            "Name": "Dungeon Grey",
+            "Code": "WP1418",
+            "Type": "Warpaints",
+            "R": "103",
+            "G": "107",
+            "B": "112",
+            "Hex": "#676B70"
+        },
+        {
+            "Name": "Dungeon Stone",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "102",
+            "G": "109",
+            "B": "116",
+            "Hex": "#666D74"
+        },
+        {
+            "Name": "Dwarven Bronze",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "205",
+            "G": "96",
+            "B": "31",
+            "Hex": "#CD601F"
+        },
+        {
+            "Name": "Electric Blue",
+            "Code": "WP1113",
+            "Type": "Warpaints",
+            "R": "82",
+            "G": "136",
+            "B": "184",
+            "Hex": "#5288B8"
+        },
+        {
+            "Name": "Elemental Bolt",
+            "Code": "WP1419",
+            "Type": "Warpaints",
+            "R": "21",
+            "G": "142",
+            "B": "118",
+            "Hex": "#158E76"
+        },
+        {
+            "Name": "Elemental Bolt",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "0",
+            "G": "129",
+            "B": "108",
+            "Hex": "#00816C"
+        },
+        {
+            "Name": "Elf Green",
+            "Code": "WP1420",
+            "Type": "Warpaints",
+            "R": "75",
+            "G": "82",
+            "B": "18",
+            "Hex": "#4B5212"
+        },
+        {
+            "Name": "Elven Armor",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "27",
+            "G": "48",
+            "B": "97",
+            "Hex": "#1B3061"
+        },
+        {
+            "Name": "Elven Armour",
+            "Code": "",
+            "Type": "Metallic Colours Paint Set",
+            "R": "0",
+            "G": "61",
+            "B": "129",
+            "Hex": "#003D81"
+        },
+        {
+            "Name": "Elven Flesh",
+            "Code": "WP1421",
+            "Type": "Warpaints",
+            "R": "249",
+            "G": "190",
+            "B": "148",
+            "Hex": "#F9BE94"
+        },
+        {
+            "Name": "Elven Flesh",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "230",
+            "G": "173",
+            "B": "134",
+            "Hex": "#E6AD86"
+        },
+        {
+            "Name": "Encarmine Red",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "114",
+            "G": "24",
+            "B": "36",
+            "Hex": "#721824"
+        },
+        {
+            "Name": "Eternal Blue",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "90",
+            "G": "127",
+            "B": "147",
+            "Hex": "#5A7F93"
+        },
+        {
+            "Name": "Ethereal Specter",
+            "Code": "",
+            "Type": "D&D Undead Set",
+            "R": "193",
+            "G": "175",
+            "B": "187",
+            "Hex": "#C1AFBB"
+        },
+        {
+            "Name": "Evil Chrome",
+            "Code": "",
+            "Type": "Metallic Colours Paint Set",
+            "R": "164",
+            "G": "96",
+            "B": "73",
+            "Hex": "#A46049"
+        },
+        {
+            "Name": "Evil Chrome",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "100",
+            "G": "65",
+            "B": "51",
+            "Hex": "#644133"
+        },
+        {
+            "Name": "Exile Green",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "76",
+            "G": "104",
+            "B": "91",
+            "Hex": "#4C685B"
+        },
+        {
+            "Name": "Faerzress Purple",
+            "Code": "",
+            "Type": "D&D Underdark Set",
+            "R": "135",
+            "G": "20",
+            "B": "110",
+            "Hex": "#87146E"
+        },
+        {
+            "Name": "Fair Skin",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "234",
+            "G": "205",
+            "B": "173",
+            "Hex": "#EACDAD"
+        },
+        {
+            "Name": "Fairy Dust",
+            "Code": "",
+            "Type": "Metallic Colours Paint Set",
+            "R": "169",
+            "G": "60",
+            "B": "39",
+            "Hex": "#A93C27"
+        },
+        {
+            "Name": "Fairy Dust",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "140",
+            "G": "140",
+            "B": "140",
+            "Hex": "#8C8C8C"
+        },
+        {
+            "Name": "Fairy Pink",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "129",
+            "G": "55",
+            "B": "95",
+            "Hex": "#81375F"
+        },
+        {
+            "Name": "Feral Green",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "93",
+            "G": "135",
+            "B": "88",
+            "Hex": "#5D8758"
+        },
+        {
+            "Name": "Fey Pink",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "195",
+            "G": "132",
+            "B": "166",
+            "Hex": "#C384A6"
+        },
+        {
+            "Name": "Feywild Emerald",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "0",
+            "G": "110",
+            "B": "64",
+            "Hex": "#006E40"
+        },
+        {
+            "Name": "Feywild Glow",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "242",
+            "G": "204",
+            "B": "158",
+            "Hex": "#F2CC9E"
+        },
+        {
+            "Name": "Field Grey",
+            "Code": "WP1481",
+            "Type": "Warpaints",
+            "R": "125",
+            "G": "128",
+            "B": "123",
+            "Hex": "#7D807B"
+        },
+        {
+            "Name": "Filthy Cape",
+            "Code": "WP1424",
+            "Type": "Warpaints",
+            "R": "125",
+            "G": "120",
+            "B": "90",
+            "Hex": "#7D785A"
+        },
+        {
+            "Name": "Fire Giant Orange",
+            "Code": "",
+            "Type": "Speedpaint Set",
+            "R": "190",
+            "G": "63",
+            "B": "32",
+            "Hex": "#BE3F20"
+        },
+        {
+            "Name": "Fire Lizard",
+            "Code": "WP1426",
+            "Type": "Warpaints",
+            "R": "240",
+            "G": "112",
+            "B": "0",
+            "Hex": "#F07000"
+        },
+        {
+            "Name": "Firenewt Orange",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "246",
+            "G": "170",
+            "B": "13",
+            "Hex": "#F6AA0D"
+        },
+        {
+            "Name": "Flesh Wash",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments Wash",
+            "R": "75",
+            "G": "27",
+            "B": "14",
+            "Hex": "#4B1B0E"
+        },
+        {
+            "Name": "Flesh Wash",
+            "Code": "WP1143",
+            "Type": "Warpaints Tone",
+            "R": "74",
+            "G": "27",
+            "B": "14",
+            "Hex": "#4A1B0E"
+        },
+        {
+            "Name": "Flesh Wash",
+            "Code": "",
+            "Type": "Quickshade Washes Set",
+            "R": "68",
+            "G": "21",
+            "B": "23",
+            "Hex": "#441517"
+        },
+        {
+            "Name": "Flumph Pink",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "230",
+            "G": "157",
+            "B": "99",
+            "Hex": "#E69D63"
+        },
+        {
+            "Name": "Fog Grey",
+            "Code": "WP1427",
+            "Type": "Warpaints",
+            "R": "122",
+            "G": "151",
+            "B": "177",
+            "Hex": "#7A97B1"
+        },
+        {
+            "Name": "Frost Blue",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "0",
+            "G": "128",
+            "B": "191",
+            "Hex": "#0080BF"
+        },
+        {
+            "Name": "Fur Brown",
+            "Code": "CP3016",
+            "Type": "Warpaints Primer",
+            "R": "153",
+            "G": "56",
+            "B": "34",
+            "Hex": "#993822"
+        },
+        {
+            "Name": "Fur Brown",
+            "Code": "WP1122",
+            "Type": "Warpaints",
+            "R": "161",
+            "G": "58",
+            "B": "15",
+            "Hex": "#A13A0F"
+        },
+        {
+            "Name": "Fur Brown",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "132",
+            "G": "53",
+            "B": "29",
+            "Hex": "#84351D"
+        },
+        {
+            "Name": "Garment Pigment Toner",
+            "Code": "",
+            "Type": "Skin Tones Paint Set",
+            "R": "117",
+            "G": "35",
+            "B": "48",
+            "Hex": "#752330"
+        },
+        {
+            "Name": "Gauss Green",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "99",
+            "G": "163",
+            "B": "60",
+            "Hex": "#63A33C"
+        },
+        {
+            "Name": "Gelatinous Blue",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "199",
+            "G": "207",
+            "B": "227",
+            "Hex": "#C7CFE3"
+        },
+        {
+            "Name": "Gemstone",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "105",
+            "G": "25",
+            "B": "31",
+            "Hex": "#69191F"
+        },
+        {
+            "Name": "Gemstone",
+            "Code": "",
+            "Type": "Metallic Colours Paint Set",
+            "R": "174",
+            "G": "28",
+            "B": "40",
+            "Hex": "#AE1C28"
+        },
+        {
+            "Name": "Ghostly Blue",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "58",
+            "G": "157",
+            "B": "213",
+            "Hex": "#3A9DD5"
+        },
+        {
+            "Name": "Ghostly Vapours",
+            "Code": "",
+            "Type": "D&D Undead Set",
+            "R": "165",
+            "G": "197",
+            "B": "192",
+            "Hex": "#A5C5C0"
+        },
+        {
+            "Name": "Ghoul Grey",
+            "Code": "",
+            "Type": "D&D Undead Set",
+            "R": "185",
+            "G": "190",
+            "B": "196",
+            "Hex": "#B9BEC4"
+        },
+        {
+            "Name": "Glistening Blood",
+            "Code": "WP1476",
+            "Type": "Warpaints",
+            "R": "179",
+            "G": "8",
+            "B": "45",
+            "Hex": "#B3082D"
+        },
+        {
+            "Name": "Glistening Blood",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments Wash",
+            "R": "187",
+            "G": "41",
+            "B": "41",
+            "Hex": "#BB2929"
+        },
+        {
+            "Name": "Glitter Green",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "46",
+            "G": "90",
+            "B": "47",
+            "Hex": "#2E5A2F"
+        },
+        {
+            "Name": "Glitter Green",
+            "Code": "",
+            "Type": "Metallic Colours Paint Set",
+            "R": "0",
+            "G": "123",
+            "B": "58",
+            "Hex": "#007B3A"
+        },
+        {
+            "Name": "Gloss Varnish",
+            "Code": "WP1473",
+            "Type": "Warpaints",
+            "R": "247",
+            "G": "247",
+            "B": "247",
+            "Hex": "#F7F7F7"
+        },
+        {
+            "Name": "Gnome Cheeks",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "151",
+            "G": "131",
+            "B": "118",
+            "Hex": "#978376"
+        },
+        {
+            "Name": "Goblin Green",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "82",
+            "G": "133",
+            "B": "54",
+            "Hex": "#528536"
+        },
+        {
+            "Name": "Goblin Green",
+            "Code": "CP3024",
+            "Type": "Warpaints Primer",
+            "R": "30",
+            "G": "132",
+            "B": "48",
+            "Hex": "#1E8430"
+        },
+        {
+            "Name": "Goblin Green",
+            "Code": "WP1109",
+            "Type": "Warpaints",
+            "R": "51",
+            "G": "142",
+            "B": "70",
+            "Hex": "#338E46"
+        },
+        {
+            "Name": "Goblin Skin",
+            "Code": "WP1720",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "224",
+            "G": "178",
+            "B": "106",
+            "Hex": "#E0B26A"
+        },
+        {
+            "Name": "Gorgon Hide",
+            "Code": "WP1428",
+            "Type": "Warpaints",
+            "R": "207",
+            "G": "215",
+            "B": "231",
+            "Hex": "#CFD7E7"
+        },
+        {
+            "Name": "Gravelord Grey",
+            "Code": "",
+            "Type": "Speedpaint Set",
+            "R": "41",
+            "G": "41",
+            "B": "43",
+            "Hex": "#29292B"
+        },
+        {
+            "Name": "Greedy Gold",
+            "Code": "WP1132",
+            "Type": "Warpaints",
+            "R": "204",
+            "G": "125",
+            "B": "0",
+            "Hex": "#CC7D00"
+        },
+        {
+            "Name": "Greedy Gold",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "163",
+            "G": "88",
+            "B": "25",
+            "Hex": "#A35819"
+        },
+        {
+            "Name": "Green Flame",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "129",
+            "G": "172",
+            "B": "54",
+            "Hex": "#81AC36"
+        },
+        {
+            "Name": "Green Tone",
+            "Code": "WP1137",
+            "Type": "Warpaints Tone",
+            "R": "22",
+            "G": "47",
+            "B": "18",
+            "Hex": "#162F12"
+        },
+        {
+            "Name": "Green Tone",
+            "Code": "",
+            "Type": "Quickshade Washes Set",
+            "R": "15",
+            "G": "43",
+            "B": "24",
+            "Hex": "#0F2B18"
+        },
+        {
+            "Name": "Greenskin",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "44",
+            "G": "92",
+            "B": "47",
+            "Hex": "#2C5C2F"
+        },
+        {
+            "Name": "Greenskin",
+            "Code": "CP3014",
+            "Type": "Warpaints Primer",
+            "R": "27",
+            "G": "97",
+            "B": "58",
+            "Hex": "#1B613A"
+        },
+        {
+            "Name": "Greenskin",
+            "Code": "WP1111",
+            "Type": "Warpaints",
+            "R": "4",
+            "G": "102",
+            "B": "43",
+            "Hex": "#04662B"
+        },
+        {
+            "Name": "Gremlin Green",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "74",
+            "G": "90",
+            "B": "43",
+            "Hex": "#4A5A2B"
+        },
+        {
+            "Name": "Grey Primer",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments Primer",
+            "R": "145",
+            "G": "146",
+            "B": "150",
+            "Hex": "#919296"
+        },
+        {
+            "Name": "Griffon Blue",
+            "Code": "WP1429",
+            "Type": "Warpaints",
+            "R": "32",
+            "G": "71",
+            "B": "122",
+            "Hex": "#20477A"
+        },
+        {
+            "Name": "Grim Black",
+            "Code": "",
+            "Type": "Speedpaint Set",
+            "R": "25",
+            "G": "25",
+            "B": "21",
+            "Hex": "#191915"
+        },
+        {
+            "Name": "Grimoire Purple",
+            "Code": "WP1444",
+            "Type": "Warpaints",
+            "R": "114",
+            "G": "72",
+            "B": "96",
+            "Hex": "#724860"
+        },
+        {
+            "Name": "Grung Green",
+            "Code": "WP1731",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "157",
+            "G": "194",
+            "B": "158",
+            "Hex": "#9DC29E"
+        },
+        {
+            "Name": "Gun Metal",
+            "Code": "WP1131",
+            "Type": "Warpaints",
+            "R": "126",
+            "G": "124",
+            "B": "123",
+            "Hex": "#7E7C7B"
+        },
+        {
+            "Name": "Gun Metal",
+            "Code": "CP3025",
+            "Type": "Warpaints Primer",
+            "R": "133",
+            "G": "129",
+            "B": "128",
+            "Hex": "#858180"
+        },
+        {
+            "Name": "Gun Metal",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "95",
+            "G": "93",
+            "B": "92",
+            "Hex": "#5F5D5C"
+        },
+        {
+            "Name": "Hardened Carapace",
+            "Code": "WP1430",
+            "Type": "Warpaints",
+            "R": "68",
+            "G": "69",
+            "B": "59",
+            "Hex": "#44453B"
+        },
+        {
+            "Name": "Hardened Leather",
+            "Code": "",
+            "Type": "Speedpaint Set",
+            "R": "104",
+            "G": "70",
+            "B": "31",
+            "Hex": "#68461F"
+        },
+        {
+            "Name": "Hazardous Smog",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "96",
+            "G": "171",
+            "B": "151",
+            "Hex": "#60AB97"
+        },
+        {
+            "Name": "Hemp Rope",
+            "Code": "WP1431",
+            "Type": "Warpaints",
+            "R": "151",
+            "G": "124",
+            "B": "58",
+            "Hex": "#977C3A"
+        },
+        {
+            "Name": "Highlord Blue",
+            "Code": "",
+            "Type": "Speedpaint Set",
+            "R": "42",
+            "G": "73",
+            "B": "116",
+            "Hex": "#2A4974"
+        },
+        {
+            "Name": "Hive Dweller Purple",
+            "Code": "",
+            "Type": "Speedpaint Set",
+            "R": "62",
+            "G": "37",
+            "B": "97",
+            "Hex": "#3E2561"
+        },
+        {
+            "Name": "Hobgoblin Hue",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "243",
+            "G": "219",
+            "B": "192",
+            "Hex": "#F3DBC0"
+        },
+        {
+            "Name": "Holy White",
+            "Code": "",
+            "Type": "Speedpaint Set",
+            "R": "255",
+            "G": "255",
+            "B": "255",
+            "Hex": "#FFFFFF"
+        },
+        {
+            "Name": "Hot Pink",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "203",
+            "G": "68",
+            "B": "133",
+            "Hex": "#CB4485"
+        },
+        {
+            "Name": "Husk Brown",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "86",
+            "G": "47",
+            "B": "34",
+            "Hex": "#562F22"
+        },
+        {
+            "Name": "Hydra Turqoise",
+            "Code": "WP1141",
+            "Type": "Warpaints",
+            "R": "30",
+            "G": "147",
+            "B": "156",
+            "Hex": "#1E939C"
+        },
+        {
+            "Name": "Hydra Turquoise",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "39",
+            "G": "117",
+            "B": "129",
+            "Hex": "#277581"
+        },
+        {
+            "Name": "Ice Storm",
+            "Code": "WP1432",
+            "Type": "Warpaints",
+            "R": "59",
+            "G": "160",
+            "B": "203",
+            "Hex": "#3BA0CB"
+        },
+        {
+            "Name": "Imp Yellow",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "227",
+            "G": "190",
+            "B": "106",
+            "Hex": "#E3BE6A"
+        },
+        {
+            "Name": "Incursion Orange",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "215",
+            "G": "117",
+            "B": "42",
+            "Hex": "#D7752A"
+        },
+        {
+            "Name": "Ionic Blue",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "57",
+            "G": "146",
+            "B": "197",
+            "Hex": "#3992C5"
+        },
+        {
+            "Name": "Iron Wolf",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "53",
+            "G": "75",
+            "B": "87",
+            "Hex": "#354B57"
+        },
+        {
+            "Name": "Jasper Skin",
+            "Code": "",
+            "Type": "Skin Tones Paint Set",
+            "R": "131",
+            "G": "70",
+            "B": "65",
+            "Hex": "#834641"
+        },
+        {
+            "Name": "Jungle Green",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "119",
+            "G": "159",
+            "B": "55",
+            "Hex": "#779F37"
+        },
+        {
+            "Name": "Jungle Green",
+            "Code": "WP1433",
+            "Type": "Warpaints",
+            "R": "142",
+            "G": "169",
+            "B": "1",
+            "Hex": "#8EA901"
+        },
+        {
+            "Name": "Ki-Rin Gold",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "175",
+            "G": "129",
+            "B": "2",
+            "Hex": "#AF8102"
+        },
+        {
+            "Name": "Kobold Red",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "109",
+            "G": "31",
+            "B": "12",
+            "Hex": "#6D1F0C"
+        },
+        {
+            "Name": "Kobold Skin",
+            "Code": "WP1434",
+            "Type": "Warpaints",
+            "R": "216",
+            "G": "157",
+            "B": "143",
+            "Hex": "#D89D8F"
+        },
+        {
+            "Name": "Kobold Skin",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "199",
+            "G": "156",
+            "B": "121",
+            "Hex": "#C79C79"
+        },
+        {
+            "Name": "Kraken Blue",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "5",
+            "G": "94",
+            "B": "143",
+            "Hex": "#055E8F"
+        },
+        {
+            "Name": "Kraken Skin",
+            "Code": "WP1435",
+            "Type": "Warpaints",
+            "R": "113",
+            "G": "191",
+            "B": "135",
+            "Hex": "#71BF87"
+        },
+        {
+            "Name": "Lava Orange",
+            "Code": "WP1106",
+            "Type": "Warpaints",
+            "R": "226",
+            "G": "70",
+            "B": "6",
+            "Hex": "#E24606"
+        },
+        {
+            "Name": "Lava Orange",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "191",
+            "G": "61",
+            "B": "32",
+            "Hex": "#BF3D20"
+        },
+        {
+            "Name": "Lawfull White",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "254",
+            "G": "255",
+            "B": "255",
+            "Hex": "#FEFFFF"
+        },
+        {
+            "Name": "Leather Brown",
+            "Code": "WP1123",
+            "Type": "Warpaints",
+            "R": "124",
+            "G": "79",
+            "B": "16",
+            "Hex": "#7C4F10"
+        },
+        {
+            "Name": "Leather Brown",
+            "Code": "CP3004",
+            "Type": "Warpaints Primer",
+            "R": "113",
+            "G": "62",
+            "B": "41",
+            "Hex": "#713E29"
+        },
+        {
+            "Name": "Leather Brown",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "103",
+            "G": "71",
+            "B": "30",
+            "Hex": "#67471E"
+        },
+        {
+            "Name": "Leviathan Light",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "181",
+            "G": "210",
+            "B": "186",
+            "Hex": "#B5D2BA"
+        },
+        {
+            "Name": "Lich Blue",
+            "Code": "",
+            "Type": "D&D Underdark Set",
+            "R": "9",
+            "G": "64",
+            "B": "115",
+            "Hex": "#094073"
+        },
+        {
+            "Name": "Lich Skin",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "131",
+            "G": "130",
+            "B": "123",
+            "Hex": "#83827B"
+        },
+        {
+            "Name": "Light Tone",
+            "Code": "",
+            "Type": "Quickshade Washes Set",
+            "R": "171",
+            "G": "59",
+            "B": "44",
+            "Hex": "#AB3B2C"
+        },
+        {
+            "Name": "Light Tone",
+            "Code": "WP1470",
+            "Type": "Warpaints Tone",
+            "R": "176",
+            "G": "56",
+            "B": "18",
+            "Hex": "#B03812"
+        },
+        {
+            "Name": "Magic Blue",
+            "Code": "",
+            "Type": "Speedpaint Set",
+            "R": "17",
+            "G": "109",
+            "B": "172",
+            "Hex": "#116DAC"
+        },
+        {
+            "Name": "Magnolia Brown",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "44",
+            "G": "44",
+            "B": "36",
+            "Hex": "#2C2C24"
+        },
+        {
+            "Name": "Majestic Fortress",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "0",
+            "G": "104",
+            "B": "86",
+            "Hex": "#006856"
+        },
+        {
+            "Name": "Malignent Green",
+            "Code": "",
+            "Type": "Speedpaint Set",
+            "R": "178",
+            "G": "184",
+            "B": "134",
+            "Hex": "#B2B886"
+        },
+        {
+            "Name": "Mars Red",
+            "Code": "WP1436",
+            "Type": "Warpaints",
+            "R": "211",
+            "G": "56",
+            "B": "48",
+            "Hex": "#D33830"
+        },
+        {
+            "Name": "Matt Black",
+            "Code": "CP3001",
+            "Type": "Warpaints Primer",
+            "R": "0",
+            "G": "0",
+            "B": "0",
+            "Hex": "#000000"
+        },
+        {
+            "Name": "Matt Black",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "24",
+            "G": "25",
+            "B": "21",
+            "Hex": "#181915"
+        },
+        {
+            "Name": "Matt Black",
+            "Code": "WP1101",
+            "Type": "Warpaints",
+            "R": "0",
+            "G": "0",
+            "B": "0",
+            "Hex": "#000000"
+        },
+        {
+            "Name": "Matt White",
+            "Code": "CP3002",
+            "Type": "Warpaints Primer",
+            "R": "255",
+            "G": "255",
+            "B": "255",
+            "Hex": "#FFFFFF"
+        },
+        {
+            "Name": "Matt White",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "255",
+            "G": "255",
+            "B": "255",
+            "Hex": "#FFFFFF"
+        },
+        {
+            "Name": "Matt White",
+            "Code": "WP1102",
+            "Type": "Warpaints",
+            "R": "255",
+            "G": "255",
+            "B": "255",
+            "Hex": "#FFFFFF"
+        },
+        {
+            "Name": "Merfolk Turquoise",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "1",
+            "G": "144",
+            "B": "150",
+            "Hex": "#019096"
+        },
+        {
+            "Name": "Meteor Rock",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "215",
+            "G": "175",
+            "B": "43",
+            "Hex": "#D7AF2B"
+        },
+        {
+            "Name": "Mid Brown",
+            "Code": "WP1469",
+            "Type": "Warpaints",
+            "R": "146",
+            "G": "90",
+            "B": "17",
+            "Hex": "#925A11"
+        },
+        {
+            "Name": "Mid Brown",
+            "Code": "",
+            "Type": "Quickshade Washes Set",
+            "R": "147",
+            "G": "78",
+            "B": "43",
+            "Hex": "#934E2B"
+        },
+        {
+            "Name": "Military Shader",
+            "Code": "",
+            "Type": "Quickshade Washes Set",
+            "R": "67",
+            "G": "88",
+            "B": "43",
+            "Hex": "#43582B"
+        },
+        {
+            "Name": "Military Shader",
+            "Code": "WP1471",
+            "Type": "Warpaints Tone",
+            "R": "76",
+            "G": "99",
+            "B": "28",
+            "Hex": "#4C631C"
+        },
+        {
+            "Name": "Militia Green",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "39",
+            "G": "49",
+            "B": "36",
+            "Hex": "#273124"
+        },
+        {
+            "Name": "Minotaur Hide",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "163",
+            "G": "69",
+            "B": "33",
+            "Hex": "#A34521"
+        },
+        {
+            "Name": "Mithral Silver",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "128",
+            "G": "129",
+            "B": "130",
+            "Hex": "#808182"
+        },
+        {
+            "Name": "Mocca Skin",
+            "Code": "",
+            "Type": "Skin Tones Paint Set",
+            "R": "64",
+            "G": "40",
+            "B": "40",
+            "Hex": "#402828"
+        },
+        {
+            "Name": "Molten Orange",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "125",
+            "G": "50",
+            "B": "34",
+            "Hex": "#7D3222"
+        },
+        {
+            "Name": "Monster Brown",
+            "Code": "WP1120",
+            "Type": "Warpaints",
+            "R": "157",
+            "G": "106",
+            "B": "95",
+            "Hex": "#9D6A5F"
+        },
+        {
+            "Name": "Moon Dust",
+            "Code": "WP1438",
+            "Type": "Warpaints",
+            "R": "240",
+            "G": "212",
+            "B": "95",
+            "Hex": "#F0D45F"
+        },
+        {
+            "Name": "Moon Dust",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "228",
+            "G": "203",
+            "B": "99",
+            "Hex": "#E4CB63"
+        },
+        {
+            "Name": "Mouldy Clothes",
+            "Code": "WP1439",
+            "Type": "Warpaints",
+            "R": "58",
+            "G": "117",
+            "B": "41",
+            "Hex": "#3A7529"
+        },
+        {
+            "Name": "Mouldy Wash",
+            "Code": "",
+            "Type": "D&D Undead Set",
+            "R": "65",
+            "G": "99",
+            "B": "12",
+            "Hex": "#41630C"
+        },
+        {
+            "Name": "Mummy Robes",
+            "Code": "WP1440",
+            "Type": "Warpaints",
+            "R": "239",
+            "G": "222",
+            "B": "214",
+            "Hex": "#EFDED6"
+        },
+        {
+            "Name": "Mutant Hue",
+            "Code": "WP1441",
+            "Type": "Warpaints",
+            "R": "172",
+            "G": "138",
+            "B": "141",
+            "Hex": "#AC8A8D"
+        },
+        {
+            "Name": "Mythical Orange",
+            "Code": "WP1442",
+            "Type": "Warpaints",
+            "R": "226",
+            "G": "46",
+            "B": "13",
+            "Hex": "#E22E0D"
+        },
+        {
+            "Name": "Necromancer Cloak",
+            "Code": "WP1443",
+            "Type": "Warpaints",
+            "R": "65",
+            "G": "60",
+            "B": "71",
+            "Hex": "#413C47"
+        },
+        {
+            "Name": "Necrotic Flesh",
+            "Code": "CP3013",
+            "Type": "Warpaints Primer",
+            "R": "188",
+            "G": "190",
+            "B": "140",
+            "Hex": "#BCBE8C"
+        },
+        {
+            "Name": "Necrotic Flesh",
+            "Code": "WP1108",
+            "Type": "Warpaints",
+            "R": "182",
+            "G": "167",
+            "B": "137",
+            "Hex": "#B6A789"
+        },
+        {
+            "Name": "Necrotic Flesh",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "177",
+            "G": "184",
+            "B": "134",
+            "Hex": "#B1B886"
+        },
+        {
+            "Name": "Neon Yellow",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "254",
+            "G": "222",
+            "B": "64",
+            "Hex": "#FEDE40"
+        },
+        {
+            "Name": "Night Scales",
+            "Code": "",
+            "Type": "Metallic Colours Paint Set",
+            "R": "49",
+            "G": "44",
+            "B": "47",
+            "Hex": "#312C2F"
+        },
+        {
+            "Name": "Night Scales",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "35",
+            "G": "32",
+            "B": "35",
+            "Hex": "#232023"
+        },
+        {
+            "Name": "Nomad Flesh",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "179",
+            "G": "97",
+            "B": "75",
+            "Hex": "#B3614B"
+        },
+        {
+            "Name": "Oak Brown",
+            "Code": "WP1124",
+            "Type": "Warpaints",
+            "R": "72",
+            "G": "36",
+            "B": "10",
+            "Hex": "#48240A"
+        },
+        {
+            "Name": "Oak Brown",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "58",
+            "G": "36",
+            "B": "21",
+            "Hex": "#3A2415"
+        },
+        {
+            "Name": "Obsidian Pigment Toner",
+            "Code": "",
+            "Type": "Skin Tones Paint Set",
+            "R": "31",
+            "G": "34",
+            "B": "36",
+            "Hex": "#1F2224"
+        },
+        {
+            "Name": "Ocean Depths",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "5",
+            "G": "76",
+            "B": "91",
+            "Hex": "#054C5B"
+        },
+        {
+            "Name": "Omega Blue",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "31",
+            "G": "56",
+            "B": "99",
+            "Hex": "#1F3863"
+        },
+        {
+            "Name": "Onyx Skin",
+            "Code": "",
+            "Type": "Skin Tones Paint Set",
+            "R": "54",
+            "G": "50",
+            "B": "49",
+            "Hex": "#363231"
+        },
+        {
+            "Name": "Oozing Purple",
+            "Code": "WP1445",
+            "Type": "Warpaints",
+            "R": "178",
+            "G": "157",
+            "B": "183",
+            "Hex": "#B29DB7"
+        },
+        {
+            "Name": "Opal Skin",
+            "Code": "",
+            "Type": "Skin Tones Paint Set",
+            "R": "214",
+            "G": "195",
+            "B": "193",
+            "Hex": "#D6C3C1"
+        },
+        {
+            "Name": "Orange Magma",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "197",
+            "G": "40",
+            "B": "34",
+            "Hex": "#C52822"
+        },
+        {
+            "Name": "Orc Blood",
+            "Code": "WP1422",
+            "Type": "Warpaints",
+            "R": "144",
+            "G": "75",
+            "B": "122",
+            "Hex": "#904B7A"
+        },
+        {
+            "Name": "Orc Skin",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "159",
+            "G": "163",
+            "B": "163",
+            "Hex": "#9FA3A3"
+        },
+        {
+            "Name": "Orc Skin",
+            "Code": "",
+            "Type": "Speedpaint Set",
+            "R": "45",
+            "G": "91",
+            "B": "47",
+            "Hex": "#2D5B2F"
+        },
+        {
+            "Name": "Otyugh Brown",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "222",
+            "G": "181",
+            "B": "125",
+            "Hex": "#DEB57D"
+        },
+        {
+            "Name": "Owlbear Brown",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "95",
+            "G": "61",
+            "B": "39",
+            "Hex": "#5F3D27"
+        },
+        {
+            "Name": "Pallid Bone",
+            "Code": "",
+            "Type": "Speedpaint Set",
+            "R": "203",
+            "G": "194",
+            "B": "149",
+            "Hex": "#CBC295"
+        },
+        {
+            "Name": "Pearl Pigment Toner",
+            "Code": "",
+            "Type": "Skin Tones Paint Set",
+            "R": "235",
+            "G": "228",
+            "B": "225",
+            "Hex": "#EBE4E1"
+        },
+        {
+            "Name": "Pestilent Flesh",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "112",
+            "G": "115",
+            "B": "59",
+            "Hex": "#70733B"
+        },
+        {
+            "Name": "Phantasmal Blue",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "92",
+            "G": "173",
+            "B": "179",
+            "Hex": "#5CADB3"
+        },
+        {
+            "Name": "Phoenix Flames",
+            "Code": "WP1446",
+            "Type": "Warpaints",
+            "R": "247",
+            "G": "161",
+            "B": "3",
+            "Hex": "#F7A103"
+        },
+        {
+            "Name": "Pixie Pink",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "185",
+            "G": "79",
+            "B": "140",
+            "Hex": "#B94F8C"
+        },
+        {
+            "Name": "Pixie Pink",
+            "Code": "WP1447",
+            "Type": "Warpaints",
+            "R": "214",
+            "G": "123",
+            "B": "131",
+            "Hex": "#D67B83"
+        },
+        {
+            "Name": "Pixiedust Pink",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "210",
+            "G": "127",
+            "B": "132",
+            "Hex": "#D27F84"
+        },
+        {
+            "Name": "Plasmatic Bolt",
+            "Code": "",
+            "Type": "Speedpaint Set",
+            "R": "0",
+            "G": "129",
+            "B": "108",
+            "Hex": "#00816C"
+        },
+        {
+            "Name": "Plate Mail Metal",
+            "Code": "CP3008",
+            "Type": "Warpaints Primer",
+            "R": "133",
+            "G": "133",
+            "B": "132",
+            "Hex": "#858584"
+        },
+        {
+            "Name": "Plate Mail Metal",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "106",
+            "G": "107",
+            "B": "104",
+            "Hex": "#6A6B68"
+        },
+        {
+            "Name": "Plate Mail Metal",
+            "Code": "WP1130",
+            "Type": "Warpaints",
+            "R": "148",
+            "G": "148",
+            "B": "148",
+            "Hex": "#949494"
+        },
+        {
+            "Name": "Poisonous Cloud",
+            "Code": "WP1448",
+            "Type": "Warpaints",
+            "R": "207",
+            "G": "218",
+            "B": "47",
+            "Hex": "#CFDA2F"
+        },
+        {
+            "Name": "Potion Green",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "97",
+            "G": "138",
+            "B": "114",
+            "Hex": "#618A72"
+        },
+        {
+            "Name": "Psychic Shock",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "93",
+            "G": "164",
+            "B": "144",
+            "Hex": "#5DA490"
+        },
+        {
+            "Name": "Pure Red",
+            "Code": "WP1104",
+            "Type": "Warpaints",
+            "R": "202",
+            "G": "25",
+            "B": "19",
+            "Hex": "#CA1913"
+        },
+        {
+            "Name": "Pure Red",
+            "Code": "CP3006",
+            "Type": "Warpaints Primer",
+            "R": "195",
+            "G": "35",
+            "B": "30",
+            "Hex": "#C3231E"
+        },
+        {
+            "Name": "Pure Red",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "168",
+            "G": "20",
+            "B": "31",
+            "Hex": "#A8141F"
+        },
+        {
+            "Name": "Purple Alchemy",
+            "Code": "",
+            "Type": "Speedpaint Set",
+            "R": "141",
+            "G": "51",
+            "B": "92",
+            "Hex": "#8D335C"
+        },
+        {
+            "Name": "Purple Tone",
+            "Code": "WP1140",
+            "Type": "Warpaints Tone",
+            "R": "42",
+            "G": "28",
+            "B": "77",
+            "Hex": "#2A1C4D"
+        },
+        {
+            "Name": "Purple Tone",
+            "Code": "",
+            "Type": "Quickshade Washes Set",
+            "R": "42",
+            "G": "25",
+            "B": "74",
+            "Hex": "#2A194A"
+        },
+        {
+            "Name": "Purple Worm",
+            "Code": "WP1712",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "130",
+            "G": "109",
+            "B": "141",
+            "Hex": "#826D8D"
+        },
+        {
+            "Name": "Putrid Slime",
+            "Code": "",
+            "Type": "D&D Underdark Set",
+            "R": "196",
+            "G": "177",
+            "B": "7",
+            "Hex": "#C4B107"
+        },
+        {
+            "Name": "Quickshade Wash Mixing Medium",
+            "Code": "WP1474",
+            "Type": "Warpaints Wash",
+            "R": "238",
+            "G": "239",
+            "B": "239",
+            "Hex": "#EEEFEF"
+        },
+        {
+            "Name": "Raven Black",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "43",
+            "G": "48",
+            "B": "48",
+            "Hex": "#2B3030"
+        },
+        {
+            "Name": "Rawhide Brown",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "79",
+            "G": "56",
+            "B": "38",
+            "Hex": "#4F3826"
+        },
+        {
+            "Name": "Rebel Red",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "116",
+            "G": "20",
+            "B": "52",
+            "Hex": "#741434"
+        },
+        {
+            "Name": "Red Tone",
+            "Code": "WP1138",
+            "Type": "Warpaints Tone",
+            "R": "80",
+            "G": "33",
+            "B": "20",
+            "Hex": "#502114"
+        },
+        {
+            "Name": "Red Tone",
+            "Code": "",
+            "Type": "Quickshade Washes Set",
+            "R": "66",
+            "G": "21",
+            "B": "22",
+            "Hex": "#421516"
+        },
+        {
+            "Name": "Regiment Grey",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "66",
+            "G": "75",
+            "B": "74",
+            "Hex": "#424B4A"
+        },
+        {
+            "Name": "Rigid Leather",
+            "Code": "",
+            "Type": "D&D Underdark Set",
+            "R": "82",
+            "G": "28",
+            "B": "2",
+            "Hex": "#521C02"
+        },
+        {
+            "Name": "Rosy Skin",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "247",
+            "G": "191",
+            "B": "150",
+            "Hex": "#F7BF96"
+        },
+        {
+            "Name": "Rough Iron",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "32",
+            "G": "19",
+            "B": "14",
+            "Hex": "#20130E"
+        },
+        {
+            "Name": "Rough Iron",
+            "Code": "WP1468",
+            "Type": "Warpaints",
+            "R": "34",
+            "G": "19",
+            "B": "15",
+            "Hex": "#22130F"
+        },
+        {
+            "Name": "Royal Cloak",
+            "Code": "WP1449",
+            "Type": "Warpaints",
+            "R": "28",
+            "G": "144",
+            "B": "149",
+            "Hex": "#1C9095"
+        },
+        {
+            "Name": "Royal Purple",
+            "Code": "",
+            "Type": "Metallic Colours Paint Set",
+            "R": "112",
+            "G": "27",
+            "B": "85",
+            "Hex": "#701B55"
+        },
+        {
+            "Name": "Royal Purple",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "67",
+            "G": "23",
+            "B": "59",
+            "Hex": "#43173B"
+        },
+        {
+            "Name": "Ruby Skin",
+            "Code": "",
+            "Type": "Skin Tones Paint Set",
+            "R": "229",
+            "G": "171",
+            "B": "171",
+            "Hex": "#E5ABAB"
+        },
+        {
+            "Name": "Ruddy Skin",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "187",
+            "G": "121",
+            "B": "98",
+            "Hex": "#BB7962"
+        },
+        {
+            "Name": "Ruinous Spell",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "55",
+            "G": "82",
+            "B": "66",
+            "Hex": "#375242"
+        },
+        {
+            "Name": "Runic Grey",
+            "Code": "",
+            "Type": "Speedpaint Set",
+            "R": "86",
+            "G": "110",
+            "B": "126",
+            "Hex": "#566E7E"
+        },
+        {
+            "Name": "Rust Monster",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "229",
+            "G": "88",
+            "B": "30",
+            "Hex": "#E5581E"
+        },
+        {
+            "Name": "Safety Orange",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "222",
+            "G": "143",
+            "B": "88",
+            "Hex": "#DE8F58"
+        },
+        {
+            "Name": "Sand Golem",
+            "Code": "",
+            "Type": "Speedpaint Set",
+            "R": "186",
+            "G": "144",
+            "B": "41",
+            "Hex": "#BA9029"
+        },
+        {
+            "Name": "Sapphire Gem",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "28",
+            "G": "71",
+            "B": "126",
+            "Hex": "#1C477E"
+        },
+        {
+            "Name": "Savage Green",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "22",
+            "G": "79",
+            "B": "44",
+            "Hex": "#164F2C"
+        },
+        {
+            "Name": "Scaly Hide",
+            "Code": "WP1450",
+            "Type": "Warpaints",
+            "R": "147",
+            "G": "159",
+            "B": "140",
+            "Hex": "#939F8C"
+        },
+        {
+            "Name": "Scar Tissue",
+            "Code": "WP1480",
+            "Type": "Warpaints",
+            "R": "207",
+            "G": "140",
+            "B": "115",
+            "Hex": "#CF8C73"
+        },
+        {
+            "Name": "Shadow Wash",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments Wash",
+            "R": "0",
+            "G": "1",
+            "B": "3",
+            "Hex": "#000103"
+        },
+        {
+            "Name": "Shark White",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "149",
+            "G": "159",
+            "B": "156",
+            "Hex": "#959F9C"
+        },
+        {
+            "Name": "Shining Silver",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "169",
+            "G": "169",
+            "B": "167",
+            "Hex": "#A9A9A7"
+        },
+        {
+            "Name": "Shining Silver",
+            "Code": "WP1129",
+            "Type": "Warpaints",
+            "R": "177",
+            "G": "177",
+            "B": "175",
+            "Hex": "#B1B1AF"
+        },
+        {
+            "Name": "Silver Dragon",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "178",
+            "G": "178",
+            "B": "179",
+            "Hex": "#B2B2B3"
+        },
+        {
+            "Name": "Skeleton Bone",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "102",
+            "G": "109",
+            "B": "116",
+            "Hex": "#666D74"
+        },
+        {
+            "Name": "Skeleton Bone",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "203",
+            "G": "194",
+            "B": "148",
+            "Hex": "#CBC294"
+        },
+        {
+            "Name": "Skeleton Bone",
+            "Code": "CP3012",
+            "Type": "Warpaints Primer",
+            "R": "208",
+            "G": "197",
+            "B": "154",
+            "Hex": "#D0C59A"
+        },
+        {
+            "Name": "Skeleton Bone",
+            "Code": "WP1125",
+            "Type": "Warpaints",
+            "R": "194",
+            "G": "174",
+            "B": "157",
+            "Hex": "#C2AE9D"
+        },
+        {
+            "Name": "Slaughter Red",
+            "Code": "",
+            "Type": "Speedpaint Set",
+            "R": "123",
+            "G": "25",
+            "B": "27",
+            "Hex": "#7B191B"
+        },
+        {
+            "Name": "Snake Scales",
+            "Code": "WP1453",
+            "Type": "Warpaints",
+            "R": "142",
+            "G": "174",
+            "B": "17",
+            "Hex": "#8EAE11"
+        },
+        {
+            "Name": "Soft Skin Wash",
+            "Code": "",
+            "Type": "Skin Tones Paint Set - Washes",
+            "R": "107",
+            "G": "65",
+            "B": "43",
+            "Hex": "#6B412B"
+        },
+        {
+            "Name": "Soft Tone",
+            "Code": "",
+            "Type": "Quickshade Washes Set",
+            "R": "73",
+            "G": "37",
+            "B": "30",
+            "Hex": "#49251E"
+        },
+        {
+            "Name": "Soft Tone",
+            "Code": "WP1134",
+            "Type": "Warpaints Tone",
+            "R": "83",
+            "G": "40",
+            "B": "20",
+            "Hex": "#532814"
+        },
+        {
+            "Name": "Spaceship Exterior",
+            "Code": "WP1454",
+            "Type": "Warpaints",
+            "R": "214",
+            "G": "214",
+            "B": "214",
+            "Hex": "#D6D6D6"
+        },
+        {
+            "Name": "Speedpaint Medium",
+            "Code": "",
+            "Type": "Speedpaint Set",
+            "R": "239",
+            "G": "239",
+            "B": "239",
+            "Hex": "#EFEFEF"
+        },
+        {
+            "Name": "Stirge Tan",
+            "Code": "",
+            "Type": "D&D Underdark Set",
+            "R": "196",
+            "G": "122",
+            "B": "123",
+            "Hex": "#C47A7B"
+        },
+        {
+            "Name": "Stone Golem",
+            "Code": "WP1455",
+            "Type": "Warpaints",
+            "R": "195",
+            "G": "197",
+            "B": "190",
+            "Hex": "#C3C5BE"
+        },
+        {
+            "Name": "Storm Wolf",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "157",
+            "G": "174",
+            "B": "210",
+            "Hex": "#9DAED2"
+        },
+        {
+            "Name": "Strong Skin Wash",
+            "Code": "",
+            "Type": "Skin Tones Paint Set - Washes",
+            "R": "56",
+            "G": "42",
+            "B": "34",
+            "Hex": "#382A22"
+        },
+        {
+            "Name": "Strong Tone",
+            "Code": "WP1135",
+            "Type": "Warpaints Tone",
+            "R": "58",
+            "G": "42",
+            "B": "17",
+            "Hex": "#3A2A11"
+        },
+        {
+            "Name": "Strong Tone",
+            "Code": "",
+            "Type": "Quickshade Washes Set",
+            "R": "59",
+            "G": "40",
+            "B": "38",
+            "Hex": "#3B2826"
+        },
+        {
+            "Name": "Succubus Red",
+            "Code": "",
+            "Type": "D&D Underdark Set",
+            "R": "170",
+            "G": "38",
+            "B": "47",
+            "Hex": "#AA262F"
+        },
+        {
+            "Name": "Sulfide Ochre",
+            "Code": "WP1456",
+            "Type": "Warpaints",
+            "R": "199",
+            "G": "134",
+            "B": "0",
+            "Hex": "#C78600"
+        },
+        {
+            "Name": "Tainted Gold",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "70",
+            "G": "66",
+            "B": "44",
+            "Hex": "#46422C"
+        },
+        {
+            "Name": "Tainted Gold",
+            "Code": "",
+            "Type": "Metallic Colours Paint Set",
+            "R": "104",
+            "G": "97",
+            "B": "57",
+            "Hex": "#686139"
+        },
+        {
+            "Name": "Talisman Purple",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "206",
+            "G": "133",
+            "B": "156",
+            "Hex": "#CE859C"
+        },
+        {
+            "Name": "Tanned Flesh",
+            "Code": "WP1127",
+            "Type": "Warpaints",
+            "R": "187",
+            "G": "111",
+            "B": "81",
+            "Hex": "#BB6F51"
+        },
+        {
+            "Name": "Thunder Storm",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "30",
+            "G": "41",
+            "B": "49",
+            "Hex": "#1E2931"
+        },
+        {
+            "Name": "Tiger's Eye Skin",
+            "Code": "",
+            "Type": "Skin Tones Paint Set",
+            "R": "127",
+            "G": "72",
+            "B": "65",
+            "Hex": "#7F4841"
+        },
+        {
+            "Name": "Topaz Skin",
+            "Code": "",
+            "Type": "Skin Tones Paint Set",
+            "R": "191",
+            "G": "132",
+            "B": "119",
+            "Hex": "#BF8477"
+        },
+        {
+            "Name": "Toxic Boils",
+            "Code": "WP1457",
+            "Type": "Warpaints",
+            "R": "166",
+            "G": "110",
+            "B": "125",
+            "Hex": "#A66E7D"
+        },
+        {
+            "Name": "Toxic Mist",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "99",
+            "G": "176",
+            "B": "181",
+            "Hex": "#63B0B5"
+        },
+        {
+            "Name": "Toxic Mist",
+            "Code": "WP1437",
+            "Type": "Warpaints",
+            "R": "64",
+            "G": "186",
+            "B": "192",
+            "Hex": "#40BAC0"
+        },
+        {
+            "Name": "Traitor Red",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "52",
+            "G": "37",
+            "B": "31",
+            "Hex": "#34251F"
+        },
+        {
+            "Name": "Treant Green",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "64",
+            "G": "155",
+            "B": "75",
+            "Hex": "#409B4B"
+        },
+        {
+            "Name": "Troglodyte Blue",
+            "Code": "WP1458",
+            "Type": "Warpaints",
+            "R": "37",
+            "G": "136",
+            "B": "185",
+            "Hex": "#2588B9"
+        },
+        {
+            "Name": "Troll Claws",
+            "Code": "WP1459",
+            "Type": "Warpaints",
+            "R": "203",
+            "G": "136",
+            "B": "62",
+            "Hex": "#CB883E"
+        },
+        {
+            "Name": "Troll Skin",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "6",
+            "G": "56",
+            "B": "31",
+            "Hex": "#06381F"
+        },
+        {
+            "Name": "True Copper",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "189",
+            "G": "82",
+            "B": "37",
+            "Hex": "#BD5225"
+        },
+        {
+            "Name": "True Copper",
+            "Code": "WP1467",
+            "Type": "Warpaints",
+            "R": "224",
+            "G": "125",
+            "B": "45",
+            "Hex": "#E07D2D"
+        },
+        {
+            "Name": "Twilight Sky",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "27",
+            "G": "69",
+            "B": "95",
+            "Hex": "#1B455F"
+        },
+        {
+            "Name": "Ultramarine Blue",
+            "Code": "WP1115",
+            "Type": "Warpaints",
+            "R": "59",
+            "G": "87",
+            "B": "165",
+            "Hex": "#3B57A5"
+        },
+        {
+            "Name": "Ultramarine Blue",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "42",
+            "G": "74",
+            "B": "116",
+            "Hex": "#2A4A74"
+        },
+        {
+            "Name": "Ultramarine Blue",
+            "Code": "CP3022",
+            "Type": "Warpaints Primer",
+            "R": "21",
+            "G": "66",
+            "B": "117",
+            "Hex": "#154275"
+        },
+        {
+            "Name": "Underdark Grey",
+            "Code": "",
+            "Type": "D&D Underdark Set",
+            "R": "127",
+            "G": "115",
+            "B": "114",
+            "Hex": "#7F7372"
+        },
+        {
+            "Name": "Underdark Indigo",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "32",
+            "G": "82",
+            "B": "134",
+            "Hex": "#205286"
+        },
+        {
+            "Name": "Undergrowth Green",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "80",
+            "G": "125",
+            "B": "53",
+            "Hex": "#507D35"
+        },
+        {
+            "Name": "Unforgiven Green",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "36",
+            "G": "41",
+            "B": "35",
+            "Hex": "#242923"
+        },
+        {
+            "Name": "Uniform Grey",
+            "Code": "WP1118",
+            "Type": "Warpaints",
+            "R": "112",
+            "G": "115",
+            "B": "127",
+            "Hex": "#70737F"
+        },
+        {
+            "Name": "Uniform Grey",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "85",
+            "G": "92",
+            "B": "97",
+            "Hex": "#555C61"
+        },
+        {
+            "Name": "Uniform Grey",
+            "Code": "WP1118P",
+            "Type": "Warpaints Primer",
+            "R": "84",
+            "G": "93",
+            "B": "98",
+            "Hex": "#545D62"
+        },
+        {
+            "Name": "Vampire Garments",
+            "Code": "",
+            "Type": "D&D Undead Set",
+            "R": "161",
+            "G": "47",
+            "B": "36",
+            "Hex": "#A12F24"
+        },
+        {
+            "Name": "Vampire Red",
+            "Code": "WP1460",
+            "Type": "Warpaints",
+            "R": "152",
+            "G": "23",
+            "B": "42",
+            "Hex": "#98172A"
+        },
+        {
+            "Name": "Venom Wyrm",
+            "Code": "WP1461",
+            "Type": "Warpaints",
+            "R": "106",
+            "G": "101",
+            "B": "62",
+            "Hex": "#6A653E"
+        },
+        {
+            "Name": "Viking Blue",
+            "Code": "WP1462",
+            "Type": "Warpaints",
+            "R": "28",
+            "G": "91",
+            "B": "152",
+            "Hex": "#1C5B98"
+        },
+        {
+            "Name": "Violet Volt",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "118",
+            "G": "66",
+            "B": "135",
+            "Hex": "#764287"
+        },
+        {
+            "Name": "Viper Brown",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "155",
+            "G": "95",
+            "B": "76",
+            "Hex": "#9B5F4C"
+        },
+        {
+            "Name": "Voidshield Blue",
+            "Code": "WP1452",
+            "Type": "Warpaints",
+            "R": "91",
+            "G": "188",
+            "B": "215",
+            "Hex": "#5BBCD7"
+        },
+        {
+            "Name": "Warlock Purple",
+            "Code": "WP1451",
+            "Type": "Warpaints",
+            "R": "195",
+            "G": "77",
+            "B": "129",
+            "Hex": "#C34D81"
+        },
+        {
+            "Name": "Warlock Purple",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "140",
+            "G": "52",
+            "B": "92",
+            "Hex": "#8C345C"
+        },
+        {
+            "Name": "Warpaints Mixing Medium",
+            "Code": "",
+            "Type": "Skin Tones Paint Set",
+            "R": "239",
+            "G": "241",
+            "B": "240",
+            "Hex": "#EFF1F0"
+        },
+        {
+            "Name": "Warpaints Mixing Medium",
+            "Code": "WP1475",
+            "Type": "Warpaints",
+            "R": "239",
+            "G": "239",
+            "B": "239",
+            "Hex": "#EFEFEF"
+        },
+        {
+            "Name": "Wasteland Soil",
+            "Code": "WP1463",
+            "Type": "Warpaints",
+            "R": "132",
+            "G": "72",
+            "B": "87",
+            "Hex": "#844857"
+        },
+        {
+            "Name": "Weapon Bronze",
+            "Code": "WP1133",
+            "Type": "Warpaints",
+            "R": "228",
+            "G": "117",
+            "B": "51",
+            "Hex": "#E47533"
+        },
+        {
+            "Name": "Weapon Bronze",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "173",
+            "G": "91",
+            "B": "51",
+            "Hex": "#AD5B33"
+        },
+        {
+            "Name": "Werewolf Fur",
+            "Code": "WP1464",
+            "Type": "Warpaints",
+            "R": "121",
+            "G": "99",
+            "B": "82",
+            "Hex": "#796352"
+        },
+        {
+            "Name": "Wet Mud",
+            "Code": "WP1478",
+            "Type": "Warpaints",
+            "R": "158",
+            "G": "62",
+            "B": "53",
+            "Hex": "#9E3E35"
+        },
+        {
+            "Name": "Wildling Flesh",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "222",
+            "G": "147",
+            "B": "123",
+            "Hex": "#DE937B"
+        },
+        {
+            "Name": "Witch Brew",
+            "Code": "WP1465",
+            "Type": "Warpaints",
+            "R": "145",
+            "G": "150",
+            "B": "52",
+            "Hex": "#919634"
+        },
+        {
+            "Name": "Witchbane Plum",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "96",
+            "G": "24",
+            "B": "65",
+            "Hex": "#601841"
+        },
+        {
+            "Name": "Wizards Orb",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "42",
+            "G": "106",
+            "B": "91",
+            "Hex": "#2A6A5B"
+        },
+        {
+            "Name": "Wizards Orb",
+            "Code": "WP1466",
+            "Type": "Warpaints",
+            "R": "15",
+            "G": "114",
+            "B": "96",
+            "Hex": "#0F7260"
+        },
+        {
+            "Name": "Wolf Grey",
+            "Code": "CP3021",
+            "Type": "Warpaints Primer",
+            "R": "81",
+            "G": "115",
+            "B": "131",
+            "Hex": "#517383"
+        },
+        {
+            "Name": "Wolf Grey",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "87",
+            "G": "111",
+            "B": "126",
+            "Hex": "#576F7E"
+        },
+        {
+            "Name": "Wolf Grey",
+            "Code": "WP1119",
+            "Type": "Warpaints",
+            "R": "94",
+            "G": "127",
+            "B": "159",
+            "Hex": "#5E7F9F"
+        },
+        {
+            "Name": "Wraith Black",
+            "Code": "",
+            "Type": "D&D Undead Set",
+            "R": "60",
+            "G": "63",
+            "B": "80",
+            "Hex": "#3C3F50"
+        },
+        {
+            "Name": "Wyrmling Red",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "180",
+            "G": "54",
+            "B": "70",
+            "Hex": "#B43646"
+        },
+        {
+            "Name": "Xanathar Blue",
+            "Code": "",
+            "Type": "D&D Underdark Set",
+            "R": "46",
+            "G": "181",
+            "B": "176",
+            "Hex": "#2EB5B0"
+        },
+        {
+            "Name": "Yellow Dune",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "194",
+            "G": "153",
+            "B": "77",
+            "Hex": "#C2994D"
+        },
+        {
+            "Name": "Yeti White",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "183",
+            "G": "186",
+            "B": "191",
+            "Hex": "#B7BABF"
+        },
+        {
+            "Name": "Zealot Yellow",
+            "Code": "",
+            "Type": "Speedpaint Set",
+            "R": "241",
+            "G": "209",
+            "B": "47",
+            "Hex": "#F1D12F"
+        },
+        {
+            "Name": "Zephyr Pink",
+            "Code": "",
+            "Type": "Metallic Colours Paint Set",
+            "R": "180",
+            "G": "64",
+            "B": "111",
+            "Hex": "#B4406F"
+        },
+        {
+            "Name": "Zephyr Pink",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "107",
+            "G": "48",
+            "B": "77",
+            "Hex": "#6B304D"
+        },
+        {
+            "Name": "Zombie Flesh",
+            "Code": "",
+            "Type": "D&D Nolzur's Marvelous Pigments",
+            "R": "176",
+            "G": "193",
+            "B": "148",
+            "Hex": "#B0C194"
+        },
+        {
+            "Name": "Zombie Flesh",
+            "Code": "",
+            "Type": "Warpaints Air",
+            "R": "175",
+            "G": "179",
+            "B": "149",
+            "Hex": "#AFB395"
+        }
     ]
 }
