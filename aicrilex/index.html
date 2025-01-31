@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AIcrilex</title>
+    <style>
+        canvas { border: 1px solid black; max-width: 100%; }
+        .container { display: flex; gap: 10px; flex-wrap: wrap; }
+        .controls { margin: 10px 0; }
+        .histogram-bar { 
+          height: 20px; 
+          margin: 2px 0;
+          padding: 0 5px;
+          color: white;
+          font-family: monospace;
+        }
+
+        .histogram-row {
+          display: flex;
+          align-items: center;
+          margin-bottom: 5px;
+          transition: background-color 0.2s ease-in-out;
+        }
+
+        .color-box {
+          width: 30px;
+          height: 30px;
+          border: 1px solid #444;
+          margin-right: 10px;
+        }
+
+        .color-info {
+          font-size: 14px;
+          color: #333;
+        }
+
+        .histogram-row.highlight {
+          background-color: rgba(0, 0, 0, 0.2);
+          border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <h3>AI crilex</h3>
+    <div class="controls">
+        <input type="file" id="imageInput" accept="image/*">
+    </div>
+    <div class="container">
+        <canvas id="originalCanvas"></canvas>
+        <canvas id="webglCanvas"></canvas>
+    </div>
+    <div id="histogramContainer"></div>
+    <script src="quant.js"></script>
+</body>
+</html>

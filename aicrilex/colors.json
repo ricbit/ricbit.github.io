@@ -1,0 +1,859 @@
+{
+    "Acrilex": [
+        {
+            "Name": "Branco",
+            "Code": "519",
+            "Type": "Acrilica Fosca",
+            "R": "255",
+            "G": "255",
+            "B": "255",
+            "Hex": "#FFFFFF"
+        },
+        {
+            "Name": "Mineral",
+            "Code": "893",
+            "Type": "Acrilica Fosca",
+            "R": "241",
+            "G": "246",
+            "B": "216",
+            "Hex": "#F1F6D8"
+        },
+        {
+            "Name": "Creme",
+            "Code": "903",
+            "Type": "Acrilica Fosca",
+            "R": "252",
+            "G": "250",
+            "B": "231",
+            "Hex": "#FCFAE7"
+        },
+        {
+            "Name": "Saara",
+            "Code": "835",
+            "Type": "Acrilica Fosca",
+            "R": "239",
+            "G": "233",
+            "B": "211",
+            "Hex": "#EFE9D3"
+        },
+        {
+            "Name": "P\u00e9rola",
+            "Code": "892",
+            "Type": "Acrilica Fosca",
+            "R": "255",
+            "G": "251",
+            "B": "221",
+            "Hex": "#FFFBDD"
+        },
+        {
+            "Name": "Areia",
+            "Code": "817",
+            "Type": "Acrilica Fosca",
+            "R": "246",
+            "G": "223",
+            "B": "204",
+            "Hex": "#F6DFCC"
+        },
+        {
+            "Name": "Amarelo Beb\u00ea",
+            "Code": "808",
+            "Type": "Acrilica Fosca",
+            "R": "250",
+            "G": "247",
+            "B": "185",
+            "Hex": "#FAF7B9"
+        },
+        {
+            "Name": "Amarelo Lim\u00e3o",
+            "Code": "504",
+            "Type": "Acrilica Fosca",
+            "R": "244",
+            "G": "238",
+            "B": "64",
+            "Hex": "#F4EE40"
+        },
+        {
+            "Name": "Mel\u00e3o",
+            "Code": "895",
+            "Type": "Acrilica Fosca",
+            "R": "251",
+            "G": "177",
+            "B": "70",
+            "Hex": "#FBB146"
+        },
+        {
+            "Name": "Amarelo Ouro",
+            "Code": "505",
+            "Type": "Acrilica Fosca",
+            "R": "254",
+            "G": "186",
+            "B": "18",
+            "Hex": "#FEBA12"
+        },
+        {
+            "Name": "Amarelo C\u00e1dmio",
+            "Code": "536",
+            "Type": "Acrilica Fosca",
+            "R": "247",
+            "G": "155",
+            "B": "56",
+            "Hex": "#F79B38"
+        },
+        {
+            "Name": "Amarelo Ocre",
+            "Code": "564",
+            "Type": "Acrilica Fosca",
+            "R": "223",
+            "G": "146",
+            "B": "72",
+            "Hex": "#DF9248"
+        },
+        {
+            "Name": "Am\u00eandoa",
+            "Code": "831",
+            "Type": "Acrilica Fosca",
+            "R": "220",
+            "G": "108",
+            "B": "65",
+            "Hex": "#DC6C41"
+        },
+        {
+            "Name": "Amarelo P\u00eassego",
+            "Code": "929",
+            "Type": "Acrilica Fosca",
+            "R": "251",
+            "G": "226",
+            "B": "208",
+            "Hex": "#FBE2D0"
+        },
+        {
+            "Name": "Salm\u00e3o Beb\u00ea",
+            "Code": "812",
+            "Type": "Acrilica Fosca",
+            "R": "253",
+            "G": "227",
+            "B": "218",
+            "Hex": "#FDE3DA"
+        },
+        {
+            "Name": "Areia Rosada",
+            "Code": "929",
+            "Type": "Acrilica Fosca",
+            "R": "242",
+            "G": "179",
+            "B": "156",
+            "Hex": "#F2B39C"
+        },
+        {
+            "Name": "Salm\u00e3o",
+            "Code": "518",
+            "Type": "Acrilica Fosca",
+            "R": "246",
+            "G": "157",
+            "B": "129",
+            "Hex": "#F69D81"
+        },
+        {
+            "Name": "Tangerina",
+            "Code": "801",
+            "Type": "Acrilica Fosca",
+            "R": "244",
+            "G": "120",
+            "B": "65",
+            "Hex": "#F47841"
+        },
+        {
+            "Name": "Cenoura",
+            "Code": "576",
+            "Type": "Acrilica Fosca",
+            "R": "241",
+            "G": "91",
+            "B": "42",
+            "Hex": "#F15B2A"
+        },
+        {
+            "Name": "Laranja",
+            "Code": "517",
+            "Type": "Acrilica Fosca",
+            "R": "238",
+            "G": "59",
+            "B": "35",
+            "Hex": "#EE3B23"
+        },
+        {
+            "Name": "Vermelho Vivo",
+            "Code": "541",
+            "Type": "Acrilica Fosca",
+            "R": "231",
+            "G": "51",
+            "B": "43",
+            "Hex": "#E7332B"
+        },
+        {
+            "Name": "Rosa Beb\u00ea",
+            "Code": "813",
+            "Type": "Acrilica Fosca",
+            "R": "253",
+            "G": "232",
+            "B": "231",
+            "Hex": "#FDE8E7"
+        },
+        {
+            "Name": "Rosa Cotton",
+            "Code": "894",
+            "Type": "Acrilica Fosca",
+            "R": "248",
+            "G": "197",
+            "B": "195",
+            "Hex": "#F8C5C3"
+        },
+        {
+            "Name": "Rosa Primavera",
+            "Code": "910",
+            "Type": "Acrilica Fosca",
+            "R": "238",
+            "G": "177",
+            "B": "196",
+            "Hex": "#EEB1C4"
+        },
+        {
+            "Name": "Rosa",
+            "Code": "537",
+            "Type": "Acrilica Fosca",
+            "R": "249",
+            "G": "191",
+            "B": "197",
+            "Hex": "#F9BFC5"
+        },
+        {
+            "Name": "Tutti Frutti",
+            "Code": "909",
+            "Type": "Acrilica Fosca",
+            "R": "247",
+            "G": "179",
+            "B": "209",
+            "Hex": "#F7B3D1"
+        },
+        {
+            "Name": "Rosa Escuro",
+            "Code": "542",
+            "Type": "Acrilica Fosca",
+            "R": "237",
+            "G": "155",
+            "B": "181",
+            "Hex": "#ED9BB5"
+        },
+        {
+            "Name": "Pink",
+            "Code": "527",
+            "Type": "Acrilica Fosca",
+            "R": "242",
+            "G": "128",
+            "B": "154",
+            "Hex": "#F2809A"
+        },
+        {
+            "Name": "Rosa Antigo",
+            "Code": "828",
+            "Type": "Acrilica Fosca",
+            "R": "241",
+            "G": "118",
+            "B": "131",
+            "Hex": "#F17683"
+        },
+        {
+            "Name": "Coral",
+            "Code": "586",
+            "Type": "Acrilica Fosca",
+            "R": "236",
+            "G": "91",
+            "B": "86",
+            "Hex": "#EC5B56"
+        },
+        {
+            "Name": "Fuchsia",
+            "Code": "804",
+            "Type": "Acrilica Fosca",
+            "R": "205",
+            "G": "44",
+            "B": "112",
+            "Hex": "#CD2C70"
+        },
+        {
+            "Name": "Goiaba Queimada",
+            "Code": "805",
+            "Type": "Acrilica Fosca",
+            "R": "205",
+            "G": "79",
+            "B": "87",
+            "Hex": "#CD4F57"
+        },
+        {
+            "Name": "Roma",
+            "Code": "827",
+            "Type": "Acrilica Fosca",
+            "R": "213",
+            "G": "46",
+            "B": "59",
+            "Hex": "#D52E3B"
+        },
+        {
+            "Name": "Vermelho Fogo",
+            "Code": "507",
+            "Type": "Acrilica Fosca",
+            "R": "229",
+            "G": "73",
+            "B": "52",
+            "Hex": "#E54934"
+        },
+        {
+            "Name": "Vermelho",
+            "Code": "555",
+            "Type": "Acrilica Fosca",
+            "R": "213",
+            "G": "42",
+            "B": "43",
+            "Hex": "#D52A2B"
+        },
+        {
+            "Name": "Vermelho Escarlate",
+            "Code": "508",
+            "Type": "Acrilica Fosca",
+            "R": "172",
+            "G": "47",
+            "B": "51",
+            "Hex": "#AC2F33"
+        },
+        {
+            "Name": "P\u00farpura",
+            "Code": "550",
+            "Type": "Acrilica Fosca",
+            "R": "155",
+            "G": "63",
+            "B": "63",
+            "Hex": "#9B3F3F"
+        },
+        {
+            "Name": "Terra Queimada",
+            "Code": "514",
+            "Type": "Acrilica Fosca",
+            "R": "155",
+            "G": "74",
+            "B": "78",
+            "Hex": "#9B4A4E"
+        },
+        {
+            "Name": "Cereja",
+            "Code": "826",
+            "Type": "Acrilica Fosca",
+            "R": "151",
+            "G": "56",
+            "B": "60",
+            "Hex": "#97383C"
+        },
+        {
+            "Name": "Arandano",
+            "Code": "914",
+            "Type": "Acrilica Fosca",
+            "R": "148",
+            "G": "66",
+            "B": "76",
+            "Hex": "#94424C"
+        },
+        {
+            "Name": "Vinho",
+            "Code": "565",
+            "Type": "Acrilica Fosca",
+            "R": "104",
+            "G": "50",
+            "B": "70",
+            "Hex": "#683246"
+        },
+        {
+            "Name": "Lil\u00e1s",
+            "Code": "528",
+            "Type": "Acrilica Fosca",
+            "R": "229",
+            "G": "208",
+            "B": "223",
+            "Hex": "#E5D0DF"
+        },
+        {
+            "Name": "Orqu\u00eddea",
+            "Code": "915",
+            "Type": "Acrilica Fosca",
+            "R": "214",
+            "G": "178",
+            "B": "206",
+            "Hex": "#D6B2CE"
+        },
+        {
+            "Name": "Rosa Ciclame",
+            "Code": "581",
+            "Type": "Acrilica Fosca",
+            "R": "191",
+            "G": "111",
+            "B": "129",
+            "Hex": "#BF6F81"
+        },
+        {
+            "Name": "Ameixa",
+            "Code": "913",
+            "Type": "Acrilica Fosca",
+            "R": "135",
+            "G": "73",
+            "B": "97",
+            "Hex": "#874961"
+        },
+        {
+            "Name": "Magenta",
+            "Code": "549",
+            "Type": "Acrilica Fosca",
+            "R": "194",
+            "G": "72",
+            "B": "130",
+            "Hex": "#C24882"
+        },
+        {
+            "Name": "Lil\u00e1s Beb\u00ea",
+            "Code": "809",
+            "Type": "Acrilica Fosca",
+            "R": "233",
+            "G": "229",
+            "B": "240",
+            "Hex": "#E9E5F0"
+        },
+        {
+            "Name": "Lavanda",
+            "Code": "587",
+            "Type": "Acrilica Fosca",
+            "R": "190",
+            "G": "204",
+            "B": "232",
+            "Hex": "#BECCE8"
+        },
+        {
+            "Name": "Violeta Gris",
+            "Code": "916",
+            "Type": "Acrilica Fosca",
+            "R": "150",
+            "G": "142",
+            "B": "171",
+            "Hex": "#968EAB"
+        },
+        {
+            "Name": "Violeta",
+            "Code": "516",
+            "Type": "Acrilica Fosca",
+            "R": "157",
+            "G": "122",
+            "B": "183",
+            "Hex": "#9D7AB7"
+        },
+        {
+            "Name": "Roxo",
+            "Code": "918",
+            "Type": "Acrilica Fosca",
+            "R": "117",
+            "G": "105",
+            "B": "166",
+            "Hex": "#7569A6"
+        },
+        {
+            "Name": "Violeta Escuro",
+            "Code": "917",
+            "Type": "Acrilica Fosca",
+            "R": "107",
+            "G": "48",
+            "B": "110",
+            "Hex": "#6B306E"
+        },
+        {
+            "Name": "Violeta Cobalto",
+            "Code": "540",
+            "Type": "Acrilica Fosca",
+            "R": "67",
+            "G": "47",
+            "B": "106",
+            "Hex": "#432F6A"
+        },
+        {
+            "Name": "Azul \u00c1gua",
+            "Code": "919",
+            "Type": "Acrilica Fosca",
+            "R": "222",
+            "G": "242",
+            "B": "253",
+            "Hex": "#DEF2FD"
+        },
+        {
+            "Name": "Azul Hort\u00eansia",
+            "Code": "579",
+            "Type": "Acrilica Fosca",
+            "R": "178",
+            "G": "219",
+            "B": "234",
+            "Hex": "#B2DBEA"
+        },
+        {
+            "Name": "Azul Celeste",
+            "Code": "503",
+            "Type": "Acrilica Fosca",
+            "R": "68",
+            "G": "183",
+            "B": "227",
+            "Hex": "#44B7E3"
+        },
+        {
+            "Name": "Azul Bali",
+            "Code": "921",
+            "Type": "Acrilica Fosca",
+            "R": "128",
+            "G": "167",
+            "B": "210",
+            "Hex": "#80A7D2"
+        },
+        {
+            "Name": "Azul Country",
+            "Code": "825",
+            "Type": "Acrilica Fosca",
+            "R": "143",
+            "G": "164",
+            "B": "202",
+            "Hex": "#8FA4CA"
+        },
+        {
+            "Name": "Azul",
+            "Code": "559",
+            "Type": "Acrilica Fosca",
+            "R": "44",
+            "G": "118",
+            "B": "183",
+            "Hex": "#2C76B7"
+        },
+        {
+            "Name": "Azul Intenso",
+            "Code": "578",
+            "Type": "Acrilica Fosca",
+            "R": "57",
+            "G": "73",
+            "B": "153",
+            "Hex": "#394999"
+        },
+        {
+            "Name": "Azul Turquesa",
+            "Code": "501",
+            "Type": "Acrilica Fosca",
+            "R": "63",
+            "G": "84",
+            "B": "132",
+            "Hex": "#3F5484"
+        },
+        {
+            "Name": "Azul Seco",
+            "Code": "824",
+            "Type": "Acrilica Fosca",
+            "R": "84",
+            "G": "95",
+            "B": "119",
+            "Hex": "#545F77"
+        },
+        {
+            "Name": "Azul Marinho",
+            "Code": "544",
+            "Type": "Acrilica Fosca",
+            "R": "55",
+            "G": "71",
+            "B": "113",
+            "Hex": "#374771"
+        },
+        {
+            "Name": "Verde Soft",
+            "Code": "897",
+            "Type": "Acrilica Fosca",
+            "R": "246",
+            "G": "248",
+            "B": "216",
+            "Hex": "#F6F8D8"
+        },
+        {
+            "Name": "Verde Primavera",
+            "Code": "820",
+            "Type": "Acrilica Fosca",
+            "R": "226",
+            "G": "238",
+            "B": "197",
+            "Hex": "#E2EEC5"
+        },
+        {
+            "Name": "Verde Alecrim",
+            "Code": "898",
+            "Type": "Acrilica Fosca",
+            "R": "214",
+            "G": "228",
+            "B": "127",
+            "Hex": "#D6E47F"
+        },
+        {
+            "Name": "Verde Ma\u00e7\u00e3",
+            "Code": "802",
+            "Type": "Acrilica Fosca",
+            "R": "164",
+            "G": "191",
+            "B": "57",
+            "Hex": "#A4BF39"
+        },
+        {
+            "Name": "Verde Pistache",
+            "Code": "570",
+            "Type": "Acrilica Fosca",
+            "R": "156",
+            "G": "164",
+            "B": "71",
+            "Hex": "#9CA447"
+        },
+        {
+            "Name": "Verde Folha",
+            "Code": "510",
+            "Type": "Acrilica Fosca",
+            "R": "83",
+            "G": "186",
+            "B": "78",
+            "Hex": "#53BA4E"
+        },
+        {
+            "Name": "Verde Grama",
+            "Code": "582",
+            "Type": "Acrilica Fosca",
+            "R": "45",
+            "G": "113",
+            "B": "67",
+            "Hex": "#2D7143"
+        },
+        {
+            "Name": "Verde Oliva",
+            "Code": "545",
+            "Type": "Acrilica Fosca",
+            "R": "107",
+            "G": "113",
+            "B": "70",
+            "Hex": "#6B7146"
+        },
+        {
+            "Name": "Verde Musgo",
+            "Code": "513",
+            "Type": "Acrilica Fosca",
+            "R": "73",
+            "G": "100",
+            "B": "51",
+            "Hex": "#496433"
+        },
+        {
+            "Name": "Verde Esmeralda",
+            "Code": "571",
+            "Type": "Acrilica Fosca",
+            "R": "0",
+            "G": "68",
+            "B": "51",
+            "Hex": "#004433"
+        },
+        {
+            "Name": "Verde \u00c1gua",
+            "Code": "821",
+            "Type": "Acrilica Fosca",
+            "R": "184",
+            "G": "224",
+            "B": "214",
+            "Hex": "#B8E0D6"
+        },
+        {
+            "Name": "Turquesa",
+            "Code": "577",
+            "Type": "Acrilica Fosca",
+            "R": "84",
+            "G": "195",
+            "B": "190",
+            "Hex": "#54C3BE"
+        },
+        {
+            "Name": "Verde Country",
+            "Code": "822",
+            "Type": "Acrilica Fosca",
+            "R": "14",
+            "G": "161",
+            "B": "139",
+            "Hex": "#0EA18B"
+        },
+        {
+            "Name": "Acqua Marina",
+            "Code": "803",
+            "Type": "Acrilica Fosca",
+            "R": "133",
+            "G": "202",
+            "B": "208",
+            "Hex": "#85CAD0"
+        },
+        {
+            "Name": "Azul Piscina",
+            "Code": "823",
+            "Type": "Acrilica Fosca",
+            "R": "30",
+            "G": "153",
+            "B": "175",
+            "Hex": "#1E99AF"
+        },
+        {
+            "Name": "Ocre",
+            "Code": "904",
+            "Type": "Acrilica Fosca",
+            "R": "227",
+            "G": "205",
+            "B": "157",
+            "Hex": "#E3CD9D"
+        },
+        {
+            "Name": "Camur\u00e7a",
+            "Code": "525",
+            "Type": "Acrilica Fosca",
+            "R": "254",
+            "G": "209",
+            "B": "131",
+            "Hex": "#FED183"
+        },
+        {
+            "Name": "Camur\u00e7a Queimado",
+            "Code": "818",
+            "Type": "Acrilica Fosca",
+            "R": "221",
+            "G": "178",
+            "B": "143",
+            "Hex": "#DDB28F"
+        },
+        {
+            "Name": "Caramelo",
+            "Code": "569",
+            "Type": "Acrilica Fosca",
+            "R": "182",
+            "G": "128",
+            "B": "49",
+            "Hex": "#B68031"
+        },
+        {
+            "Name": "Siena Natural",
+            "Code": "539",
+            "Type": "Acrilica Fosca",
+            "R": "182",
+            "G": "101",
+            "B": "60",
+            "Hex": "#B6653C"
+        },
+        {
+            "Name": "Telha",
+            "Code": "932",
+            "Type": "Acrilica Fosca",
+            "R": "198",
+            "G": "66",
+            "B": "56",
+            "Hex": "#C64238"
+        },
+        {
+            "Name": "Cer\u00e2mica",
+            "Code": "506",
+            "Type": "Acrilica Fosca",
+            "R": "169",
+            "G": "79",
+            "B": "67",
+            "Hex": "#A94F43"
+        },
+        {
+            "Name": "Capuccino",
+            "Code": "585",
+            "Type": "Acrilica Fosca",
+            "R": "178",
+            "G": "145",
+            "B": "121",
+            "Hex": "#B29179"
+        },
+        {
+            "Name": "Marrom",
+            "Code": "531",
+            "Type": "Acrilica Fosca",
+            "R": "175",
+            "G": "103",
+            "B": "81",
+            "Hex": "#AF6751"
+        },
+        {
+            "Name": "Marrom Escuro",
+            "Code": "526",
+            "Type": "Acrilica Fosca",
+            "R": "131",
+            "G": "87",
+            "B": "73",
+            "Hex": "#835749"
+        },
+        {
+            "Name": "R\u00fastico",
+            "Code": "896",
+            "Type": "Acrilica Fosca",
+            "R": "71",
+            "G": "50",
+            "B": "27",
+            "Hex": "#47321B"
+        },
+        {
+            "Name": "Areia Lunar",
+            "Code": "879",
+            "Type": "Acrilica Fosca",
+            "R": "182",
+            "G": "190",
+            "B": "175",
+            "Hex": "#B6BEAF"
+        },
+        {
+            "Name": "Concreto",
+            "Code": "819",
+            "Type": "Acrilica Fosca",
+            "R": "170",
+            "G": "155",
+            "B": "131",
+            "Hex": "#AA9B83"
+        },
+        {
+            "Name": "S\u00e9pia",
+            "Code": "551",
+            "Type": "Acrilica Fosca",
+            "R": "79",
+            "G": "69",
+            "B": "58",
+            "Hex": "#4F453A"
+        },
+        {
+            "Name": "Cinza",
+            "Code": "933",
+            "Type": "Acrilica Fosca",
+            "R": "210",
+            "G": "218",
+            "B": "220",
+            "Hex": "#D2DADC"
+        },
+        {
+            "Name": "Grafite",
+            "Code": "530",
+            "Type": "Acrilica Fosca",
+            "R": "91",
+            "G": "95",
+            "B": "90",
+            "Hex": "#5B5F5A"
+        },
+        {
+            "Name": "Preto",
+            "Code": "520",
+            "Type": "Acrilica Fosca",
+            "R": "32",
+            "G": "26",
+            "B": "25",
+            "Hex": "#201A19"
+        }
+    ]
+}
