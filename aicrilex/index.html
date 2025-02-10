@@ -1,109 +1,116 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>AIcrilex</title>
     <style>
-        canvas { border: 1px solid black; max-width: 100%; }
-        .container { display: flex; gap: 10px; flex-wrap: wrap; }
-        .controls { margin: 10px 0; }
-        .histogram-bar { 
-          height: 20px; 
-          margin: 2px 0;
-          padding: 0 5px;
-          color: white;
-          font-family: monospace;
-        }
+      canvas {
+        border: 1px solid black;
+        max-width: 100%;
+      }
+      .container {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+      .controls {
+        margin: 10px 0;
+      }
+      .histogram-bar {
+        height: 20px;
+        margin: 2px 0;
+        padding: 0 5px;
+        color: white;
+        font-family: monospace;
+      }
 
-        .histogram-row {
-          display: flex;
-          align-items: center;
-          margin-bottom: 5px;
-          transition: background-color 0.2s ease-in-out;
-        }
+      .histogram-row {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+        transition: background-color 0.2s ease-in-out;
+      }
 
-        .color-box {
-          width: 30px;
-          height: 30px;
-          border: 1px solid #444;
-          margin-right: 10px;
-        }
+      .color-box {
+        width: 30px;
+        height: 30px;
+        border: 1px solid #444;
+        margin-right: 10px;
+      }
 
-        .color-info {
-          font-size: 14px;
-          color: #333;
-        }
+      .color-info {
+        font-size: 14px;
+        color: #333;
+      }
       .histogram-entry {
         transition: all 0.2s ease-in-out;
         cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 5px;
+        background-color: #f5f5f5; 
+        border-radius: 4px;
       }
-#thresholdSlider {
-    -webkit-appearance: none;
-    height: 4px;
-    background: #ddd;
-    border-radius: 2px;
-}
+      #thresholdSlider {
+        -webkit-appearance: none;
+        height: 4px;
+        background: #ddd;
+        border-radius: 2px;
+      }
 
-#thresholdSlider::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    width: 16px;
-    height: 16px;
-    background: #666;
-    border-radius: 50%;
-    cursor: pointer;
-}
+      #thresholdSlider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 16px;
+        height: 16px;
+        background: #666;
+        border-radius: 50%;
+        cursor: pointer;
+      }
 
-        .histogram-row.highlight {
-          background-color: rgba(0, 0, 0, 0.2);
-          border-radius: 5px;
-        }
+      .histogram-row.highlight {
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+      }
 
-
-.grimdark-label {
-    position: relative;
-    display: inline-block;
-    font-family: 'Arial Black', sans-serif;
-    color: #8b0000;
-    text-shadow: 0 0 10px #ff000040;
-    animation: bloodyDrip 2s infinite alternate;
-}
-
+      .grimdark-label {
+        position: relative;
+        display: inline-block;
+        font-family: "Arial Black", sans-serif;
+        color: #8b0000;
+        text-shadow: 0 0 10px #ff000040;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <h3>AI crilex</h3>
     <div class="controls">
-        <input type="file" id="imageInput" accept="image/*">
-    <div style="margin-top: 10px;">
+      <input type="file" id="imageInput" accept="image/*" />
+      <div style="margin-top: 10px;">
         <label>Color Threshold: <span id="thresholdValue">0.4</span>%</label>
-        <input type="range" id="thresholdSlider" min="0" max="2" step="0.1" value="0.4" 
-               style="width: 200px; margin-left: 10px;">
-    </div>
-    <div style="margin-top: 10px;">
+        <input type="range" id="thresholdSlider" min="0" max="2" step="0.1" value="0.4" style="width: 200px; margin-left: 10px;" />
+      </div>
+      <div style="margin-top: 10px;">
         <label class="grimdark-label">Grimdark: <span id="contrastValue">1.0</span></label>
-        <input type="range" id="contrastSlider" min="0" max="3" step="0.1" value="1.0" 
-               style="width: 200px; margin-left: 10px;">
-    </div>
-    <div style="margin-top: 10px;">
+        <input type="range" id="contrastSlider" min="0" max="3" step="0.1" value="1.0" style="width: 200px; margin-left: 10px;" />
+      </div>
+      <div style="margin-top: 10px;">
         <label>Black level: <span id="blackValue">0.0</span></label>
-        <input type="range" id="blackSlider" min="0" max="0.45" step="0.05" value="0.0" 
-               style="width: 200px; margin-left: 10px;">
-    </div>
-    <div style="margin-top: 10px;">
+        <input type="range" id="blackSlider" min="0" max="0.45" step="0.05" value="0.0" style="width: 200px; margin-left: 10px;" />
+      </div>
+      <div style="margin-top: 10px;">
         <label>White level: <span id="whiteValue">1.0</span></label>
-        <input type="range" id="whiteSlider" min="0.55" max="1" step="0.05" value="1.0" 
-               style="width: 200px; margin-left: 10px;">
-    </div>
-    <div style="margin-top: 10px;">
+        <input type="range" id="whiteSlider" min="0.55" max="1" step="0.05" value="1.0" style="width: 200px; margin-left: 10px;" />
+      </div>
+      <div style="margin-top: 10px;">
         <label>Saturation: <span id="saturationValue">1.0</span></label>
-        <input type="range" id="saturationSlider" min="0.1" max="3" step="0.1" value="1.0" 
-               style="width: 200px; margin-left: 10px;">
-    </div>
+        <input type="range" id="saturationSlider" min="0.1" max="3" step="0.1" value="1.0" style="width: 200px; margin-left: 10px;" />
+      </div>
     </div>
     <div class="container">
-        <canvas id="originalCanvas"></canvas>
-        <canvas id="webglCanvas"></canvas>
+      <canvas id="originalCanvas"></canvas>
+      <canvas id="webglCanvas"></canvas>
     </div>
     <div id="histogramContainer"></div>
     <script src="quant.js"></script>
-</body>
+  </body>
 </html>
