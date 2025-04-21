@@ -36993,5 +36993,2275 @@
             "B": "149",
             "Hex": "#AFB395"
         }
+    ],
+    "Ammo by Mig": [
+        {
+            "Name": "Sand Yellow",
+            "Code": "AMIG0030",
+            "Type": "Acrylics",
+            "R": "216",
+            "G": "166",
+            "B": "79",
+            "Hex": "#D8A64F"
+        },
+        {
+            "Name": "3b Au Basic Protector Alkidno-uretanovaya",
+            "Code": "AMIG0022",
+            "Type": "Acrylics",
+            "R": "61",
+            "G": "51",
+            "B": "26",
+            "Hex": "#3D331A"
+        },
+        {
+            "Name": "4bo Russian Green",
+            "Code": "AMIG0019",
+            "Type": "Acrylics",
+            "R": "79",
+            "G": "81",
+            "B": "41",
+            "Hex": "#4F5129"
+        },
+        {
+            "Name": "6k Russian Brown",
+            "Code": "AMIG0020",
+            "Type": "Acrylics",
+            "R": "59",
+            "G": "49",
+            "B": "40",
+            "Hex": "#3B3128"
+        },
+        {
+            "Name": "7k Russian Tan",
+            "Code": "AMIG0021",
+            "Type": "Acrylics",
+            "R": "112",
+            "G": "96",
+            "B": "62",
+            "Hex": "#70603E"
+        },
+        {
+            "Name": "Afrika Korps Wash",
+            "Code": "AMIG1001",
+            "Type": "Washes",
+            "R": "50",
+            "G": "42",
+            "B": "29",
+            "Hex": "#322A1D"
+        },
+        {
+            "Name": "Apc Interior Light Green",
+            "Code": "AMIG0082",
+            "Type": "Acrylics",
+            "R": "141",
+            "G": "161",
+            "B": "134",
+            "Hex": "#8DA186"
+        },
+        {
+            "Name": "Basic Skin Tone",
+            "Code": "AMIG0116",
+            "Type": "Acrylics",
+            "R": "227",
+            "G": "180",
+            "B": "164",
+            "Hex": "#E3B4A4"
+        },
+        {
+            "Name": "Black Wash",
+            "Code": "AMIG1011",
+            "Type": "Washes",
+            "R": "14",
+            "G": "14",
+            "B": "14",
+            "Hex": "#0E0E0E"
+        },
+        {
+            "Name": "Blood Red",
+            "Code": "AMIG0121",
+            "Type": "Acrylics",
+            "R": "172",
+            "G": "43",
+            "B": "37",
+            "Hex": "#AC2B25"
+        },
+        {
+            "Name": "Blue (RAL 5019)",
+            "Code": "AMIG0086",
+            "Type": "Acrylics",
+            "R": "27",
+            "G": "79",
+            "B": "136",
+            "Hex": "#1B4F88"
+        },
+        {
+            "Name": "Blue Green",
+            "Code": "AMIG0069",
+            "Type": "Acrylics",
+            "R": "40",
+            "G": "60",
+            "B": "35",
+            "Hex": "#283C23"
+        },
+        {
+            "Name": "Blue Wash For Panzer Grey",
+            "Code": "AMIG1006",
+            "Type": "Washes",
+            "R": "31",
+            "G": "36",
+            "B": "42",
+            "Hex": "#1F242A"
+        },
+        {
+            "Name": "Bluish Titanium",
+            "Code": "AMIG0193",
+            "Type": "Acrylics",
+            "R": "97",
+            "G": "145",
+            "B": "133",
+            "Hex": "#619185"
+        },
+        {
+            "Name": "Bone",
+            "Code": "AMIG0122",
+            "Type": "Acrylics",
+            "R": "237",
+            "G": "238",
+            "B": "220",
+            "Hex": "#EDEEDC"
+        },
+        {
+            "Name": "Brass",
+            "Code": "AMIG0197",
+            "Type": "Acrylics",
+            "R": "183",
+            "G": "136",
+            "B": "28",
+            "Hex": "#B7881C"
+        },
+        {
+            "Name": "Bright Green Amt-4",
+            "Code": "AMIG0080",
+            "Type": "Acrylics",
+            "R": "94",
+            "G": "125",
+            "B": "58",
+            "Hex": "#5E7D3A"
+        },
+        {
+            "Name": "Brown Soil",
+            "Code": "AMIG0076",
+            "Type": "Acrylics",
+            "R": "110",
+            "G": "73",
+            "B": "57",
+            "Hex": "#6E4939"
+        },
+        {
+            "Name": "Brown Wash For German Dark Yellow",
+            "Code": "AMIG1000",
+            "Type": "Washes",
+            "R": "66",
+            "G": "50",
+            "B": "34",
+            "Hex": "#423222"
+        },
+        {
+            "Name": "Burnt Brown Red",
+            "Code": "AMIG0134",
+            "Type": "Acrylics",
+            "R": "53",
+            "G": "32",
+            "B": "5",
+            "Hex": "#352005"
+        },
+        {
+            "Name": "Burnt Sand",
+            "Code": "AMIG0118",
+            "Type": "Acrylics",
+            "R": "126",
+            "G": "90",
+            "B": "58",
+            "Hex": "#7E5A3A"
+        },
+        {
+            "Name": "Chipping",
+            "Code": "AMIG0044",
+            "Type": "Acrylics",
+            "R": "38",
+            "G": "14",
+            "B": "14",
+            "Hex": "#260E0E"
+        },
+        {
+            "Name": "Cinnamon",
+            "Code": "AMIG0135",
+            "Type": "Acrylics",
+            "R": "147",
+            "G": "125",
+            "B": "111",
+            "Hex": "#937D6F"
+        },
+        {
+            "Name": "Clay Brown",
+            "Code": "AMIG0079",
+            "Type": "Acrylics",
+            "R": "104",
+            "G": "63",
+            "B": "35",
+            "Hex": "#683F23"
+        },
+        {
+            "Name": "Cold Gray",
+            "Code": "AMIG0119",
+            "Type": "Acrylics",
+            "R": "211",
+            "G": "211",
+            "B": "211",
+            "Hex": "#D3D3D3"
+        },
+        {
+            "Name": "Copper",
+            "Code": "AMIG0199",
+            "Type": "Acrylics",
+            "R": "201",
+            "G": "74",
+            "B": "93",
+            "Hex": "#C94A5D"
+        },
+        {
+            "Name": "Crystal Black Blue",
+            "Code": "AMIG0099",
+            "Type": "Acrylics",
+            "R": "2",
+            "G": "35",
+            "B": "52",
+            "Hex": "#022334"
+        },
+        {
+            "Name": "Crystal Glass",
+            "Code": "AMIG0094",
+            "Type": "Acrylics",
+            "R": "167",
+            "G": "167",
+            "B": "167",
+            "Hex": "#A7A7A7"
+        },
+        {
+            "Name": "Crystal Green",
+            "Code": "AMIG0092",
+            "Type": "Acrylics",
+            "R": "45",
+            "G": "68",
+            "B": "16",
+            "Hex": "#2D4410"
+        },
+        {
+            "Name": "Crystal Light Blue",
+            "Code": "AMIG0098",
+            "Type": "Acrylics",
+            "R": "7",
+            "G": "132",
+            "B": "190",
+            "Hex": "#0784BE"
+        },
+        {
+            "Name": "Crystal Orange",
+            "Code": "AMIG0097",
+            "Type": "Acrylics",
+            "R": "254",
+            "G": "143",
+            "B": "0",
+            "Hex": "#FE8F00"
+        },
+        {
+            "Name": "Crystal Periscope Green",
+            "Code": "AMIG0096",
+            "Type": "Acrylics",
+            "R": "64",
+            "G": "119",
+            "B": "15",
+            "Hex": "#40770F"
+        },
+        {
+            "Name": "Crystal Red",
+            "Code": "AMIG0093",
+            "Type": "Acrylics",
+            "R": "89",
+            "G": "22",
+            "B": "16",
+            "Hex": "#591610"
+        },
+        {
+            "Name": "Crystal Smoke",
+            "Code": "AMIG0095",
+            "Type": "Acrylics",
+            "R": "19",
+            "G": "30",
+            "B": "24",
+            "Hex": "#131E18"
+        },
+        {
+            "Name": "Cyan",
+            "Code": "AMIG0128",
+            "Type": "Acrylics",
+            "R": "36",
+            "G": "149",
+            "B": "251",
+            "Hex": "#2495FB"
+        },
+        {
+            "Name": "Dark Brown Wash For Green Vehicles",
+            "Code": "AMIG1005",
+            "Type": "Washes",
+            "R": "29",
+            "G": "14",
+            "B": "11",
+            "Hex": "#1D0E0B"
+        },
+        {
+            "Name": "Dark Green (bs 241)",
+            "Code": "AMIG0915",
+            "Type": "Acrylics",
+            "R": "69",
+            "G": "83",
+            "B": "48",
+            "Hex": "#455330"
+        },
+        {
+            "Name": "Dark Rust",
+            "Code": "AMIG0041",
+            "Type": "Acrylics",
+            "R": "137",
+            "G": "59",
+            "B": "36",
+            "Hex": "#893B24"
+        },
+        {
+            "Name": "Dark Tracks",
+            "Code": "AMIG0035",
+            "Type": "Acrylics",
+            "R": "19",
+            "G": "7",
+            "B": "7",
+            "Hex": "#130707"
+        },
+        {
+            "Name": "Dark Wash",
+            "Code": "AMIG1008",
+            "Type": "Washes",
+            "R": "23",
+            "G": "19",
+            "B": "16",
+            "Hex": "#171310"
+        },
+        {
+            "Name": "Deep Green",
+            "Code": "AMIG0052",
+            "Type": "Acrylics",
+            "R": "11",
+            "G": "86",
+            "B": "45",
+            "Hex": "#0B562D"
+        },
+        {
+            "Name": "Desert Yellow",
+            "Code": "AMIG0138",
+            "Type": "Acrylics",
+            "R": "184",
+            "G": "153",
+            "B": "109",
+            "Hex": "#B8996D"
+        },
+        {
+            "Name": "Duck Egg Green (bs 216)",
+            "Code": "AMIG0244",
+            "Type": "Acrylics",
+            "R": "175",
+            "G": "185",
+            "B": "133",
+            "Hex": "#AFB985"
+        },
+        {
+            "Name": "Dull Green",
+            "Code": "AMIG0077",
+            "Type": "Acrylics",
+            "R": "61",
+            "G": "89",
+            "B": "90",
+            "Hex": "#3D595A"
+        },
+        {
+            "Name": "Dunkelgelb Base",
+            "Code": "AMIG0902",
+            "Type": "Acrylics",
+            "R": "142",
+            "G": "129",
+            "B": "74",
+            "Hex": "#8E814A"
+        },
+        {
+            "Name": "Dunkelgelb Dark Base",
+            "Code": "AMIG0901",
+            "Type": "Acrylics",
+            "R": "123",
+            "G": "107",
+            "B": "55",
+            "Hex": "#7B6B37"
+        },
+        {
+            "Name": "Dunkelgelb High Light",
+            "Code": "AMIG0904",
+            "Type": "Acrylics",
+            "R": "208",
+            "G": "206",
+            "B": "147",
+            "Hex": "#D0CE93"
+        },
+        {
+            "Name": "Dunkelgelb Light Base",
+            "Code": "AMIG0903",
+            "Type": "Acrylics",
+            "R": "183",
+            "G": "171",
+            "B": "121",
+            "Hex": "#B7AB79"
+        },
+        {
+            "Name": "Dunkelgelb Shadow",
+            "Code": "AMIG0900",
+            "Type": "Acrylics",
+            "R": "56",
+            "G": "27",
+            "B": "32",
+            "Hex": "#381B20"
+        },
+        {
+            "Name": "Dunkelgelb Shine",
+            "Code": "AMIG0905",
+            "Type": "Acrylics",
+            "R": "226",
+            "G": "225",
+            "B": "197",
+            "Hex": "#E2E1C5"
+        },
+        {
+            "Name": "Dunkelgrau Base",
+            "Code": "AMIG0908",
+            "Type": "Acrylics",
+            "R": "51",
+            "G": "53",
+            "B": "66",
+            "Hex": "#333542"
+        },
+        {
+            "Name": "Dunkelgrau Dark Base",
+            "Code": "AMIG0907",
+            "Type": "Acrylics",
+            "R": "71",
+            "G": "73",
+            "B": "86",
+            "Hex": "#474956"
+        },
+        {
+            "Name": "Dunkelgrau Light Base",
+            "Code": "AMIG0909",
+            "Type": "Acrylics",
+            "R": "105",
+            "G": "109",
+            "B": "118",
+            "Hex": "#696D76"
+        },
+        {
+            "Name": "Dunkelgrau Shadow",
+            "Code": "AMIG0906",
+            "Type": "Acrylics",
+            "R": "50",
+            "G": "51",
+            "B": "53",
+            "Hex": "#323335"
+        },
+        {
+            "Name": "Dust",
+            "Code": "AMIG0072",
+            "Type": "Acrylics",
+            "R": "150",
+            "G": "140",
+            "B": "113",
+            "Hex": "#968C71"
+        },
+        {
+            "Name": "Earth",
+            "Code": "AMIG0073",
+            "Type": "Acrylics",
+            "R": "116",
+            "G": "87",
+            "B": "57",
+            "Hex": "#745739"
+        },
+        {
+            "Name": "Earth Brown",
+            "Code": "AMIG0064",
+            "Type": "Acrylics",
+            "R": "129",
+            "G": "68",
+            "B": "40",
+            "Hex": "#814428"
+        },
+        {
+            "Name": "Faded Sinai Grey",
+            "Code": "AMIG0066",
+            "Type": "Acrylics",
+            "R": "115",
+            "G": "108",
+            "B": "90",
+            "Hex": "#736C5A"
+        },
+        {
+            "Name": "Faded Yellow",
+            "Code": "AMIG0130",
+            "Type": "Acrylics",
+            "R": "216",
+            "G": "205",
+            "B": "115",
+            "Hex": "#D8CD73"
+        },
+        {
+            "Name": "Forest Green",
+            "Code": "AMIG0065",
+            "Type": "Acrylics",
+            "R": "56",
+            "G": "69",
+            "B": "39",
+            "Hex": "#384527"
+        },
+        {
+            "Name": "French Blue",
+            "Code": "AMIG0062",
+            "Type": "Acrylics",
+            "R": "68",
+            "G": "83",
+            "B": "102",
+            "Hex": "#445366"
+        },
+        {
+            "Name": "Fs 15102 Dark Gray Blue",
+            "Code": "AMIG0229",
+            "Type": "Acrylics",
+            "R": "36",
+            "G": "137",
+            "B": "189",
+            "Hex": "#2489BD"
+        },
+        {
+            "Name": "Fs 23070 Dark Olive Drab",
+            "Code": "AMIG0237",
+            "Type": "Acrylics",
+            "R": "108",
+            "G": "104",
+            "B": "69",
+            "Hex": "#6C6845"
+        },
+        {
+            "Name": "Fs 24277 Green",
+            "Code": "AMIG0213",
+            "Type": "Acrylics",
+            "R": "107",
+            "G": "135",
+            "B": "120",
+            "Hex": "#6B8778"
+        },
+        {
+            "Name": "Fs 25042 Sea Blue (ana 606)",
+            "Code": "AMIG0227",
+            "Type": "Acrylics",
+            "R": "33",
+            "G": "38",
+            "B": "44",
+            "Hex": "#21262C"
+        },
+        {
+            "Name": "Fs 26231 (bs 638)",
+            "Code": "AMIG0205",
+            "Type": "Acrylics",
+            "R": "113",
+            "G": "115",
+            "B": "127",
+            "Hex": "#71737F"
+        },
+        {
+            "Name": "Fs 26373 Silver Grey",
+            "Code": "AMIG0212",
+            "Type": "Acrylics",
+            "R": "146",
+            "G": "162",
+            "B": "162",
+            "Hex": "#92A2A2"
+        },
+        {
+            "Name": "Fs 30219 Tan",
+            "Code": "AMIG0202",
+            "Type": "Acrylics",
+            "R": "129",
+            "G": "96",
+            "B": "61",
+            "Hex": "#81603D"
+        },
+        {
+            "Name": "Fs 33446 US Modern Vehicles",
+            "Code": "AMIG0025",
+            "Type": "Acrylics",
+            "R": "199",
+            "G": "167",
+            "B": "128",
+            "Hex": "#C7A780"
+        },
+        {
+            "Name": "Fs 33481 Zinc Chromate Yellow",
+            "Code": "AMIG0221",
+            "Type": "Acrylics",
+            "R": "177",
+            "G": "152",
+            "B": "70",
+            "Hex": "#B19846"
+        },
+        {
+            "Name": "Fs 33531 Middlestone",
+            "Code": "AMIG0200",
+            "Type": "Acrylics",
+            "R": "214",
+            "G": "199",
+            "B": "180",
+            "Hex": "#D6C7B4"
+        },
+        {
+            "Name": "Fs 34086 (ana 613)",
+            "Code": "AMIG0240",
+            "Type": "Acrylics",
+            "R": "63",
+            "G": "64",
+            "B": "46",
+            "Hex": "#3F402E"
+        },
+        {
+            "Name": "Fs 34092 Medium Green",
+            "Code": "AMIG0238",
+            "Type": "Acrylics",
+            "R": "58",
+            "G": "82",
+            "B": "58",
+            "Hex": "#3A523A"
+        },
+        {
+            "Name": "Fs 34151 Zinc Chromate Green (interior Green)",
+            "Code": "AMIG0220",
+            "Type": "Acrylics",
+            "R": "102",
+            "G": "110",
+            "B": "69",
+            "Hex": "#666E45"
+        },
+        {
+            "Name": "Fs 34226 (bs283) Interior Green",
+            "Code": "AMIG0219",
+            "Type": "Acrylics",
+            "R": "114",
+            "G": "145",
+            "B": "130",
+            "Hex": "#729182"
+        },
+        {
+            "Name": "Fs 34424 Light Gray Green",
+            "Code": "AMIG0201",
+            "Type": "Acrylics",
+            "R": "177",
+            "G": "202",
+            "B": "170",
+            "Hex": "#B1CAAA"
+        },
+        {
+            "Name": "Fs 35164 Intermediate Blue (ana 608)",
+            "Code": "AMIG0228",
+            "Type": "Acrylics",
+            "R": "112",
+            "G": "121",
+            "B": "128",
+            "Hex": "#707980"
+        },
+        {
+            "Name": "Fs 36118 Medium Gunship Gray",
+            "Code": "AMIG0204",
+            "Type": "Acrylics",
+            "R": "63",
+            "G": "69",
+            "B": "81",
+            "Hex": "#3F4551"
+        },
+        {
+            "Name": "Fs 36122 NeutRAL Gray",
+            "Code": "AMIG0239",
+            "Type": "Acrylics",
+            "R": "103",
+            "G": "104",
+            "B": "108",
+            "Hex": "#67686C"
+        },
+        {
+            "Name": "Fs 36270 Medium Gray",
+            "Code": "AMIG0211",
+            "Type": "Acrylics",
+            "R": "153",
+            "G": "153",
+            "B": "155",
+            "Hex": "#99999B"
+        },
+        {
+            "Name": "Fs 36293",
+            "Code": "AMIG0236",
+            "Type": "Acrylics",
+            "R": "127",
+            "G": "132",
+            "B": "135",
+            "Hex": "#7F8487"
+        },
+        {
+            "Name": "Fs 36314 (bs 626)",
+            "Code": "AMIG0207",
+            "Type": "Acrylics",
+            "R": "131",
+            "G": "151",
+            "B": "140",
+            "Hex": "#83978C"
+        },
+        {
+            "Name": "Fs 36320 Dark Compass Ghost Gray",
+            "Code": "AMIG0208",
+            "Type": "Acrylics",
+            "R": "112",
+            "G": "135",
+            "B": "141",
+            "Hex": "#70878D"
+        },
+        {
+            "Name": "Fs 36375 Light Compass Ghost Gray",
+            "Code": "AMIG0203",
+            "Type": "Acrylics",
+            "R": "131",
+            "G": "144",
+            "B": "163",
+            "Hex": "#8390A3"
+        },
+        {
+            "Name": "Fs 36440 Light Gull Gray",
+            "Code": "AMIG0241",
+            "Type": "Acrylics",
+            "R": "149",
+            "G": "154",
+            "B": "148",
+            "Hex": "#959A94"
+        },
+        {
+            "Name": "Fs 36495 Light Gray",
+            "Code": "AMIG0209",
+            "Type": "Acrylics",
+            "R": "166",
+            "G": "183",
+            "B": "173",
+            "Hex": "#A6B7AD"
+        },
+        {
+            "Name": "Fs 36622 Gray",
+            "Code": "AMIG0226",
+            "Type": "Acrylics",
+            "R": "209",
+            "G": "210",
+            "B": "194",
+            "Hex": "#D1D2C2"
+        },
+        {
+            "Name": "Fs 37886",
+            "Code": "AMIG0242",
+            "Type": "Acrylics",
+            "R": "240",
+            "G": "240",
+            "B": "216",
+            "Hex": "#F0F0D8"
+        },
+        {
+            "Name": "Fs35237 Blue Gray Amt-11",
+            "Code": "AMIG0210",
+            "Type": "Acrylics",
+            "R": "109",
+            "G": "125",
+            "B": "138",
+            "Hex": "#6D7D8A"
+        },
+        {
+            "Name": "Fs35260 Sky Line Blue A II",
+            "Code": "AMIG0224",
+            "Type": "Acrylics",
+            "R": "113",
+            "G": "198",
+            "B": "227",
+            "Hex": "#71C6E3"
+        },
+        {
+            "Name": "Fs36152 Dark Grey AMT-12",
+            "Code": "AMIG0235",
+            "Type": "Acrylics",
+            "R": "93",
+            "G": "98",
+            "B": "104",
+            "Hex": "#5D6268"
+        },
+        {
+            "Name": "Gold",
+            "Code": "AMIG0198",
+            "Type": "Acrylics",
+            "R": "184",
+            "G": "176",
+            "B": "33",
+            "Hex": "#B8B021"
+        },
+        {
+            "Name": "Gold Yellow (RLM 04 Gelb)",
+            "Code": "AMIG0125",
+            "Type": "Acrylics",
+            "R": "215",
+            "G": "192",
+            "B": "18",
+            "Hex": "#D7C012"
+        },
+        {
+            "Name": "Green Base",
+            "Code": "AMIG0916",
+            "Type": "Acrylics",
+            "R": "78",
+            "G": "99",
+            "B": "56",
+            "Hex": "#4E6338"
+        },
+        {
+            "Name": "Green Khaki",
+            "Code": "AMIG0056",
+            "Type": "Acrylics",
+            "R": "84",
+            "G": "80",
+            "B": "53",
+            "Hex": "#545035"
+        },
+        {
+            "Name": "Green Moss",
+            "Code": "AMIG0074",
+            "Type": "Acrylics",
+            "R": "106",
+            "G": "104",
+            "B": "55",
+            "Hex": "#6A6837"
+        },
+        {
+            "Name": "Green Slate (RLM 02)",
+            "Code": "AMIG0217",
+            "Type": "Acrylics",
+            "R": "42",
+            "G": "56",
+            "B": "30",
+            "Hex": "#2A381E"
+        },
+        {
+            "Name": "Grey",
+            "Code": "AMIG0059",
+            "Type": "Acrylics",
+            "R": "129",
+            "G": "133",
+            "B": "142",
+            "Hex": "#81858E"
+        },
+        {
+            "Name": "Grey Brown Amt-1",
+            "Code": "AMIG0252",
+            "Type": "Acrylics",
+            "R": "130",
+            "G": "123",
+            "B": "113",
+            "Hex": "#827B71"
+        },
+        {
+            "Name": "Grey High Light",
+            "Code": "AMIG0910",
+            "Type": "Acrylics",
+            "R": "125",
+            "G": "128",
+            "B": "135",
+            "Hex": "#7D8087"
+        },
+        {
+            "Name": "Grey Shine",
+            "Code": "AMIG0911",
+            "Type": "Acrylics",
+            "R": "162",
+            "G": "165",
+            "B": "172",
+            "Hex": "#A2A5AC"
+        },
+        {
+            "Name": "Gun Metal",
+            "Code": "AMIG0045",
+            "Type": "Acrylics",
+            "R": "82",
+            "G": "80",
+            "B": "68",
+            "Hex": "#525044"
+        },
+        {
+            "Name": "Idf Green",
+            "Code": "AMIG0068",
+            "Type": "Acrylics",
+            "R": "86",
+            "G": "84",
+            "B": "46",
+            "Hex": "#56542E"
+        },
+        {
+            "Name": "Interior Turquoise Green",
+            "Code": "AMIG0223",
+            "Type": "Acrylics",
+            "R": "28",
+            "G": "131",
+            "B": "104",
+            "Hex": "#1C8368"
+        },
+        {
+            "Name": "Interiors Wash",
+            "Code": "AMIG1003",
+            "Type": "Washes",
+            "R": "60",
+            "G": "50",
+            "B": "41",
+            "Hex": "#3C3229"
+        },
+        {
+            "Name": "Jet Exhaust Burnt Iron",
+            "Code": "AMIG0187",
+            "Type": "Acrylics",
+            "R": "62",
+            "G": "36",
+            "B": "23",
+            "Hex": "#3E2417"
+        },
+        {
+            "Name": "Khaki",
+            "Code": "AMIG0071",
+            "Type": "Acrylics",
+            "R": "115",
+            "G": "85",
+            "B": "51",
+            "Hex": "#735533"
+        },
+        {
+            "Name": "Khaki Brown",
+            "Code": "AMIG0088",
+            "Type": "Acrylics",
+            "R": "179",
+            "G": "146",
+            "B": "103",
+            "Hex": "#B39267"
+        },
+        {
+            "Name": "Khaki Green N\u00ba3 (british 1939-42)",
+            "Code": "AMIG0113",
+            "Type": "Acrylics",
+            "R": "104",
+            "G": "95",
+            "B": "56",
+            "Hex": "#685F38"
+        },
+        {
+            "Name": "Light Blue",
+            "Code": "AMIG0249",
+            "Type": "Acrylics",
+            "R": "180",
+            "G": "206",
+            "B": "219",
+            "Hex": "#B4CEDB"
+        },
+        {
+            "Name": "Light Brown-gray",
+            "Code": "AMIG0120",
+            "Type": "Acrylics",
+            "R": "214",
+            "G": "209",
+            "B": "206",
+            "Hex": "#D6D1CE"
+        },
+        {
+            "Name": "Light Green",
+            "Code": "AMIG0917",
+            "Type": "Acrylics",
+            "R": "147",
+            "G": "175",
+            "B": "117",
+            "Hex": "#93AF75"
+        },
+        {
+            "Name": "Light Green Khaki",
+            "Code": "AMIG0058",
+            "Type": "Acrylics",
+            "R": "124",
+            "G": "123",
+            "B": "77",
+            "Hex": "#7C7B4D"
+        },
+        {
+            "Name": "Light Green Khv-553m",
+            "Code": "AMIG0051",
+            "Type": "Acrylics",
+            "R": "165",
+            "G": "187",
+            "B": "138",
+            "Hex": "#A5BB8A"
+        },
+        {
+            "Name": "Light Rust",
+            "Code": "AMIG0039",
+            "Type": "Acrylics",
+            "R": "229",
+            "G": "145",
+            "B": "11",
+            "Hex": "#E5910B"
+        },
+        {
+            "Name": "Light Rust Wash",
+            "Code": "AMIG1004",
+            "Type": "Washes",
+            "R": "85",
+            "G": "46",
+            "B": "17",
+            "Hex": "#552E11"
+        },
+        {
+            "Name": "Light Sand Grey",
+            "Code": "AMIG0067",
+            "Type": "Acrylics",
+            "R": "184",
+            "G": "166",
+            "B": "128",
+            "Hex": "#B8A680"
+        },
+        {
+            "Name": "Light Skin Tone",
+            "Code": "AMIG0115",
+            "Type": "Acrylics",
+            "R": "238",
+            "G": "202",
+            "B": "168",
+            "Hex": "#EECAA8"
+        },
+        {
+            "Name": "Light Wood",
+            "Code": "AMIG0038",
+            "Type": "Acrylics",
+            "R": "187",
+            "G": "170",
+            "B": "127",
+            "Hex": "#BBAA7F"
+        },
+        {
+            "Name": "Lime Green",
+            "Code": "AMIG0124",
+            "Type": "Acrylics",
+            "R": "16",
+            "G": "159",
+            "B": "69",
+            "Hex": "#109F45"
+        },
+        {
+            "Name": "Marine Blue",
+            "Code": "AMIG0123",
+            "Type": "Acrylics",
+            "R": "24",
+            "G": "86",
+            "B": "143",
+            "Hex": "#18568F"
+        },
+        {
+            "Name": "Matt Aluminum",
+            "Code": "AMIG0194",
+            "Type": "Acrylics",
+            "R": "170",
+            "G": "188",
+            "B": "176",
+            "Hex": "#AABCB0"
+        },
+        {
+            "Name": "Matt Black",
+            "Code": "AMIG0046",
+            "Type": "Acrylics",
+            "R": "19",
+            "G": "19",
+            "B": "19",
+            "Hex": "#131313"
+        },
+        {
+            "Name": "Matt Varnish",
+            "Code": "AMIG0089",
+            "Type": "Acrylics",
+            "R": "254",
+            "G": "254",
+            "B": "254",
+            "Hex": "#FEFEFE"
+        },
+        {
+            "Name": "Matt White",
+            "Code": "AMIG0050",
+            "Type": "Acrylics",
+            "R": "252",
+            "G": "254",
+            "B": "251",
+            "Hex": "#FCFEFB"
+        },
+        {
+            "Name": "Medium Blue",
+            "Code": "AMIG0103",
+            "Type": "Acrylics",
+            "R": "41",
+            "G": "72",
+            "B": "136",
+            "Hex": "#294888"
+        },
+        {
+            "Name": "Medium Brown Dark Earth (bs 450)",
+            "Code": "AMIG0070",
+            "Type": "Acrylics",
+            "R": "82",
+            "G": "54",
+            "B": "40",
+            "Hex": "#523628"
+        },
+        {
+            "Name": "Medium Rust",
+            "Code": "AMIG0040",
+            "Type": "Acrylics",
+            "R": "184",
+            "G": "84",
+            "B": "48",
+            "Hex": "#B85430"
+        },
+        {
+            "Name": "Medium Sea Grey (bs 637)",
+            "Code": "AMIG0246",
+            "Type": "Acrylics",
+            "R": "133",
+            "G": "143",
+            "B": "145",
+            "Hex": "#858F91"
+        },
+        {
+            "Name": "Metallic Orange",
+            "Code": "AMIG0189",
+            "Type": "Acrylics",
+            "R": "205",
+            "G": "103",
+            "B": "2",
+            "Hex": "#CD6702"
+        },
+        {
+            "Name": "Metallic Red",
+            "Code": "AMIG0188",
+            "Type": "Acrylics",
+            "R": "193",
+            "G": "56",
+            "B": "40",
+            "Hex": "#C13828"
+        },
+        {
+            "Name": "Nato Brown",
+            "Code": "AMIG0085",
+            "Type": "Acrylics",
+            "R": "65",
+            "G": "44",
+            "B": "39",
+            "Hex": "#412C27"
+        },
+        {
+            "Name": "Nato Green",
+            "Code": "AMIG0084",
+            "Type": "Acrylics",
+            "R": "66",
+            "G": "71",
+            "B": "51",
+            "Hex": "#424733"
+        },
+        {
+            "Name": "Neutral Wash",
+            "Code": "AMIG1010",
+            "Type": "Washes",
+            "R": "80",
+            "G": "80",
+            "B": "80",
+            "Hex": "#505050"
+        },
+        {
+            "Name": "New  Wood",
+            "Code": "AMIG0037",
+            "Type": "Acrylics",
+            "R": "193",
+            "G": "171",
+            "B": "114",
+            "Hex": "#C1AB72"
+        },
+        {
+            "Name": "New Iraqui Army Sand",
+            "Code": "AMIG0029",
+            "Type": "Acrylics",
+            "R": "200",
+            "G": "175",
+            "B": "118",
+            "Hex": "#C8AF76"
+        },
+        {
+            "Name": "Night Blue Grey",
+            "Code": "AMIG0250",
+            "Type": "Acrylics",
+            "R": "82",
+            "G": "86",
+            "B": "98",
+            "Hex": "#525662"
+        },
+        {
+            "Name": "Ocean Grey (bs 629)",
+            "Code": "AMIG0245",
+            "Type": "Acrylics",
+            "R": "98",
+            "G": "107",
+            "B": "114",
+            "Hex": "#626B72"
+        },
+        {
+            "Name": "Ochre Brown",
+            "Code": "AMIG0102",
+            "Type": "Acrylics",
+            "R": "158",
+            "G": "131",
+            "B": "86",
+            "Hex": "#9E8356"
+        },
+        {
+            "Name": "Ochre Earth",
+            "Code": "AMIG0078",
+            "Type": "Acrylics",
+            "R": "194",
+            "G": "142",
+            "B": "92",
+            "Hex": "#C28E5C"
+        },
+        {
+            "Name": "Oil Ochre",
+            "Code": "AMIG0055",
+            "Type": "Acrylics",
+            "R": "206",
+            "G": "173",
+            "B": "80",
+            "Hex": "#CEAD50"
+        },
+        {
+            "Name": "Old Brass",
+            "Code": "AMIG0190",
+            "Type": "Acrylics",
+            "R": "129",
+            "G": "97",
+            "B": "22",
+            "Hex": "#816116"
+        },
+        {
+            "Name": "Old Rust",
+            "Code": "AMIG0042",
+            "Type": "Acrylics",
+            "R": "69",
+            "G": "38",
+            "B": "33",
+            "Hex": "#452621"
+        },
+        {
+            "Name": "Old Wood",
+            "Code": "AMIG0036",
+            "Type": "Acrylics",
+            "R": "191",
+            "G": "171",
+            "B": "138",
+            "Hex": "#BFAB8A"
+        },
+        {
+            "Name": "Olive Drab  Base",
+            "Code": "AMIG0926",
+            "Type": "Acrylics",
+            "R": "82",
+            "G": "79",
+            "B": "46",
+            "Hex": "#524F2E"
+        },
+        {
+            "Name": "Olive Drab  High Lights",
+            "Code": "AMIG0928",
+            "Type": "Acrylics",
+            "R": "121",
+            "G": "118",
+            "B": "83",
+            "Hex": "#797653"
+        },
+        {
+            "Name": "Olive Drab  Light Base",
+            "Code": "AMIG0927",
+            "Type": "Acrylics",
+            "R": "104",
+            "G": "101",
+            "B": "66",
+            "Hex": "#686542"
+        },
+        {
+            "Name": "Olive Drab Shadow",
+            "Code": "AMIG0924",
+            "Type": "Acrylics",
+            "R": "50",
+            "G": "48",
+            "B": "23",
+            "Hex": "#323017"
+        },
+        {
+            "Name": "Olive Drab Shine",
+            "Code": "AMIG0929",
+            "Type": "Acrylics",
+            "R": "137",
+            "G": "135",
+            "B": "97",
+            "Hex": "#898761"
+        },
+        {
+            "Name": "One Shot Primer - Black",
+            "Code": "AMIG2023",
+            "Type": "Primers",
+            "R": "24",
+            "G": "24",
+            "B": "24",
+            "Hex": "#181818"
+        },
+        {
+            "Name": "One Shot Primer - Brown Oxide",
+            "Code": "AMIG2026",
+            "Type": "Primers",
+            "R": "65",
+            "G": "32",
+            "B": "23",
+            "Hex": "#412017"
+        },
+        {
+            "Name": "One Shot Primer - Green",
+            "Code": "AMIG2028",
+            "Type": "Primers",
+            "R": "38",
+            "G": "52",
+            "B": "39",
+            "Hex": "#263427"
+        },
+        {
+            "Name": "One Shot Primer - Grey",
+            "Code": "AMIG2024",
+            "Type": "Primers",
+            "R": "107",
+            "G": "107",
+            "B": "107",
+            "Hex": "#6B6B6B"
+        },
+        {
+            "Name": "One Shot Primer - Sand Flesh",
+            "Code": "AMIG2027",
+            "Type": "Primers",
+            "R": "183",
+            "G": "163",
+            "B": "113",
+            "Hex": "#B7A371"
+        },
+        {
+            "Name": "One Shot Primer - White",
+            "Code": "AMIG2022",
+            "Type": "Primers",
+            "R": "228",
+            "G": "228",
+            "B": "228",
+            "Hex": "#E4E4E4"
+        },
+        {
+            "Name": "Orange",
+            "Code": "AMIG0129",
+            "Type": "Acrylics",
+            "R": "231",
+            "G": "115",
+            "B": "30",
+            "Hex": "#E7731E"
+        },
+        {
+            "Name": "Pale Green",
+            "Code": "AMIG0060",
+            "Type": "Acrylics",
+            "R": "58",
+            "G": "99",
+            "B": "39",
+            "Hex": "#3A6327"
+        },
+        {
+            "Name": "Polished Metal",
+            "Code": "AMIG0192",
+            "Type": "Acrylics",
+            "R": "91",
+            "G": "108",
+            "B": "92",
+            "Hex": "#5B6C5C"
+        },
+        {
+            "Name": "Protective Green",
+            "Code": "AMIG0023",
+            "Type": "Acrylics",
+            "R": "94",
+            "G": "115",
+            "B": "59",
+            "Hex": "#5E733B"
+        },
+        {
+            "Name": "Protective Mc 1200",
+            "Code": "AMIG0053",
+            "Type": "Acrylics",
+            "R": "24",
+            "G": "52",
+            "B": "27",
+            "Hex": "#18341B"
+        },
+        {
+            "Name": "Purple",
+            "Code": "AMIG0127",
+            "Type": "Acrylics",
+            "R": "145",
+            "G": "84",
+            "B": "164",
+            "Hex": "#9154A4"
+        },
+        {
+            "Name": "RAL 6003 Olivgr\u00fcn Opt.1",
+            "Code": "AMIG0001",
+            "Type": "Acrylics",
+            "R": "53",
+            "G": "61",
+            "B": "38",
+            "Hex": "#353D26"
+        },
+        {
+            "Name": "RAL 6003 Olivgr\u00fcn Opt.2",
+            "Code": "AMIG0002",
+            "Type": "Acrylics",
+            "R": "78",
+            "G": "85",
+            "B": "54",
+            "Hex": "#4E5536"
+        },
+        {
+            "Name": "RAL 6011 B Resedagr\u00fcn",
+            "Code": "AMIG0004",
+            "Type": "Acrylics",
+            "R": "82",
+            "G": "93",
+            "B": "51",
+            "Hex": "#525D33"
+        },
+        {
+            "Name": "RAL 6011 Resedagr\u00fcn",
+            "Code": "AMIG0003",
+            "Type": "Acrylics",
+            "R": "103",
+            "G": "125",
+            "B": "76",
+            "Hex": "#677D4C"
+        },
+        {
+            "Name": "RAL 6014 Gelboliv",
+            "Code": "AMIG0087",
+            "Type": "Acrylics",
+            "R": "69",
+            "G": "71",
+            "B": "50",
+            "Hex": "#454732"
+        },
+        {
+            "Name": "RAL 7008 Graugr\u00fcn",
+            "Code": "AMIG0005",
+            "Type": "Acrylics",
+            "R": "98",
+            "G": "89",
+            "B": "60",
+            "Hex": "#62593C"
+        },
+        {
+            "Name": "RAL 7008 Graugr\u00fcn Opt.2",
+            "Code": "AMIG0006",
+            "Type": "Acrylics",
+            "R": "138",
+            "G": "133",
+            "B": "77",
+            "Hex": "#8A854D"
+        },
+        {
+            "Name": "RAL 7017 Dunkelbraun",
+            "Code": "AMIG0007",
+            "Type": "Acrylics",
+            "R": "82",
+            "G": "66",
+            "B": "50",
+            "Hex": "#524232"
+        },
+        {
+            "Name": "RAL 7021 Dunkelgrau",
+            "Code": "AMIG0008",
+            "Type": "Acrylics",
+            "R": "39",
+            "G": "43",
+            "B": "52",
+            "Hex": "#272B34"
+        },
+        {
+            "Name": "RAL 7027 Sandgrau",
+            "Code": "AMIG0009",
+            "Type": "Acrylics",
+            "R": "192",
+            "G": "175",
+            "B": "147",
+            "Hex": "#C0AF93"
+        },
+        {
+            "Name": "RAL 7028 Dunkelgelb (mid War)",
+            "Code": "AMIG0010",
+            "Type": "Acrylics",
+            "R": "164",
+            "G": "148",
+            "B": "63",
+            "Hex": "#A4943F"
+        },
+        {
+            "Name": "RAL 7028 Dunkelgelb AUS \u201944 Dg I",
+            "Code": "AMIG0011",
+            "Type": "Acrylics",
+            "R": "201",
+            "G": "190",
+            "B": "134",
+            "Hex": "#C9BE86"
+        },
+        {
+            "Name": "RAL 7028 Dunkelgelb AUS \u201944 Dg IIi",
+            "Code": "AMIG0012",
+            "Type": "Acrylics",
+            "R": "215",
+            "G": "206",
+            "B": "165",
+            "Hex": "#D7CEA5"
+        },
+        {
+            "Name": "RAL 8000 Gelbbraun",
+            "Code": "AMIG0013",
+            "Type": "Acrylics",
+            "R": "174",
+            "G": "149",
+            "B": "118",
+            "Hex": "#AE9576"
+        },
+        {
+            "Name": "RAL 8012 Rotbraun",
+            "Code": "AMIG0014",
+            "Type": "Acrylics",
+            "R": "133",
+            "G": "50",
+            "B": "10",
+            "Hex": "#85320A"
+        },
+        {
+            "Name": "RAL 8017 Schokobraun",
+            "Code": "AMIG0015",
+            "Type": "Acrylics",
+            "R": "80",
+            "G": "49",
+            "B": "44",
+            "Hex": "#50312C"
+        },
+        {
+            "Name": "RAL 8020 Gelbbraun",
+            "Code": "AMIG0016",
+            "Type": "Acrylics",
+            "R": "231",
+            "G": "202",
+            "B": "122",
+            "Hex": "#E7CA7A"
+        },
+        {
+            "Name": "RAL 8031 F9 Sand Brown",
+            "Code": "AMIG0026",
+            "Type": "Acrylics",
+            "R": "205",
+            "G": "163",
+            "B": "139",
+            "Hex": "#CDA38B"
+        },
+        {
+            "Name": "RAL 9001 Cremeweiss",
+            "Code": "AMIG0017",
+            "Type": "Acrylics",
+            "R": "242",
+            "G": "239",
+            "B": "194",
+            "Hex": "#F2EFC2"
+        },
+        {
+            "Name": "RAL1039 F9 German Sand Beige",
+            "Code": "AMIG0027",
+            "Type": "Acrylics",
+            "R": "198",
+            "G": "176",
+            "B": "116",
+            "Hex": "#C6B074"
+        },
+        {
+            "Name": "RAL7050 F7 German Grey Beige",
+            "Code": "AMIG0028",
+            "Type": "Acrylics",
+            "R": "128",
+            "G": "120",
+            "B": "99",
+            "Hex": "#807863"
+        },
+        {
+            "Name": "RLM 65 Hellblau",
+            "Code": "AMIG0231",
+            "Type": "Acrylics",
+            "R": "199",
+            "G": "219",
+            "B": "226",
+            "Hex": "#C7DBE2"
+        },
+        {
+            "Name": "RLM 66 Schwartzgrau",
+            "Code": "AMIG0218",
+            "Type": "Acrylics",
+            "R": "40",
+            "G": "43",
+            "B": "52",
+            "Hex": "#282B34"
+        },
+        {
+            "Name": "RLM 70 Schwartzgr\u00fcn",
+            "Code": "AMIG0232",
+            "Type": "Acrylics",
+            "R": "51",
+            "G": "60",
+            "B": "43",
+            "Hex": "#333C2B"
+        },
+        {
+            "Name": "RLM 71 Dunkelgr\u00fcn",
+            "Code": "AMIG0233",
+            "Type": "Acrylics",
+            "R": "81",
+            "G": "86",
+            "B": "63",
+            "Hex": "#51563F"
+        },
+        {
+            "Name": "RLM 74 Graugr\u00fcn",
+            "Code": "AMIG0253",
+            "Type": "Acrylics",
+            "R": "67",
+            "G": "78",
+            "B": "72",
+            "Hex": "#434E48"
+        },
+        {
+            "Name": "RLM 75 Grauviolett",
+            "Code": "AMIG0254",
+            "Type": "Acrylics",
+            "R": "124",
+            "G": "126",
+            "B": "123",
+            "Hex": "#7C7E7B"
+        },
+        {
+            "Name": "RLM 76 Pale Grey",
+            "Code": "AMIG0063",
+            "Type": "Acrylics",
+            "R": "154",
+            "G": "196",
+            "B": "182",
+            "Hex": "#9AC4B6"
+        },
+        {
+            "Name": "RLM 78 Hellblau",
+            "Code": "AMIG0247",
+            "Type": "Acrylics",
+            "R": "129",
+            "G": "155",
+            "B": "156",
+            "Hex": "#819B9C"
+        },
+        {
+            "Name": "RLM 79 Sandgelb",
+            "Code": "AMIG0222",
+            "Type": "Acrylics",
+            "R": "197",
+            "G": "153",
+            "B": "66",
+            "Hex": "#C59942"
+        },
+        {
+            "Name": "RLM 80 Olivgr\u00fcn",
+            "Code": "AMIG0248",
+            "Type": "Acrylics",
+            "R": "59",
+            "G": "73",
+            "B": "48",
+            "Hex": "#3B4930"
+        },
+        {
+            "Name": "RLM 81",
+            "Code": "AMIG0206",
+            "Type": "Acrylics",
+            "R": "71",
+            "G": "81",
+            "B": "44",
+            "Hex": "#47512C"
+        },
+        {
+            "Name": "RLM 81 Braunviolett",
+            "Code": "AMIG0255",
+            "Type": "Acrylics",
+            "R": "85",
+            "G": "60",
+            "B": "55",
+            "Hex": "#553C37"
+        },
+        {
+            "Name": "RLM 81 Olive Drab Dark",
+            "Code": "AMIG0925",
+            "Type": "Acrylics",
+            "R": "65",
+            "G": "61",
+            "B": "32",
+            "Hex": "#413D20"
+        },
+        {
+            "Name": "RLM 82 Camo Green",
+            "Code": "AMIG0230",
+            "Type": "Acrylics",
+            "R": "62",
+            "G": "62",
+            "B": "0",
+            "Hex": "#3E3E00"
+        },
+        {
+            "Name": "RLM 84 Graublau",
+            "Code": "AMIG0256",
+            "Type": "Acrylics",
+            "R": "185",
+            "G": "185",
+            "B": "123",
+            "Hex": "#B9B97B"
+        },
+        {
+            "Name": "Real Idf Sand Grey 73",
+            "Code": "AMIG0132",
+            "Type": "Acrylics",
+            "R": "132",
+            "G": "121",
+            "B": "75",
+            "Hex": "#84794B"
+        },
+        {
+            "Name": "Real Idf Sinai Grey 82",
+            "Code": "AMIG0131",
+            "Type": "Acrylics",
+            "R": "83",
+            "G": "79",
+            "B": "42",
+            "Hex": "#534F2A"
+        },
+        {
+            "Name": "Red",
+            "Code": "AMIG0049",
+            "Type": "Acrylics",
+            "R": "189",
+            "G": "38",
+            "B": "21",
+            "Hex": "#BD2615"
+        },
+        {
+            "Name": "Red Brown Base",
+            "Code": "AMIG0913",
+            "Type": "Acrylics",
+            "R": "107",
+            "G": "50",
+            "B": "30",
+            "Hex": "#6B321E"
+        },
+        {
+            "Name": "Red Brown Light",
+            "Code": "AMIG0914",
+            "Type": "Acrylics",
+            "R": "158",
+            "G": "83",
+            "B": "64",
+            "Hex": "#9E5340"
+        },
+        {
+            "Name": "Red Brown Shadow",
+            "Code": "AMIG0912",
+            "Type": "Acrylics",
+            "R": "66",
+            "G": "29",
+            "B": "20",
+            "Hex": "#421D14"
+        },
+        {
+            "Name": "Red Leather",
+            "Code": "AMIG0133",
+            "Type": "Acrylics",
+            "R": "100",
+            "G": "59",
+            "B": "41",
+            "Hex": "#643B29"
+        },
+        {
+            "Name": "Red Primer  High Lights",
+            "Code": "AMIG0922",
+            "Type": "Primers",
+            "R": "127",
+            "G": "61",
+            "B": "26",
+            "Hex": "#7F3D1A"
+        },
+        {
+            "Name": "Red Primer  Shine",
+            "Code": "AMIG0923",
+            "Type": "Primers",
+            "R": "158",
+            "G": "89",
+            "B": "34",
+            "Hex": "#9E5922"
+        },
+        {
+            "Name": "Red Primer Base",
+            "Code": "AMIG0920",
+            "Type": "Primers",
+            "R": "73",
+            "G": "20",
+            "B": "4",
+            "Hex": "#491404"
+        },
+        {
+            "Name": "Red Primer Dark Base",
+            "Code": "AMIG0919",
+            "Type": "Primers",
+            "R": "89",
+            "G": "59",
+            "B": "35",
+            "Hex": "#593B23"
+        },
+        {
+            "Name": "Red Primer Light Base",
+            "Code": "AMIG0921",
+            "Type": "Primers",
+            "R": "99",
+            "G": "37",
+            "B": "12",
+            "Hex": "#63250C"
+        },
+        {
+            "Name": "Red Primer Shadow",
+            "Code": "AMIG0918",
+            "Type": "Primers",
+            "R": "50",
+            "G": "24",
+            "B": "25",
+            "Hex": "#321819"
+        },
+        {
+            "Name": "Reddish Earth",
+            "Code": "AMIG0139",
+            "Type": "Acrylics",
+            "R": "112",
+            "G": "84",
+            "B": "70",
+            "Hex": "#705446"
+        },
+        {
+            "Name": "Rubber & Tires",
+            "Code": "AMIG0033",
+            "Type": "Acrylics",
+            "R": "61",
+            "G": "56",
+            "B": "60",
+            "Hex": "#3D383C"
+        },
+        {
+            "Name": "Russian Blue Amt-7",
+            "Code": "AMIG0251",
+            "Type": "Acrylics",
+            "R": "47",
+            "G": "115",
+            "B": "126",
+            "Hex": "#2F737E"
+        },
+        {
+            "Name": "Russian Dark Base",
+            "Code": "AMIG0931",
+            "Type": "Acrylics",
+            "R": "74",
+            "G": "79",
+            "B": "39",
+            "Hex": "#4A4F27"
+        },
+        {
+            "Name": "Russian Green Base",
+            "Code": "AMIG0932",
+            "Type": "Acrylics",
+            "R": "93",
+            "G": "92",
+            "B": "25",
+            "Hex": "#5D5C19"
+        },
+        {
+            "Name": "Russian High Light",
+            "Code": "AMIG0934",
+            "Type": "Acrylics",
+            "R": "140",
+            "G": "133",
+            "B": "87",
+            "Hex": "#8C8557"
+        },
+        {
+            "Name": "Russian Light Base",
+            "Code": "AMIG0933",
+            "Type": "Acrylics",
+            "R": "121",
+            "G": "114",
+            "B": "68",
+            "Hex": "#797244"
+        },
+        {
+            "Name": "Russian Shadow",
+            "Code": "AMIG0930",
+            "Type": "Acrylics",
+            "R": "48",
+            "G": "48",
+            "B": "14",
+            "Hex": "#30300E"
+        },
+        {
+            "Name": "Russian Shine",
+            "Code": "AMIG0935",
+            "Type": "Acrylics",
+            "R": "158",
+            "G": "151",
+            "B": "109",
+            "Hex": "#9E976D"
+        },
+        {
+            "Name": "Rust Tracks",
+            "Code": "AMIG0034",
+            "Type": "Acrylics",
+            "R": "56",
+            "G": "38",
+            "B": "28",
+            "Hex": "#38261C"
+        },
+        {
+            "Name": "Satin Black",
+            "Code": "AMIG0032",
+            "Type": "Acrylics",
+            "R": "28",
+            "G": "28",
+            "B": "28",
+            "Hex": "#1C1C1C"
+        },
+        {
+            "Name": "Satin White",
+            "Code": "AMIG0047",
+            "Type": "Acrylics",
+            "R": "232",
+            "G": "232",
+            "B": "232",
+            "Hex": "#E8E8E8"
+        },
+        {
+            "Name": "Scc 15 (british 1944-45 Olive Drab)",
+            "Code": "AMIG0112",
+            "Type": "Acrylics",
+            "R": "53",
+            "G": "59",
+            "B": "25",
+            "Hex": "#353B19"
+        },
+        {
+            "Name": "Scc 1a  (british Brown 1941-42)",
+            "Code": "AMIG0110",
+            "Type": "Acrylics",
+            "R": "53",
+            "G": "33",
+            "B": "24",
+            "Hex": "#352118"
+        },
+        {
+            "Name": "Scc 2 (british 1941-44 Service Drab)",
+            "Code": "AMIG0111",
+            "Type": "Acrylics",
+            "R": "84",
+            "G": "73",
+            "B": "51",
+            "Hex": "#544933"
+        },
+        {
+            "Name": "Shadow Rust",
+            "Code": "AMIG0043",
+            "Type": "Acrylics",
+            "R": "51",
+            "G": "23",
+            "B": "22",
+            "Hex": "#331716"
+        },
+        {
+            "Name": "Signal Green",
+            "Code": "AMIG0054",
+            "Type": "Acrylics",
+            "R": "40",
+            "G": "129",
+            "B": "45",
+            "Hex": "#28812D"
+        },
+        {
+            "Name": "Silver",
+            "Code": "AMIG0195",
+            "Type": "Acrylics",
+            "R": "198",
+            "G": "209",
+            "B": "193",
+            "Hex": "#C6D1C1"
+        },
+        {
+            "Name": "Sky Type S (bs 210)",
+            "Code": "AMIG0243",
+            "Type": "Acrylics",
+            "R": "180",
+            "G": "178",
+            "B": "153",
+            "Hex": "#B4B299"
+        },
+        {
+            "Name": "Spanish Green-khaki",
+            "Code": "AMIG0031",
+            "Type": "Acrylics",
+            "R": "80",
+            "G": "71",
+            "B": "40",
+            "Hex": "#504728"
+        },
+        {
+            "Name": "Starship Wash",
+            "Code": "AMIG1009",
+            "Type": "Washes",
+            "R": "15",
+            "G": "11",
+            "B": "10",
+            "Hex": "#0F0B0A"
+        },
+        {
+            "Name": "Steel",
+            "Code": "AMIG0191",
+            "Type": "Acrylics",
+            "R": "183",
+            "G": "194",
+            "B": "177",
+            "Hex": "#B7C2B1"
+        },
+        {
+            "Name": "Stone Grey",
+            "Code": "AMIG0075",
+            "Type": "Acrylics",
+            "R": "178",
+            "G": "178",
+            "B": "178",
+            "Hex": "#B2B2B2"
+        },
+        {
+            "Name": "Tracks Wash",
+            "Code": "AMIG1002",
+            "Type": "Washes",
+            "R": "26",
+            "G": "18",
+            "B": "15",
+            "Hex": "#1A120F"
+        },
+        {
+            "Name": "US Modern Vehicles Wash",
+            "Code": "AMIG1007",
+            "Type": "Washes",
+            "R": "90",
+            "G": "74",
+            "B": "61",
+            "Hex": "#5A4A3D"
+        },
+        {
+            "Name": "US Olive Drab Vietnam Era (fs 24087)",
+            "Code": "AMIG0081",
+            "Type": "Acrylics",
+            "R": "66",
+            "G": "74",
+            "B": "53",
+            "Hex": "#424A35"
+        },
+        {
+            "Name": "Violet",
+            "Code": "AMIG0126",
+            "Type": "Acrylics",
+            "R": "86",
+            "G": "67",
+            "B": "156",
+            "Hex": "#56439C"
+        },
+        {
+            "Name": "Waffen Ss",
+            "Code": "AMIG0018",
+            "Type": "Acrylics",
+            "R": "66",
+            "G": "104",
+            "B": "91",
+            "Hex": "#42685B"
+        },
+        {
+            "Name": "Warhead Metallic Blue",
+            "Code": "AMIG0196",
+            "Type": "Acrylics",
+            "R": "35",
+            "G": "126",
+            "B": "233",
+            "Hex": "#237EE9"
+        },
+        {
+            "Name": "Warm Sand-yellow",
+            "Code": "AMIG0061",
+            "Type": "Acrylics",
+            "R": "215",
+            "G": "182",
+            "B": "87",
+            "Hex": "#D7B657"
+        },
+        {
+            "Name": "Warm Skin Tone",
+            "Code": "AMIG0117",
+            "Type": "Acrylics",
+            "R": "181",
+            "G": "135",
+            "B": "111",
+            "Hex": "#B5876F"
+        },
+        {
+            "Name": "Washable Black",
+            "Code": "AMIG0104",
+            "Type": "Acrylics",
+            "R": "0",
+            "G": "0",
+            "B": "0",
+            "Hex": "#000000"
+        },
+        {
+            "Name": "Washable Dust (RAL 8000)",
+            "Code": "AMIG0105",
+            "Type": "Acrylics",
+            "R": "157",
+            "G": "129",
+            "B": "82",
+            "Hex": "#9D8152"
+        },
+        {
+            "Name": "Washable Earth",
+            "Code": "AMIG0107",
+            "Type": "Acrylics",
+            "R": "113",
+            "G": "77",
+            "B": "53",
+            "Hex": "#714D35"
+        },
+        {
+            "Name": "Washable Mud",
+            "Code": "AMIG0108",
+            "Type": "Acrylics",
+            "R": "83",
+            "G": "50",
+            "B": "41",
+            "Hex": "#533229"
+        },
+        {
+            "Name": "Washable Rust",
+            "Code": "AMIG0109",
+            "Type": "Acrylics",
+            "R": "160",
+            "G": "64",
+            "B": "42",
+            "Hex": "#A0402A"
+        },
+        {
+            "Name": "Washable Sand (RAL 8020)",
+            "Code": "AMIG0106",
+            "Type": "Acrylics",
+            "R": "192",
+            "G": "152",
+            "B": "83",
+            "Hex": "#C09853"
+        },
+        {
+            "Name": "Washable White Camo",
+            "Code": "AMIG0024",
+            "Type": "Acrylics",
+            "R": "250",
+            "G": "251",
+            "B": "246",
+            "Hex": "#FAFBF6"
+        },
+        {
+            "Name": "Xb-518 Zashchitniy Zeleno (russian Postwar Green)",
+            "Code": "AMIG0083",
+            "Type": "Acrylics",
+            "R": "78",
+            "G": "79",
+            "B": "48",
+            "Hex": "#4E4F30"
+        },
+        {
+            "Name": "Yellow",
+            "Code": "AMIG0048",
+            "Type": "Acrylics",
+            "R": "235",
+            "G": "195",
+            "B": "11",
+            "Hex": "#EBC30B"
+        },
+        {
+            "Name": "Yellow Grey",
+            "Code": "AMIG0057",
+            "Type": "Acrylics",
+            "R": "201",
+            "G": "182",
+            "B": "142",
+            "Hex": "#C9B68E"
+        },
+        {
+            "Name": "Zimmerit Ochre Color",
+            "Code": "AMIG0114",
+            "Type": "Acrylics",
+            "R": "154",
+            "G": "139",
+            "B": "118",
+            "Hex": "#9A8B76"
+        }
     ]
 }
