@@ -3984,20 +3984,20 @@
         {
             "Name": "Preto",
             "Code": "NM27",
-            "Type": "",
-            "R": "Aquacolor",
-            "G": "55",
-            "B": "54",
-            "Hex": "52"
+            "Type": "Aquacolor",
+            "R": "55",
+            "G": "54",
+            "B": "52",
+            "Hex": "#373634"
         },
         {
             "Name": "Azul Marinho",
             "Code": "NM16",
             "Type": "Aquacolor",
-            "R": "245",
-            "G": "245",
-            "B": "245",
-            "Hex": "#F5F5F5"
+            "R": "0",
+            "G": "94",
+            "B": "119",
+            "Hex": "#005E77"
         },
         {
             "Name": "Vermelho Lumen",
@@ -4025,15 +4025,6 @@
             "G": "245",
             "B": "245",
             "Hex": "#F5F5F5"
-        },
-        {
-            "Name": "Acqua Marine",
-            "Code": "",
-            "Type": "Aquacolor",
-            "R": "0",
-            "G": "94",
-            "B": "119",
-            "Hex": "#005E77"
         },
         {
             "Name": "Vinho",
@@ -4097,15 +4088,6 @@
             "G": "111",
             "B": "110",
             "Hex": "#1F6F6E"
-        },
-        {
-            "Name": "Bege Claro",
-            "Code": "",
-            "Type": "Aquacolor",
-            "R": "228",
-            "G": "216",
-            "B": "188",
-            "Hex": "#E4D8BC"
         },
         {
             "Name": "Bege Mesti\u00e7o",

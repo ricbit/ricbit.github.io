@@ -154,11 +154,6 @@
     flex-wrap: wrap; /* Allow buttons to wrap */
 }
 
-/* Style buttons as needed */
-#selectColorsBtn {
-    margin-bottom: 10px;
-}
-
 /* Container for all brand sections */
 .color-list {
     max-height: 400px;
@@ -334,16 +329,47 @@
 .type-color-list.collapsed {
     display: none;
 }
+.button-like-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  padding: 8px 15px;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 1em;
+  text-align: center;
+  line-height: 1;
+  box-sizing: border-box;
+  margin-bottom: 0px;
+}
 
+/* Existing hover/active styles */
+.button-like-label:hover {
+    background-color: #e0e0e0;
+}
+
+.button-like-label:active {
+    background-color: #d0d0d0;
+}
 </style>
   </head>
   <body>
     <h3>AI crilex</h3>
     <div class="controls">
-      <input type="file" id="imageInput" accept="image/*" />
-      <div>
-        <button id="selectColorsBtn">Select My Colors</button>
-      </div>
+    <!-- Container for the image and color selection buttons -->
+    <div style="display: flex; align-items: center; gap: 10px;">
+
+      <button id="uploadBtn" class="button-like-label">Choose Image</button>
+      <input type="file" id="imageInput" accept="image/*" style="display: none;">
+      
+      <!-- Moved the Select Colors button here and added the class -->
+      <button id="selectColorsBtn" class="button-like-label">Select My Colors</button>
+    </div>          
       <div style="margin-top: 10px;">
         <label>Color Threshold: <span id="thresholdValue">0.4</span>%</label>
         <input type="range" id="thresholdSlider" min="0" max="2" step="0.1" value="0.4" style="width: 200px; margin-left: 10px;" />
@@ -391,7 +417,11 @@
               <button id="applyColorsBtn">Apply</button>
               <button id="closeOverlayBtn">Close</button>
           </div>
-      </div>
+          <!-- Add the Reset Button Here -->
+          <div class="overlay-actions" style="margin-top: 20px; border-top: 1px solid #ccc; padding-top: 15px;">
+            <button id="resetColorsBtn" style="background-color: #f44336; color: white;">RESET - Start again</button>
+       </div>
+        </div>
   </div>    
   <script src="quant.js" type="module"></script>
   </body>
