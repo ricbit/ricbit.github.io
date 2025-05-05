@@ -3984,20 +3984,20 @@
         {
             "Name": "Preto",
             "Code": "NM27",
-            "Type": "",
-            "R": "Aquacolor",
-            "G": "55",
-            "B": "54",
-            "Hex": "52"
+            "Type": "Aquacolor",
+            "R": "55",
+            "G": "54",
+            "B": "52",
+            "Hex": "#373634"
         },
         {
             "Name": "Azul Marinho",
             "Code": "NM16",
             "Type": "Aquacolor",
-            "R": "245",
-            "G": "245",
-            "B": "245",
-            "Hex": "#F5F5F5"
+            "R": "0",
+            "G": "94",
+            "B": "119",
+            "Hex": "#005E77"
         },
         {
             "Name": "Vermelho Lumen",
@@ -4025,15 +4025,6 @@
             "G": "245",
             "B": "245",
             "Hex": "#F5F5F5"
-        },
-        {
-            "Name": "Acqua Marine",
-            "Code": "",
-            "Type": "Aquacolor",
-            "R": "0",
-            "G": "94",
-            "B": "119",
-            "Hex": "#005E77"
         },
         {
             "Name": "Vinho",
@@ -4097,15 +4088,6 @@
             "G": "111",
             "B": "110",
             "Hex": "#1F6F6E"
-        },
-        {
-            "Name": "Bege Claro",
-            "Code": "",
-            "Type": "Aquacolor",
-            "R": "228",
-            "G": "216",
-            "B": "188",
-            "Hex": "#E4D8BC"
         },
         {
             "Name": "Bege Mesti\u00e7o",
@@ -39262,6 +39244,1637 @@
             "G": "139",
             "B": "118",
             "Hex": "#9A8B76"
+        }
+    ],
+    "Ionic": [
+        {
+            "Name": "Big Bang Pink",
+            "Code": "IONIC-0270",
+            "Type": "Ionic Smart Colors",
+            "R": "223",
+            "G": "48",
+            "B": "115",
+            "Hex": "#DF3073"
+        },
+        {
+            "Name": "Brass",
+            "Code": "IONIC-0180",
+            "Type": "Ionic Smart Colors",
+            "R": "208",
+            "G": "174",
+            "B": "51",
+            "Hex": "#D0AE33"
+        },
+        {
+            "Name": "Gold",
+            "Code": "IONIC-0179",
+            "Type": "Ionic Smart Colors",
+            "R": "158",
+            "G": "134",
+            "B": "72",
+            "Hex": "#9E8648"
+        },
+        {
+            "Name": "Bronze",
+            "Code": "IONIC-0178",
+            "Type": "Ionic Smart Colors",
+            "R": "166",
+            "G": "107",
+            "B": "31",
+            "Hex": "#A66B1F"
+        },
+        {
+            "Name": "Copper",
+            "Code": "IONIC-0177",
+            "Type": "Ionic Smart Colors",
+            "R": "137",
+            "G": "83",
+            "B": "39",
+            "Hex": "#895327"
+        },
+        {
+            "Name": "Burnt Metal",
+            "Code": "IONIC-0176",
+            "Type": "Ionic Smart Colors",
+            "R": "42",
+            "G": "22",
+            "B": "13",
+            "Hex": "#2A160D"
+        },
+        {
+            "Name": "Silver",
+            "Code": "IONIC-0175",
+            "Type": "Ionic Smart Colors",
+            "R": "217",
+            "G": "217",
+            "B": "217",
+            "Hex": "#D9D9D9"
+        },
+        {
+            "Name": "Steel",
+            "Code": "IONIC-0174",
+            "Type": "Ionic Smart Colors",
+            "R": "195",
+            "G": "195",
+            "B": "195",
+            "Hex": "#C3C3C3"
+        },
+        {
+            "Name": "Black Metal",
+            "Code": "IONIC-0173",
+            "Type": "Ionic Smart Colors",
+            "R": "27",
+            "G": "27",
+            "B": "27",
+            "Hex": "#1B1B1B"
+        },
+        {
+            "Name": "Black",
+            "Code": "IONIC-0172",
+            "Type": "Ionic Smart Colors",
+            "R": "0",
+            "G": "0",
+            "B": "0",
+            "Hex": "#000000"
+        },
+        {
+            "Name": "Dark Grey",
+            "Code": "IONIC-0171",
+            "Type": "Ionic Smart Colors",
+            "R": "30",
+            "G": "39",
+            "B": "48",
+            "Hex": "#1E2730"
+        },
+        {
+            "Name": "Cold Black",
+            "Code": "IONIC-0170",
+            "Type": "Ionic Smart Colors",
+            "R": "36",
+            "G": "41",
+            "B": "35",
+            "Hex": "#242923"
+        },
+        {
+            "Name": "Neutral Grey",
+            "Code": "IONIC-0169",
+            "Type": "Ionic Smart Colors",
+            "R": "95",
+            "G": "108",
+            "B": "117",
+            "Hex": "#5F6C75"
+        },
+        {
+            "Name": "Armour Grey",
+            "Code": "IONIC-0168",
+            "Type": "Ionic Smart Colors",
+            "R": "141",
+            "G": "167",
+            "B": "158",
+            "Hex": "#8DA79E"
+        },
+        {
+            "Name": "Steel Shadow",
+            "Code": "IONIC-0167",
+            "Type": "Ionic Smart Colors",
+            "R": "39",
+            "G": "58",
+            "B": "73",
+            "Hex": "#273A49"
+        },
+        {
+            "Name": "Admiral Grey",
+            "Code": "IONIC-0166",
+            "Type": "Ionic Smart Colors",
+            "R": "82",
+            "G": "108",
+            "B": "97",
+            "Hex": "#526C61"
+        },
+        {
+            "Name": "Sword Grey",
+            "Code": "IONIC-0165",
+            "Type": "Ionic Smart Colors",
+            "R": "168",
+            "G": "191",
+            "B": "197",
+            "Hex": "#A8BFC5"
+        },
+        {
+            "Name": "Moon Grey",
+            "Code": "IONIC-0164",
+            "Type": "Ionic Smart Colors",
+            "R": "172",
+            "G": "174",
+            "B": "163",
+            "Hex": "#ACAEA3"
+        },
+        {
+            "Name": "Warm Grey",
+            "Code": "IONIC-0163",
+            "Type": "Ionic Smart Colors",
+            "R": "162",
+            "G": "155",
+            "B": "147",
+            "Hex": "#A29B93"
+        },
+        {
+            "Name": "Burnt Umber",
+            "Code": "IONIC-0161",
+            "Type": "Ionic Smart Colors",
+            "R": "82",
+            "G": "56",
+            "B": "43",
+            "Hex": "#52382B"
+        },
+        {
+            "Name": "Black Brown",
+            "Code": "IONIC-0160",
+            "Type": "Ionic Smart Colors",
+            "R": "65",
+            "G": "33",
+            "B": "34",
+            "Hex": "#412122"
+        },
+        {
+            "Name": "Stonewall Grey",
+            "Code": "IONIC-0159",
+            "Type": "Ionic Smart Colors",
+            "R": "129",
+            "G": "104",
+            "B": "110",
+            "Hex": "#81686E"
+        },
+        {
+            "Name": "Dark Skin",
+            "Code": "IONIC-0158",
+            "Type": "Ionic Smart Colors",
+            "R": "96",
+            "G": "54",
+            "B": "40",
+            "Hex": "#603628"
+        },
+        {
+            "Name": "Demon Red",
+            "Code": "IONIC-0157",
+            "Type": "Ionic Smart Colors",
+            "R": "153",
+            "G": "113",
+            "B": "121",
+            "Hex": "#997179"
+        },
+        {
+            "Name": "Rust",
+            "Code": "IONIC-0156",
+            "Type": "Ionic Smart Colors",
+            "R": "143",
+            "G": "45",
+            "B": "44",
+            "Hex": "#8F2D2C"
+        },
+        {
+            "Name": "Light Rust",
+            "Code": "IONIC-0155",
+            "Type": "Ionic Smart Colors",
+            "R": "206",
+            "G": "100",
+            "B": "22",
+            "Hex": "#CE6416"
+        },
+        {
+            "Name": "Brown",
+            "Code": "IONIC-0154",
+            "Type": "Ionic Smart Colors",
+            "R": "143",
+            "G": "74",
+            "B": "33",
+            "Hex": "#8F4A21"
+        },
+        {
+            "Name": "Vermin Brown",
+            "Code": "IONIC-0153",
+            "Type": "Ionic Smart Colors",
+            "R": "129",
+            "G": "60",
+            "B": "45",
+            "Hex": "#813C2D"
+        },
+        {
+            "Name": "Leather Brown",
+            "Code": "IONIC-0152",
+            "Type": "Ionic Smart Colors",
+            "R": "159",
+            "G": "94",
+            "B": "26",
+            "Hex": "#9F5E1A"
+        },
+        {
+            "Name": "Mushroom Brown",
+            "Code": "IONIC-0151",
+            "Type": "Ionic Smart Colors",
+            "R": "170",
+            "G": "89",
+            "B": "36",
+            "Hex": "#AA5924"
+        },
+        {
+            "Name": "Golden Sand",
+            "Code": "IONIC-0150",
+            "Type": "Ionic Smart Colors",
+            "R": "221",
+            "G": "139",
+            "B": "53",
+            "Hex": "#DD8B35"
+        },
+        {
+            "Name": "Sand",
+            "Code": "IONIC-0149",
+            "Type": "Ionic Smart Colors",
+            "R": "216",
+            "G": "168",
+            "B": "102",
+            "Hex": "#D8A866"
+        },
+        {
+            "Name": "Graveyard Earth",
+            "Code": "IONIC-0148",
+            "Type": "Ionic Smart Colors",
+            "R": "116",
+            "G": "85",
+            "B": "57",
+            "Hex": "#745539"
+        },
+        {
+            "Name": "Brown Green",
+            "Code": "IONIC-0147",
+            "Type": "Ionic Smart Colors",
+            "R": "118",
+            "G": "97",
+            "B": "44",
+            "Hex": "#76612C"
+        },
+        {
+            "Name": "Rock Grey",
+            "Code": "IONIC-0146",
+            "Type": "Ionic Smart Colors",
+            "R": "98",
+            "G": "108",
+            "B": "58",
+            "Hex": "#626C3A"
+        },
+        {
+            "Name": "Dark Ochre",
+            "Code": "IONIC-0145",
+            "Type": "Ionic Smart Colors",
+            "R": "119",
+            "G": "87",
+            "B": "30",
+            "Hex": "#77571E"
+        },
+        {
+            "Name": "Old Bone",
+            "Code": "IONIC-0144",
+            "Type": "Ionic Smart Colors",
+            "R": "214",
+            "G": "197",
+            "B": "171",
+            "Hex": "#D6C5AB"
+        },
+        {
+            "Name": "Tombstone Yellow",
+            "Code": "IONIC-0143",
+            "Type": "Ionic Smart Colors",
+            "R": "171",
+            "G": "157",
+            "B": "108",
+            "Hex": "#AB9D6C"
+        },
+        {
+            "Name": "Desert Yellow",
+            "Code": "IONIC-0142",
+            "Type": "Ionic Smart Colors",
+            "R": "188",
+            "G": "156",
+            "B": "95",
+            "Hex": "#BC9C5F"
+        },
+        {
+            "Name": "Dragon Green",
+            "Code": "IONIC-0141",
+            "Type": "Ionic Smart Colors",
+            "R": "82",
+            "G": "95",
+            "B": "51",
+            "Hex": "#525F33"
+        },
+        {
+            "Name": "Ogre Green",
+            "Code": "IONIC-0140",
+            "Type": "Ionic Smart Colors",
+            "R": "86",
+            "G": "114",
+            "B": "65",
+            "Hex": "#567241"
+        },
+        {
+            "Name": "Camo Green",
+            "Code": "IONIC-0139",
+            "Type": "Ionic Smart Colors",
+            "R": "159",
+            "G": "154",
+            "B": "2",
+            "Hex": "#9F9A02"
+        },
+        {
+            "Name": "Frog Green",
+            "Code": "IONIC-0138",
+            "Type": "Ionic Smart Colors",
+            "R": "163",
+            "G": "171",
+            "B": "0",
+            "Hex": "#A3AB00"
+        },
+        {
+            "Name": "Light Olive Green",
+            "Code": "IONIC-0137",
+            "Type": "Ionic Smart Colors",
+            "R": "185",
+            "G": "192",
+            "B": "0",
+            "Hex": "#B9C000"
+        },
+        {
+            "Name": "Ghostly Green",
+            "Code": "IONIC-0136",
+            "Type": "Ionic Smart Colors",
+            "R": "216",
+            "G": "233",
+            "B": "105",
+            "Hex": "#D8E969"
+        },
+        {
+            "Name": "Rotten Green",
+            "Code": "IONIC-0135",
+            "Type": "Ionic Smart Colors",
+            "R": "210",
+            "G": "224",
+            "B": "191",
+            "Hex": "#D2E0BF"
+        },
+        {
+            "Name": "Stone Green",
+            "Code": "IONIC-0134",
+            "Type": "Ionic Smart Colors",
+            "R": "171",
+            "G": "196",
+            "B": "139",
+            "Hex": "#ABC48B"
+        },
+        {
+            "Name": "Mystic Green",
+            "Code": "IONIC-0133",
+            "Type": "Ionic Smart Colors",
+            "R": "183",
+            "G": "215",
+            "B": "130",
+            "Hex": "#B7D782"
+        },
+        {
+            "Name": "Acid Green",
+            "Code": "IONIC-0132",
+            "Type": "Ionic Smart Colors",
+            "R": "227",
+            "G": "225",
+            "B": "0",
+            "Hex": "#E3E100"
+        },
+        {
+            "Name": "Olive Green",
+            "Code": "IONIC-0131",
+            "Type": "Ionic Smart Colors",
+            "R": "127",
+            "G": "158",
+            "B": "2",
+            "Hex": "#7F9E02"
+        },
+        {
+            "Name": "Laser Green",
+            "Code": "IONIC-0130",
+            "Type": "Ionic Smart Colors",
+            "R": "127",
+            "G": "206",
+            "B": "0",
+            "Hex": "#7FCE00"
+        },
+        {
+            "Name": "Moss Green",
+            "Code": "IONIC-0129",
+            "Type": "Ionic Smart Colors",
+            "R": "105",
+            "G": "146",
+            "B": "28",
+            "Hex": "#69921C"
+        },
+        {
+            "Name": "Goblin Green",
+            "Code": "IONIC-0128",
+            "Type": "Ionic Smart Colors",
+            "R": "133",
+            "G": "162",
+            "B": "104",
+            "Hex": "#85A268"
+        },
+        {
+            "Name": "Nymph Green",
+            "Code": "IONIC-0127",
+            "Type": "Ionic Smart Colors",
+            "R": "74",
+            "G": "166",
+            "B": "67",
+            "Hex": "#4AA643"
+        },
+        {
+            "Name": "Orc Green",
+            "Code": "IONIC-0126",
+            "Type": "Ionic Smart Colors",
+            "R": "1",
+            "G": "137",
+            "B": "35",
+            "Hex": "#018923"
+        },
+        {
+            "Name": "Forest Green",
+            "Code": "IONIC-0125",
+            "Type": "Ionic Smart Colors",
+            "R": "35",
+            "G": "91",
+            "B": "52",
+            "Hex": "#235B34"
+        },
+        {
+            "Name": "Dark Green",
+            "Code": "IONIC-0124",
+            "Type": "Ionic Smart Colors",
+            "R": "0",
+            "G": "76",
+            "B": "30",
+            "Hex": "#004C1E"
+        },
+        {
+            "Name": "Lizard Green",
+            "Code": "IONIC-0123",
+            "Type": "Ionic Smart Colors",
+            "R": "53",
+            "G": "90",
+            "B": "39",
+            "Hex": "#355A27"
+        },
+        {
+            "Name": "Dark Marine Green",
+            "Code": "IONIC-0122",
+            "Type": "Ionic Smart Colors",
+            "R": "4",
+            "G": "99",
+            "B": "31",
+            "Hex": "#04631F"
+        },
+        {
+            "Name": "Scaly Green",
+            "Code": "IONIC-0121",
+            "Type": "Ionic Smart Colors",
+            "R": "2",
+            "G": "89",
+            "B": "83",
+            "Hex": "#025953"
+        },
+        {
+            "Name": "Black Forest",
+            "Code": "IONIC-0120",
+            "Type": "Ionic Smart Colors",
+            "R": "30",
+            "G": "63",
+            "B": "54",
+            "Hex": "#1E3F36"
+        },
+        {
+            "Name": "Green",
+            "Code": "IONIC-0119",
+            "Type": "Ionic Smart Colors",
+            "R": "0",
+            "G": "141",
+            "B": "65",
+            "Hex": "#008D41"
+        },
+        {
+            "Name": "Emerald Green",
+            "Code": "IONIC-0118",
+            "Type": "Ionic Smart Colors",
+            "R": "0",
+            "G": "154",
+            "B": "112",
+            "Hex": "#009A70"
+        },
+        {
+            "Name": "Jade Green",
+            "Code": "IONIC-0117",
+            "Type": "Ionic Smart Colors",
+            "R": "1",
+            "G": "154",
+            "B": "134",
+            "Hex": "#019A86"
+        },
+        {
+            "Name": "Magic Green",
+            "Code": "IONIC-0116",
+            "Type": "Ionic Smart Colors",
+            "R": "0",
+            "G": "201",
+            "B": "182",
+            "Hex": "#00C9B6"
+        },
+        {
+            "Name": "Light Jade Green",
+            "Code": "IONIC-0115",
+            "Type": "Ionic Smart Colors",
+            "R": "150",
+            "G": "217",
+            "B": "176",
+            "Hex": "#96D9B0"
+        },
+        {
+            "Name": "Mint Green",
+            "Code": "IONIC-0114",
+            "Type": "Ionic Smart Colors",
+            "R": "152",
+            "G": "250",
+            "B": "211",
+            "Hex": "#98FAD3"
+        },
+        {
+            "Name": "Phantom Blue",
+            "Code": "IONIC-0113",
+            "Type": "Ionic Smart Colors",
+            "R": "139",
+            "G": "189",
+            "B": "178",
+            "Hex": "#8BBDB2"
+        },
+        {
+            "Name": "Green Oxide",
+            "Code": "IONIC-0112",
+            "Type": "Ionic Smart Colors",
+            "R": "145",
+            "G": "243",
+            "B": "194",
+            "Hex": "#91F3C2"
+        },
+        {
+            "Name": "Verdigris",
+            "Code": "IONIC-0111",
+            "Type": "Ionic Smart Colors",
+            "R": "129",
+            "G": "225",
+            "B": "213",
+            "Hex": "#81E1D5"
+        },
+        {
+            "Name": "Cloud Blue",
+            "Code": "IONIC-0110",
+            "Type": "Ionic Smart Colors",
+            "R": "143",
+            "G": "225",
+            "B": "219",
+            "Hex": "#8FE1DB"
+        },
+        {
+            "Name": "Light Blue",
+            "Code": "IONIC-0109",
+            "Type": "Ionic Smart Colors",
+            "R": "45",
+            "G": "212",
+            "B": "204",
+            "Hex": "#2DD4CC"
+        },
+        {
+            "Name": "Light Turquoise",
+            "Code": "IONIC-0108",
+            "Type": "Ionic Smart Colors",
+            "R": "1",
+            "G": "166",
+            "B": "160",
+            "Hex": "#01A6A0"
+        },
+        {
+            "Name": "Seawater",
+            "Code": "IONIC-0107",
+            "Type": "Ionic Smart Colors",
+            "R": "1",
+            "G": "111",
+            "B": "86",
+            "Hex": "#016F56"
+        },
+        {
+            "Name": "Turquoise",
+            "Code": "IONIC-0106",
+            "Type": "Ionic Smart Colors",
+            "R": "1",
+            "G": "145",
+            "B": "154",
+            "Hex": "#01919A"
+        },
+        {
+            "Name": "Storm Blue",
+            "Code": "IONIC-0105",
+            "Type": "Ionic Smart Colors",
+            "R": "19",
+            "G": "97",
+            "B": "107",
+            "Hex": "#13616B"
+        },
+        {
+            "Name": "Dark Turquoise",
+            "Code": "IONIC-0104",
+            "Type": "Ionic Smart Colors",
+            "R": "27",
+            "G": "109",
+            "B": "123",
+            "Hex": "#1B6D7B"
+        },
+        {
+            "Name": "Ocean Blue",
+            "Code": "IONIC-0103",
+            "Type": "Ionic Smart Colors",
+            "R": "0",
+            "G": "86",
+            "B": "87",
+            "Hex": "#005657"
+        },
+        {
+            "Name": "Dark Sea Blue",
+            "Code": "IONIC-0102",
+            "Type": "Ionic Smart Colors",
+            "R": "0",
+            "G": "63",
+            "B": "72",
+            "Hex": "#003F48"
+        },
+        {
+            "Name": "Prussian Blue",
+            "Code": "IONIC-0101",
+            "Type": "Ionic Smart Colors",
+            "R": "0",
+            "G": "47",
+            "B": "117",
+            "Hex": "#002F75"
+        },
+        {
+            "Name": "Midnight Blue",
+            "Code": "IONIC-0100",
+            "Type": "Ionic Smart Colors",
+            "R": "0",
+            "G": "23",
+            "B": "83",
+            "Hex": "#001753"
+        },
+        {
+            "Name": "Abyss Blue",
+            "Code": "IONIC-0099",
+            "Type": "Ionic Smart Colors",
+            "R": "0",
+            "G": "61",
+            "B": "116",
+            "Hex": "#003D74"
+        },
+        {
+            "Name": "Sapphire Blue",
+            "Code": "IONIC-0098",
+            "Type": "Ionic Smart Colors",
+            "R": "2",
+            "G": "20",
+            "B": "106",
+            "Hex": "#02146A"
+        },
+        {
+            "Name": "Astral Blue",
+            "Code": "IONIC-0097",
+            "Type": "Ionic Smart Colors",
+            "R": "0",
+            "G": "33",
+            "B": "128",
+            "Hex": "#002180"
+        },
+        {
+            "Name": "Phthalo Blue",
+            "Code": "IONIC-0096",
+            "Type": "Ionic Smart Colors",
+            "R": "1",
+            "G": "91",
+            "B": "187",
+            "Hex": "#015BBB"
+        },
+        {
+            "Name": "Ultramarine Blue",
+            "Code": "IONIC-0095",
+            "Type": "Ionic Smart Colors",
+            "R": "25",
+            "G": "101",
+            "B": "177",
+            "Hex": "#1965B1"
+        },
+        {
+            "Name": "Enchanted Blue",
+            "Code": "IONIC-0094",
+            "Type": "Ionic Smart Colors",
+            "R": "1",
+            "G": "108",
+            "B": "190",
+            "Hex": "#016CBE"
+        },
+        {
+            "Name": "Lightning Blue",
+            "Code": "IONIC-0093",
+            "Type": "Ionic Smart Colors",
+            "R": "1",
+            "G": "149",
+            "B": "221",
+            "Hex": "#0195DD"
+        },
+        {
+            "Name": "Sky Blue",
+            "Code": "IONIC-0092",
+            "Type": "Ionic Smart Colors",
+            "R": "69",
+            "G": "175",
+            "B": "237",
+            "Hex": "#45AFED"
+        },
+        {
+            "Name": "Frost Blue",
+            "Code": "IONIC-0091",
+            "Type": "Ionic Smart Colors",
+            "R": "77",
+            "G": "203",
+            "B": "228",
+            "Hex": "#4DCBE4"
+        },
+        {
+            "Name": "Wolf Grey",
+            "Code": "IONIC-0090",
+            "Type": "Ionic Smart Colors",
+            "R": "189",
+            "G": "214",
+            "B": "221",
+            "Hex": "#BDD6DD"
+        },
+        {
+            "Name": "Mediterranean Blue",
+            "Code": "IONIC-0089",
+            "Type": "Ionic Smart Colors",
+            "R": "41",
+            "G": "122",
+            "B": "178",
+            "Hex": "#297AB2"
+        },
+        {
+            "Name": "Shadow Grey",
+            "Code": "IONIC-0088",
+            "Type": "Ionic Smart Colors",
+            "R": "54",
+            "G": "106",
+            "B": "130",
+            "Hex": "#366A82"
+        },
+        {
+            "Name": "Rainfall Blue",
+            "Code": "IONIC-0087",
+            "Type": "Ionic Smart Colors",
+            "R": "98",
+            "G": "143",
+            "B": "184",
+            "Hex": "#628FB8"
+        },
+        {
+            "Name": "Oxford Blue",
+            "Code": "IONIC-0086",
+            "Type": "Ionic Smart Colors",
+            "R": "101",
+            "G": "97",
+            "B": "122",
+            "Hex": "#65617A"
+        },
+        {
+            "Name": "Smoke Grey",
+            "Code": "IONIC-0085",
+            "Type": "Ionic Smart Colors",
+            "R": "169",
+            "G": "172",
+            "B": "191",
+            "Hex": "#A9ACBF"
+        },
+        {
+            "Name": "Ice Blue",
+            "Code": "IONIC-0084",
+            "Type": "Ionic Smart Colors",
+            "R": "193",
+            "G": "204",
+            "B": "234",
+            "Hex": "#C1CCEA"
+        },
+        {
+            "Name": "Dead Pink",
+            "Code": "IONIC-0083",
+            "Type": "Ionic Smart Colors",
+            "R": "225",
+            "G": "202",
+            "B": "231",
+            "Hex": "#E1CAE7"
+        },
+        {
+            "Name": "Light Lavender",
+            "Code": "IONIC-0082",
+            "Type": "Ionic Smart Colors",
+            "R": "199",
+            "G": "183",
+            "B": "228",
+            "Hex": "#C7B7E4"
+        },
+        {
+            "Name": "Lavender",
+            "Code": "IONIC-0081",
+            "Type": "Ionic Smart Colors",
+            "R": "150",
+            "G": "103",
+            "B": "207",
+            "Hex": "#9667CF"
+        },
+        {
+            "Name": "Blue Violet",
+            "Code": "IONIC-0080",
+            "Type": "Ionic Smart Colors",
+            "R": "150",
+            "G": "103",
+            "B": "207",
+            "Hex": "#9667CF"
+        },
+        {
+            "Name": "Purple",
+            "Code": "IONIC-0079",
+            "Type": "Ionic Smart Colors",
+            "R": "86",
+            "G": "47",
+            "B": "114",
+            "Hex": "#562F72"
+        },
+        {
+            "Name": "Twilight Purple",
+            "Code": "IONIC-0078",
+            "Type": "Ionic Smart Colors",
+            "R": "73",
+            "G": "80",
+            "B": "132",
+            "Hex": "#495084"
+        },
+        {
+            "Name": "Misty Grey",
+            "Code": "IONIC-0077",
+            "Type": "Ionic Smart Colors",
+            "R": "85",
+            "G": "43",
+            "B": "83",
+            "Hex": "#552B53"
+        },
+        {
+            "Name": "Deep Violet",
+            "Code": "IONIC-0076",
+            "Type": "Ionic Smart Colors",
+            "R": "100",
+            "G": "34",
+            "B": "108",
+            "Hex": "#64226C"
+        },
+        {
+            "Name": "Warlock Purple",
+            "Code": "IONIC-0075",
+            "Type": "Ionic Smart Colors",
+            "R": "100",
+            "G": "34",
+            "B": "108",
+            "Hex": "#64226C"
+        },
+        {
+            "Name": "Dark Violet",
+            "Code": "IONIC-0074",
+            "Type": "Ionic Smart Colors",
+            "R": "44",
+            "G": "20",
+            "B": "16",
+            "Hex": "#2C1410"
+        },
+        {
+            "Name": "Scab Red",
+            "Code": "IONIC-0073",
+            "Type": "Ionic Smart Colors",
+            "R": "85",
+            "G": "39",
+            "B": "49",
+            "Hex": "#552731"
+        },
+        {
+            "Name": "Octopus Purple",
+            "Code": "IONIC-0072",
+            "Type": "Ionic Smart Colors",
+            "R": "100",
+            "G": "57",
+            "B": "87",
+            "Hex": "#643957"
+        },
+        {
+            "Name": "Magic Purple",
+            "Code": "IONIC-0071",
+            "Type": "Ionic Smart Colors",
+            "R": "137",
+            "G": "0",
+            "B": "106",
+            "Hex": "#89006A"
+        },
+        {
+            "Name": "Malicious Violet",
+            "Code": "IONIC-0070",
+            "Type": "Ionic Smart Colors",
+            "R": "131",
+            "G": "76",
+            "B": "107",
+            "Hex": "#834C6B"
+        },
+        {
+            "Name": "Dark Magenta",
+            "Code": "IONIC-0069",
+            "Type": "Ionic Smart Colors",
+            "R": "148",
+            "G": "0",
+            "B": "76",
+            "Hex": "#94004C"
+        },
+        {
+            "Name": "Magenta",
+            "Code": "IONIC-0068",
+            "Type": "Ionic Smart Colors",
+            "R": "166",
+            "G": "0",
+            "B": "108",
+            "Hex": "#A6006C"
+        },
+        {
+            "Name": "Light Magenta",
+            "Code": "IONIC-0067",
+            "Type": "Ionic Smart Colors",
+            "R": "180",
+            "G": "23",
+            "B": "138",
+            "Hex": "#B4178A"
+        },
+        {
+            "Name": "Gum Pink",
+            "Code": "IONIC-0065",
+            "Type": "Ionic Smart Colors",
+            "R": "245",
+            "G": "186",
+            "B": "208",
+            "Hex": "#F5BAD0"
+        },
+        {
+            "Name": "Laser Pink",
+            "Code": "IONIC-0064",
+            "Type": "Ionic Smart Colors",
+            "R": "254",
+            "G": "65",
+            "B": "185",
+            "Hex": "#FE41B9"
+        },
+        {
+            "Name": "Pink",
+            "Code": "IONIC-0063",
+            "Type": "Ionic Smart Colors",
+            "R": "232",
+            "G": "136",
+            "B": "173",
+            "Hex": "#E888AD"
+        },
+        {
+            "Name": "Cold Pink",
+            "Code": "IONIC-0062",
+            "Type": "Ionic Smart Colors",
+            "R": "235",
+            "G": "187",
+            "B": "229",
+            "Hex": "#EBBBE5"
+        },
+        {
+            "Name": "Dead Magenta",
+            "Code": "IONIC-0061",
+            "Type": "Ionic Smart Colors",
+            "R": "241",
+            "G": "200",
+            "B": "194",
+            "Hex": "#F1C8C2"
+        },
+        {
+            "Name": "Thanatos Grey",
+            "Code": "IONIC-0060",
+            "Type": "Ionic Smart Colors",
+            "R": "169",
+            "G": "138",
+            "B": "154",
+            "Hex": "#A98A9A"
+        },
+        {
+            "Name": "Cardinal Purple",
+            "Code": "IONIC-0059",
+            "Type": "Ionic Smart Colors",
+            "R": "94",
+            "G": "41",
+            "B": "35",
+            "Hex": "#5E2923"
+        },
+        {
+            "Name": "Dark Red",
+            "Code": "IONIC-0058",
+            "Type": "Ionic Smart Colors",
+            "R": "126",
+            "G": "32",
+            "B": "30",
+            "Hex": "#7E201E"
+        },
+        {
+            "Name": "Grape Red",
+            "Code": "IONIC-0057",
+            "Type": "Ionic Smart Colors",
+            "R": "126",
+            "G": "49",
+            "B": "67",
+            "Hex": "#7E3143"
+        },
+        {
+            "Name": "Blood Moon Red",
+            "Code": "IONIC-0056",
+            "Type": "Ionic Smart Colors",
+            "R": "160",
+            "G": "41",
+            "B": "71",
+            "Hex": "#A02947"
+        },
+        {
+            "Name": "Wine Red",
+            "Code": "IONIC-0055",
+            "Type": "Ionic Smart Colors",
+            "R": "123",
+            "G": "37",
+            "B": "50",
+            "Hex": "#7B2532"
+        },
+        {
+            "Name": "Red",
+            "Code": "IONIC-0054",
+            "Type": "Ionic Smart Colors",
+            "R": "186",
+            "G": "51",
+            "B": "47",
+            "Hex": "#BA332F"
+        },
+        {
+            "Name": "Superhero Red",
+            "Code": "IONIC-0053",
+            "Type": "Ionic Smart Colors",
+            "R": "230",
+            "G": "0",
+            "B": "46",
+            "Hex": "#E6002E"
+        },
+        {
+            "Name": "Blood Red",
+            "Code": "IONIC-0052",
+            "Type": "Ionic Smart Colors",
+            "R": "213",
+            "G": "43",
+            "B": "28",
+            "Hex": "#D52B1C"
+        },
+        {
+            "Name": "Devil Red",
+            "Code": "IONIC-0051",
+            "Type": "Ionic Smart Colors",
+            "R": "226",
+            "G": "81",
+            "B": "60",
+            "Hex": "#E2513C"
+        },
+        {
+            "Name": "Light Red",
+            "Code": "IONIC-0050",
+            "Type": "Ionic Smart Colors",
+            "R": "255",
+            "G": "91",
+            "B": "97",
+            "Hex": "#FF5B61"
+        },
+        {
+            "Name": "Shadow Orange",
+            "Code": "IONIC-0049",
+            "Type": "Ionic Smart Colors",
+            "R": "205",
+            "G": "120",
+            "B": "83",
+            "Hex": "#CD7853"
+        },
+        {
+            "Name": "Orange",
+            "Code": "IONIC-0048",
+            "Type": "Ionic Smart Colors",
+            "R": "228",
+            "G": "85",
+            "B": "6",
+            "Hex": "#E45506"
+        },
+        {
+            "Name": "Blazing Orange",
+            "Code": "IONIC-0047",
+            "Type": "Ionic Smart Colors",
+            "R": "237",
+            "G": "53",
+            "B": "1",
+            "Hex": "#ED3501"
+        },
+        {
+            "Name": "Light Orange",
+            "Code": "IONIC-0046",
+            "Type": "Ionic Smart Colors",
+            "R": "255",
+            "G": "133",
+            "B": "102",
+            "Hex": "#FF8566"
+        },
+        {
+            "Name": "Flame Orange",
+            "Code": "IONIC-0045",
+            "Type": "Ionic Smart Colors",
+            "R": "235",
+            "G": "141",
+            "B": "80",
+            "Hex": "#EB8D50"
+        },
+        {
+            "Name": "Peach",
+            "Code": "IONIC-0044",
+            "Type": "Ionic Smart Colors",
+            "R": "255",
+            "G": "168",
+            "B": "0",
+            "Hex": "#FFA800"
+        },
+        {
+            "Name": "Zombie Skin",
+            "Code": "IONIC-0043",
+            "Type": "Ionic Smart Colors",
+            "R": "225",
+            "G": "183",
+            "B": "133",
+            "Hex": "#E1B785"
+        },
+        {
+            "Name": "Vampire Skin",
+            "Code": "IONIC-0041",
+            "Type": "Ionic Smart Colors",
+            "R": "245",
+            "G": "237",
+            "B": "234",
+            "Hex": "#F5EDEA"
+        },
+        {
+            "Name": "Undead Skin",
+            "Code": "IONIC-0039",
+            "Type": "Ionic Smart Colors",
+            "R": "199",
+            "G": "173",
+            "B": "182",
+            "Hex": "#C7ADB6"
+        },
+        {
+            "Name": "Coral",
+            "Code": "IONIC-0038",
+            "Type": "Ionic Smart Colors",
+            "R": "246",
+            "G": "86",
+            "B": "122",
+            "Hex": "#F6567A"
+        },
+        {
+            "Name": "Old Red",
+            "Code": "IONIC-0037",
+            "Type": "Ionic Smart Colors",
+            "R": "222",
+            "G": "139",
+            "B": "157",
+            "Hex": "#DE8B9D"
+        },
+        {
+            "Name": "Light Coral",
+            "Code": "IONIC-0036",
+            "Type": "Ionic Smart Colors",
+            "R": "255",
+            "G": "180",
+            "B": "190",
+            "Hex": "#FFB4BE"
+        },
+        {
+            "Name": "Neutral Flesh",
+            "Code": "IONIC-0035",
+            "Type": "Ionic Smart Colors",
+            "R": "216",
+            "G": "152",
+            "B": "143",
+            "Hex": "#D8988F"
+        },
+        {
+            "Name": "Tanned Flesh",
+            "Code": "IONIC-0034",
+            "Type": "Ionic Smart Colors",
+            "R": "177",
+            "G": "110",
+            "B": "101",
+            "Hex": "#B16E65"
+        },
+        {
+            "Name": "Terracota",
+            "Code": "IONIC-0033",
+            "Type": "Ionic Smart Colors",
+            "R": "183",
+            "G": "64",
+            "B": "84",
+            "Hex": "#B74054"
+        },
+        {
+            "Name": "Dwarf Skin",
+            "Code": "IONIC-0032",
+            "Type": "Ionic Smart Colors",
+            "R": "233",
+            "G": "151",
+            "B": "130",
+            "Hex": "#E99782"
+        },
+        {
+            "Name": "Salmon",
+            "Code": "IONIC-0031",
+            "Type": "Ionic Smart Colors",
+            "R": "243",
+            "G": "133",
+            "B": "118",
+            "Hex": "#F38576"
+        },
+        {
+            "Name": "Imperial Flesh",
+            "Code": "IONIC-0030",
+            "Type": "Ionic Smart Colors",
+            "R": "221",
+            "G": "168",
+            "B": "116",
+            "Hex": "#DDA874"
+        },
+        {
+            "Name": "Golden Flesh",
+            "Code": "IONIC-0029",
+            "Type": "Ionic Smart Colors",
+            "R": "248",
+            "G": "177",
+            "B": "115",
+            "Hex": "#F8B173"
+        },
+        {
+            "Name": "Chibi Skin",
+            "Code": "IONIC-0028",
+            "Type": "Ionic Smart Colors",
+            "R": "255",
+            "G": "164",
+            "B": "111",
+            "Hex": "#FFA46F"
+        },
+        {
+            "Name": "Gnome Skin",
+            "Code": "IONIC-0027",
+            "Type": "Ionic Smart Colors",
+            "R": "254",
+            "G": "193",
+            "B": "164",
+            "Hex": "#FEC1A4"
+        },
+        {
+            "Name": "Elf Skin",
+            "Code": "IONIC-0026",
+            "Type": "Ionic Smart Colors",
+            "R": "248",
+            "G": "210",
+            "B": "173",
+            "Hex": "#F8D2AD"
+        },
+        {
+            "Name": "Light Golden Flesh",
+            "Code": "IONIC-0025",
+            "Type": "Ionic Smart Colors",
+            "R": "253",
+            "G": "211",
+            "B": "139",
+            "Hex": "#FDD38B"
+        },
+        {
+            "Name": "Khaki",
+            "Code": "IONIC-0024",
+            "Type": "Ionic Smart Colors",
+            "R": "178",
+            "G": "152",
+            "B": "55",
+            "Hex": "#B29837"
+        },
+        {
+            "Name": "Ochre",
+            "Code": "IONIC-0023",
+            "Type": "Ionic Smart Colors",
+            "R": "211",
+            "G": "150",
+            "B": "0",
+            "Hex": "#D39600"
+        },
+        {
+            "Name": "Bubonic Ochre",
+            "Code": "IONIC-0022",
+            "Type": "Ionic Smart Colors",
+            "R": "182",
+            "G": "132",
+            "B": "1",
+            "Hex": "#B68401"
+        },
+        {
+            "Name": "Golden Yellow",
+            "Code": "IONIC-0021",
+            "Type": "Ionic Smart Colors",
+            "R": "243",
+            "G": "176",
+            "B": "1",
+            "Hex": "#F3B001"
+        },
+        {
+            "Name": "Sun Stone",
+            "Code": "IONIC-0020",
+            "Type": "Ionic Smart Colors",
+            "R": "255",
+            "G": "189",
+            "B": "30",
+            "Hex": "#FFBD1E"
+        },
+        {
+            "Name": "Yellow",
+            "Code": "IONIC-0019",
+            "Type": "Ionic Smart Colors",
+            "R": "248",
+            "G": "213",
+            "B": "25",
+            "Hex": "#F8D519"
+        },
+        {
+            "Name": "Primary Yellow",
+            "Code": "IONIC-0018",
+            "Type": "Ionic Smart Colors",
+            "R": "244",
+            "G": "230",
+            "B": "1",
+            "Hex": "#F4E601"
+        },
+        {
+            "Name": "Plasma Green",
+            "Code": "IONIC-0017",
+            "Type": "Ionic Smart Colors",
+            "R": "179",
+            "G": "167",
+            "B": "65",
+            "Hex": "#B3A741"
+        },
+        {
+            "Name": "Poison Yellow",
+            "Code": "IONIC-0016",
+            "Type": "Ionic Smart Colors",
+            "R": "218",
+            "G": "205",
+            "B": "41",
+            "Hex": "#DACD29"
+        },
+        {
+            "Name": "Slime Yellow",
+            "Code": "IONIC-0015",
+            "Type": "Ionic Smart Colors",
+            "R": "239",
+            "G": "234",
+            "B": "29",
+            "Hex": "#EFEA1D"
+        },
+        {
+            "Name": "High Coverage Yellow",
+            "Code": "IONIC-0014",
+            "Type": "Ionic Smart Colors",
+            "R": "255",
+            "G": "245",
+            "B": "85",
+            "Hex": "#FFF555"
+        },
+        {
+            "Name": "Ice Yellow",
+            "Code": "IONIC-0013",
+            "Type": "Ionic Smart Colors",
+            "R": "250",
+            "G": "231",
+            "B": "162",
+            "Hex": "#FAE7A2"
+        },
+        {
+            "Name": "Vanilla",
+            "Code": "IONIC-0012",
+            "Type": "Ionic Smart Colors",
+            "R": "243",
+            "G": "241",
+            "B": "167",
+            "Hex": "#F3F1A7"
+        },
+        {
+            "Name": "Rotten Yellow",
+            "Code": "IONIC-0011",
+            "Type": "Ionic Smart Colors",
+            "R": "235",
+            "G": "226",
+            "B": "159",
+            "Hex": "#EBE29F"
+        },
+        {
+            "Name": "Desert Sand",
+            "Code": "IONIC-0010",
+            "Type": "Ionic Smart Colors",
+            "R": "220",
+            "G": "192",
+            "B": "144",
+            "Hex": "#DCC090"
+        },
+        {
+            "Name": "Bone",
+            "Code": "IONIC-0009",
+            "Type": "Ionic Smart Colors",
+            "R": "239",
+            "G": "234",
+            "B": "202",
+            "Hex": "#EFEACA"
+        },
+        {
+            "Name": "Fang Grey",
+            "Code": "IONIC-0008",
+            "Type": "Ionic Smart Colors",
+            "R": "206",
+            "G": "201",
+            "B": "182",
+            "Hex": "#CEC9B6"
+        },
+        {
+            "Name": "Deck Grey",
+            "Code": "IONIC-0007",
+            "Type": "Ionic Smart Colors",
+            "R": "193",
+            "G": "195",
+            "B": "181",
+            "Hex": "#C1C3B5"
+        },
+        {
+            "Name": "Zombie Green",
+            "Code": "IONIC-0006",
+            "Type": "Ionic Smart Colors",
+            "R": "226",
+            "G": "241",
+            "B": "222",
+            "Hex": "#E2F1DE"
+        },
+        {
+            "Name": "Albus White",
+            "Code": "IONIC-0005",
+            "Type": "Ionic Smart Colors",
+            "R": "233",
+            "G": "240",
+            "B": "233",
+            "Hex": "#E9F0E9"
+        },
+        {
+            "Name": "Fog Grey",
+            "Code": "IONIC-0004",
+            "Type": "Ionic Smart Colors",
+            "R": "219",
+            "G": "227",
+            "B": "229",
+            "Hex": "#DBE3E5"
+        },
+        {
+            "Name": "Pearl Grey",
+            "Code": "IONIC-0003",
+            "Type": "Ionic Smart Colors",
+            "R": "219",
+            "G": "218",
+            "B": "224",
+            "Hex": "#DBDAE0"
+        },
+        {
+            "Name": "Ivory",
+            "Code": "IONIC-0002",
+            "Type": "Ionic Smart Colors",
+            "R": "241",
+            "G": "242",
+            "B": "226",
+            "Hex": "#F1F2E2"
+        },
+        {
+            "Name": "Ruins Grey",
+            "Code": "IONIC-0162",
+            "Type": "Ionic Smart Colors",
+            "R": "169",
+            "G": "173",
+            "B": "156",
+            "Hex": "#A9AD9C"
+        },
+        {
+            "Name": "Tentacle Pink",
+            "Code": "IONIC-0066",
+            "Type": "Ionic Smart Colors",
+            "R": "239",
+            "G": "139",
+            "B": "211",
+            "Hex": "#EF8BD3"
+        },
+        {
+            "Name": "Rotten Flesh",
+            "Code": "IONIC-0042",
+            "Type": "Ionic Smart Colors",
+            "R": "205",
+            "G": "201",
+            "B": "153",
+            "Hex": "#CDC999"
+        },
+        {
+            "Name": "Pale Skin",
+            "Code": "IONIC-0040",
+            "Type": "Ionic Smart Colors",
+            "R": "244",
+            "G": "223",
+            "B": "218",
+            "Hex": "#F4DFDA"
+        },
+        {
+            "Name": "White",
+            "Code": "IONIC-0001",
+            "Type": "Ionic Smart Colors",
+            "R": "255",
+            "G": "255",
+            "B": "255",
+            "Hex": "#FFFFFF"
         }
     ]
 }
