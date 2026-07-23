@@ -1,0 +1,937 @@
+<title>Pegboard Bottle Holder — Parametric</title>
+<style>
+  :root {
+    --bg: #eef0f2;
+    --panel: #f7f8f9;
+    --panel-2: #eceef0;
+    --ink: #22252b;
+    --muted: #6a707d;
+    --line: #d8dbe0;
+    --accent: #a3720e;
+    --accent-ink: #fff8e8;
+    --accent-soft: rgba(163, 114, 14, 0.12);
+    --view-bg-top: #dfe3e7;
+    --view-bg-bot: #c9ced4;
+    --mesh: #d9a63a;
+    --board: #e4e0d7;
+    --board-hole: #b3ac9d;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14161b;
+      --panel: #1a1d24;
+      --panel-2: #21252e;
+      --ink: #e9e7e0;
+      --muted: #969ba8;
+      --line: #2a2e37;
+      --accent: #e6b13d;
+      --accent-ink: #1a1405;
+      --accent-soft: rgba(230, 177, 61, 0.14);
+      --view-bg-top: #191c22;
+      --view-bg-bot: #0e1013;
+      --mesh: #d9a63a;
+      --board: #5d4630;
+      --board-hole: #37291a;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #14161b; --panel: #1a1d24; --panel-2: #21252e; --ink: #e9e7e0;
+    --muted: #969ba8; --line: #2a2e37; --accent: #e6b13d; --accent-ink: #1a1405;
+    --accent-soft: rgba(230, 177, 61, 0.14);
+    --view-bg-top: #191c22; --view-bg-bot: #0e1013;
+    --mesh: #d9a63a; --board: #5d4630; --board-hole: #37291a;
+  }
+  :root[data-theme="light"] {
+    --bg: #eef0f2; --panel: #f7f8f9; --panel-2: #eceef0; --ink: #22252b;
+    --muted: #6a707d; --line: #d8dbe0; --accent: #a3720e; --accent-ink: #fff8e8;
+    --accent-soft: rgba(163, 114, 14, 0.12);
+    --view-bg-top: #dfe3e7; --view-bg-bot: #c9ced4;
+    --mesh: #d9a63a; --board: #e4e0d7; --board-hole: #b3ac9d;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif;
+    display: flex; flex-direction: column;
+  }
+  .mono, input, select, button, .stat, .val, label {
+    font-family: ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, monospace;
+  }
+  header {
+    display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+    padding: 10px 16px; border-bottom: 1px solid var(--line); background: var(--panel);
+  }
+  header h1 {
+    font: 700 15px/1.2 ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    letter-spacing: 0.12em; margin: 0; text-transform: uppercase;
+  }
+  header .sub { color: var(--muted); font-size: 12px; letter-spacing: 0.02em; }
+  header .spacer { flex: 1; }
+  select, button {
+    font-size: 13px; color: var(--ink); background: var(--panel-2);
+    border: 1px solid var(--line); border-radius: 4px; padding: 6px 10px;
+  }
+  button { cursor: pointer; }
+  button:hover { border-color: var(--muted); }
+  button:focus-visible, select:focus-visible, input:focus-visible {
+    outline: 2px solid var(--accent); outline-offset: 1px;
+  }
+  #dl {
+    background: var(--accent); color: var(--accent-ink); border-color: var(--accent);
+    font-weight: 700; padding: 6px 16px; letter-spacing: 0.04em;
+  }
+  #dl:hover { filter: brightness(1.08); }
+  main { flex: 1; display: flex; min-height: 0; }
+  aside {
+    width: 300px; flex: none; overflow-y: auto; background: var(--panel);
+    border-right: 1px solid var(--line); padding: 6px 0 20px;
+  }
+  details { border-bottom: 1px solid var(--line); }
+  summary {
+    cursor: pointer; padding: 9px 16px; font-weight: 700; font-size: 11px;
+    letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted);
+    list-style: none; user-select: none;
+  }
+  summary::-webkit-details-marker { display: none; }
+  summary::before { content: "▸ "; color: var(--accent); }
+  details[open] summary::before { content: "▾ "; }
+  summary:hover { color: var(--ink); }
+  .ctl { display: grid; grid-template-columns: 1fr 74px; gap: 2px 10px;
+         padding: 5px 16px 9px; align-items: center; }
+  .ctl label { grid-column: 1 / -1; font-size: 12px; color: var(--muted);
+               display: flex; justify-content: space-between; }
+  .ctl label .unit { opacity: 0.6; }
+  .ctl input[type="range"] { width: 100%; accent-color: var(--accent); margin: 0; height: 20px; }
+  .ctl input[type="number"] {
+    width: 74px; padding: 3px 6px; font-size: 13px; text-align: right;
+    color: var(--ink); background: var(--panel-2); border: 1px solid var(--line);
+    border-radius: 4px; font-variant-numeric: tabular-nums;
+  }
+  #viewport { flex: 1; position: relative; min-width: 0;
+    background: linear-gradient(var(--view-bg-top), var(--view-bg-bot)); }
+  canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block;
+           touch-action: none; cursor: grab; }
+  canvas:active { cursor: grabbing; }
+  #stats {
+    position: absolute; left: 12px; bottom: 10px; right: 12px;
+    display: flex; gap: 8px; flex-wrap: wrap; align-items: center;
+    pointer-events: none; font-variant-numeric: tabular-nums;
+  }
+  .stat {
+    background: color-mix(in srgb, var(--panel) 82%, transparent);
+    border: 1px solid var(--line); border-radius: 4px;
+    padding: 3px 9px; font-size: 12px; color: var(--ink);
+    backdrop-filter: blur(4px);
+  }
+  .stat b { color: var(--accent); font-weight: 700; }
+  #hint { position: absolute; top: 10px; right: 12px; font-size: 11px;
+          color: var(--muted); pointer-events: none;
+          font-family: ui-monospace, Menlo, Consolas, monospace; }
+  @media (max-width: 760px) {
+    main { flex-direction: column-reverse; }
+    aside { width: 100%; border-right: none; border-top: 1px solid var(--line);
+            max-height: 45vh; }
+    #viewport { min-height: 48vh; }
+  }
+</style>
+
+<header>
+  <div>
+    <h1>Pegboard Bottle Holder</h1>
+    <div class="sub">parametric &middot; Vallejo-style dropper bottles on pegboard</div>
+  </div>
+  <div class="spacer"></div>
+  <select id="units" title="Display units">
+    <option value="mm" selected>mm</option>
+    <option value="in">inches</option>
+  </select>
+  <select id="quality" title="Mesh quality">
+    <option value="0.4">draft mesh</option>
+    <option value="0.25" selected>standard mesh</option>
+    <option value="0.16">fine mesh</option>
+  </select>
+  <button id="reset" type="button">Reset</button>
+  <button id="dl" type="button">Download STL</button>
+</header>
+
+<main>
+  <aside id="controls"></aside>
+  <section id="viewport">
+    <canvas id="gl"></canvas>
+    <div id="hint">drag orbit &middot; scroll zoom &middot; dblclick reset</div>
+    <div id="stats"></div>
+  </section>
+</main>
+
+<script>
+'use strict';
+// ========================== geometry engine ==========================
+// Port of pegboard_bottles.scad. The solid is a stack of z-bands, each
+// with a constant cross-section defined as a signed field (CSG min/max),
+// polygonized per band with marching squares: side walls from contour
+// chords, caps from exposed regions at band interfaces. Pegs are closed
+// cylinders overlapping 1 mm into the peg plate.
+
+const DEFAULTS = {
+  bottles: 5, bottle_r: 13, gap: 3, wall: 2, clearance: 1,
+  base_h: 6.65, fill_h: 5, floor_h: 2, tab_h: 4, tab_w: 10,
+  wall_h: 38.6, plate_z: 26.2, plate_top: 38.9, plate_t: 3.5,
+  pegs: 2, peg_r: 2.4, peg_len: 13, peg_z: 34, board_pitch: 10,
+};
+
+function derive(P) {
+  const n = Math.max(1, Math.round(P.bottles));
+  const pitch = 2 * P.bottle_r + P.gap;
+  const outer_r = P.bottle_r + P.wall;
+  const cx = [];
+  for (let i = 0; i < n; i++) cx.push((i - (n - 1) / 2) * pitch);
+  const back_y = outer_r;
+  const board_y = back_y + 3;
+  const wall_half = Math.max(n - 3, 1) * pitch / 2;
+  const peg_half = P.board_pitch * Math.max(1, Math.floor(2 * wall_half / P.board_pitch)) / 2;
+  const plate_half = Math.min(peg_half + P.board_pitch / 2, cx[n - 1] + outer_r);
+  const scallop_r = outer_r;
+  const slab_front = -P.clearance +
+    Math.sqrt(Math.max(0, scallop_r * scallop_r - (pitch / 2) * (pitch / 2)));
+  const drain_r = Math.max(0, Math.min(P.bottle_r - 6, 7));
+  // Peg positions: outer pegs at +-peg_half, the rest spread symmetrically
+  // over the board holes in between.
+  const peg_m = Math.round(2 * peg_half / P.board_pitch);
+  const peg_n = Math.max(2, Math.round(P.pegs || 2));
+  const ks = new Set();
+  for (let i = 0; i < peg_n; i++) {
+    const k = i <= (peg_n - 1) / 2
+      ? Math.round(i * peg_m / (peg_n - 1))
+      : peg_m - Math.round((peg_n - 1 - i) * peg_m / (peg_n - 1));
+    ks.add(k);
+  }
+  const pegXs = [...ks].sort((a, b) => a - b)
+    .map(k => -peg_half + k * P.board_pitch);
+  return { n, pitch, outer_r, cx, back_y, board_y, wall_half, peg_half,
+           plate_half, scallop_r, slab_front, drain_r, peg_m, pegXs };
+}
+
+function makeField(P, D) {
+  const { n, cx, outer_r, back_y, board_y, wall_half, plate_half,
+          scallop_r, slab_front, drain_r } = D;
+  const tabs = [[cx[0], cx[0] + P.tab_w], [-P.tab_w, P.tab_w]];
+  if (n > 1) tabs.push([cx[n - 1] - P.tab_w, cx[n - 1]]);
+  const plate_y0 = back_y - 0.5, plate_y1 = plate_y0 + P.plate_t;
+  return function (x, y, z) {
+    let f = -1e9;
+    if (z < P.base_h)
+      for (let i = 0; i < n; i++) {
+        const d = outer_r - Math.hypot(x - cx[i], y); if (d > f) f = d;
+      }
+    if (z < P.fill_h && n > 1) {
+      const d = Math.min(x - cx[0], cx[n - 1] - x, y, back_y - y);
+      if (d > f) f = d;
+    }
+    if (z < P.wall_h) {
+      const d = Math.min(x + wall_half, wall_half - x, y - slab_front, back_y - y);
+      if (d > f) f = d;
+    }
+    if (z < P.tab_h)
+      for (const t of tabs) {
+        const d = Math.min(x - t[0], t[1] - x, y - back_y, board_y - y);
+        if (d > f) f = d;
+      }
+    if (z > P.plate_z && z < P.plate_top) {
+      const d = Math.min(x + plate_half, plate_half - x, y - plate_y0, plate_y1 - y);
+      if (d > f) f = d;
+    }
+    if (z < P.floor_h && drain_r > 0)
+      for (let i = 0; i < n; i++) {
+        const d = Math.hypot(x - cx[i], y) - drain_r; if (d < f) f = d;
+      }
+    if (z >= P.floor_h && z < P.base_h)
+      for (let i = 0; i < n; i++) {
+        const d = Math.hypot(x - cx[i], y) - P.bottle_r; if (d < f) f = d;
+      }
+    if (z >= P.base_h && z < P.wall_h)
+      for (let i = 0; i < n; i++) {
+        const d = Math.hypot(x - cx[i], y + P.clearance) - scallop_r; if (d < f) f = d;
+      }
+    return f;
+  };
+}
+
+// Marching-squares geometry for one cell (corner values/coords CCW from
+// bottom-left). Chords run exit -> entry, inside region on the left.
+function cellGeom(v, c, centerInside) {
+  const items = [];
+  for (let k = 0; k < 4; k++) {
+    const a = v[k], b = v[(k + 1) % 4];
+    if (a > 0) items.push({ p: c[k], kind: 0 });
+    if ((a > 0) !== (b > 0)) {
+      const t = a / (a - b);
+      const q = [c[k][0] + (c[(k + 1) % 4][0] - c[k][0]) * t,
+                 c[k][1] + (c[(k + 1) % 4][1] - c[k][1]) * t];
+      items.push({ p: q, kind: a > 0 ? 2 : 1 });
+    }
+  }
+  const cross = [];
+  for (let i = 0; i < items.length; i++) if (items[i].kind) cross.push(i);
+  if (cross.length === 0) return { chords: [], polys: [], saddle: false };
+  const pair = new Map();
+  if (cross.length === 2) {
+    const [i0, i1] = cross;
+    if (items[i0].kind === 2) pair.set(i0, i1); else pair.set(i1, i0);
+  } else {
+    for (let k = 0; k < 4; k++) {
+      const i = cross[k];
+      if (items[i].kind !== 2) continue;
+      pair.set(i, centerInside ? cross[(k + 1) % 4] : cross[(k + 3) % 4]);
+    }
+  }
+  const chords = [];
+  for (const [e, en] of pair) chords.push([items[e].p, items[en].p]);
+  const polys = [];
+  const used = new Set();
+  for (const [, startEntry] of pair) {
+    if (used.has(startEntry)) continue;
+    const poly = [];
+    let i = startEntry;
+    for (let guard = 0; guard < 16; guard++) {
+      used.add(i);
+      poly.push(items[i].p);
+      if (items[i].kind === 2) {
+        const en = pair.get(i);
+        if (en === startEntry) break;
+        i = en;
+      } else i = (i + 1) % items.length;
+    }
+    polys.push(poly);
+  }
+  return { chords, polys, saddle: cross.length === 4 };
+}
+
+function polyArea(poly) {
+  let a = 0;
+  for (let i = 0; i < poly.length; i++) {
+    const p = poly[i], q = poly[(i + 1) % poly.length];
+    a += p[0] * q[1] - q[0] * p[1];
+  }
+  return a / 2;
+}
+
+function generateMesh(P, h) {
+  const D = derive(P);
+  const field = makeField(P, D);
+  const tris = [];
+
+  const xmax = Math.max(D.cx[D.n - 1] + D.outer_r, D.plate_half, D.wall_half,
+                        D.peg_half + P.peg_r);
+  const x0 = -xmax - 1.731 * h, y0 = -D.outer_r - 1.617 * h;
+  const NX = Math.ceil((2 * xmax + 3.5 * h) / h);
+  const NY = Math.ceil((D.board_y - y0 + 2 * h) / h);
+  const px = i => x0 + i * h, py = j => y0 + j * h;
+
+  let zsAll = [0, P.floor_h, P.tab_h, P.fill_h, P.base_h, P.plate_z, P.wall_h, P.plate_top];
+  zsAll = zsAll.map(v => Math.round(v * 1e6) / 1e6).filter(v => v >= 0);
+  const zs = [...new Set(zsAll)].sort((a, b) => a - b);
+  const nb = zs.length - 1;
+
+  const grids = [], fns = [];
+  for (let b = 0; b < nb; b++) {
+    const zm = (zs[b] + zs[b + 1]) / 2;
+    const g = new Float64Array((NX + 1) * (NY + 1));
+    for (let j = 0; j <= NY; j++)
+      for (let i = 0; i <= NX; i++)
+        g[j * (NX + 1) + i] = field(px(i), py(j), zm);
+    grids.push(g);
+    fns.push((x, y) => field(x, y, zm));
+  }
+
+  const idx = (i, j) => j * (NX + 1) + i;
+  const cellCorners = (i, j) =>
+    [[px(i), py(j)], [px(i + 1), py(j)], [px(i + 1), py(j + 1)], [px(i), py(j + 1)]];
+  const cellVals = (g, i, j) =>
+    [g[idx(i, j)], g[idx(i + 1, j)], g[idx(i + 1, j + 1)], g[idx(i, j + 1)]];
+
+  for (let b = 0; b < nb; b++) {
+    const g = grids[b], fn = fns[b], zlo = zs[b], zhi = zs[b + 1];
+    for (let j = 0; j < NY; j++)
+      for (let i = 0; i < NX; i++) {
+        const v = cellVals(g, i, j);
+        const anyIn = v[0] > 0 || v[1] > 0 || v[2] > 0 || v[3] > 0;
+        const allIn = v[0] > 0 && v[1] > 0 && v[2] > 0 && v[3] > 0;
+        if (!anyIn || allIn) continue;
+        const c = cellCorners(i, j);
+        const ctr = fn(px(i) + h / 2, py(j) + h / 2) > 0;
+        const { chords } = cellGeom(v, c, ctr);
+        for (const [p, q] of chords) {
+          if (Math.hypot(q[0] - p[0], q[1] - p[1]) < 1e-9) continue;
+          tris.push(p[0], p[1], zlo, q[0], q[1], zlo, q[0], q[1], zhi);
+          tris.push(p[0], p[1], zlo, q[0], q[1], zhi, p[0], p[1], zhi);
+        }
+      }
+  }
+
+  function emitCaps(g, fn, z, up) {
+    for (let j = 0; j < NY; j++) {
+      let runStart = -1;
+      const flushRun = i => {
+        if (runStart < 0) return;
+        const xa = px(runStart), xb = px(i), ya = py(j), yb = py(j + 1);
+        if (up) {
+          tris.push(xa, ya, z, xb, ya, z, xb, yb, z);
+          tris.push(xa, ya, z, xb, yb, z, xa, yb, z);
+        } else {
+          tris.push(xa, ya, z, xb, yb, z, xb, ya, z);
+          tris.push(xa, ya, z, xa, yb, z, xb, yb, z);
+        }
+        runStart = -1;
+      };
+      for (let i = 0; i < NX; i++) {
+        const v = cellVals(g, i, j);
+        const allIn = v[0] > 0 && v[1] > 0 && v[2] > 0 && v[3] > 0;
+        if (allIn) { if (runStart < 0) runStart = i; continue; }
+        flushRun(i);
+        if (!(v[0] > 0 || v[1] > 0 || v[2] > 0 || v[3] > 0)) continue;
+        const c = cellCorners(i, j);
+        const ctrIn = fn(px(i) + h / 2, py(j) + h / 2) > 0;
+        const { polys, saddle } = cellGeom(v, c, ctrIn);
+        for (const poly of polys) {
+          if (poly.length < 3 || Math.abs(polyArea(poly)) < 1e-10) continue;
+          if (saddle && poly.length > 4) {
+            let sx = 0, sy = 0;
+            for (const p of poly) { sx += p[0]; sy += p[1]; }
+            sx /= poly.length; sy /= poly.length;
+            for (let k = 0; k < poly.length; k++) {
+              const a = poly[k], b2 = poly[(k + 1) % poly.length];
+              if (up) tris.push(sx, sy, z, a[0], a[1], z, b2[0], b2[1], z);
+              else tris.push(sx, sy, z, b2[0], b2[1], z, a[0], a[1], z);
+            }
+          } else {
+            for (let k = 1; k + 1 < poly.length; k++) {
+              const a = poly[0], b2 = poly[k], c2 = poly[k + 1];
+              if (up) tris.push(a[0], a[1], z, b2[0], b2[1], z, c2[0], c2[1], z);
+              else tris.push(a[0], a[1], z, c2[0], c2[1], z, b2[0], b2[1], z);
+            }
+          }
+        }
+      }
+      flushRun(NX);
+    }
+  }
+
+  const NPTS = (NX + 1) * (NY + 1);
+  for (let k = 0; k <= nb; k++) {
+    const gb = k > 0 ? grids[k - 1] : null;
+    const ga = k < nb ? grids[k] : null;
+    const z = zs[k];
+    if (gb) {
+      let g = gb, fn = fns[k - 1];
+      if (ga) {
+        g = new Float64Array(NPTS);
+        for (let i = 0; i < NPTS; i++) g[i] = Math.min(gb[i], -ga[i]);
+        const fb = fns[k - 1], fa = fns[k];
+        fn = (x, y) => Math.min(fb(x, y), -fa(x, y));
+      }
+      emitCaps(g, fn, z, true);
+    }
+    if (ga) {
+      let g = ga, fn = fns[k];
+      if (gb) {
+        g = new Float64Array(NPTS);
+        for (let i = 0; i < NPTS; i++) g[i] = Math.min(ga[i], -gb[i]);
+        const fb = fns[k - 1], fa = fns[k];
+        fn = (x, y) => Math.min(fa(x, y), -fb(x, y));
+      }
+      emitCaps(g, fn, z, false);
+    }
+  }
+
+  const SEG = 48;
+  for (const pcx of D.pegXs) {
+    const y0p = D.board_y - 1, y1p = D.board_y + P.peg_len;
+    const ring = [];
+    for (let s = 0; s < SEG; s++) {
+      const t = 2 * Math.PI * s / SEG;
+      ring.push([pcx + P.peg_r * Math.cos(t), P.peg_z + P.peg_r * Math.sin(t)]);
+    }
+    for (let s = 0; s < SEG; s++) {
+      const a = ring[s], b = ring[(s + 1) % SEG];
+      tris.push(a[0], y0p, a[1], a[0], y1p, a[1], b[0], y1p, b[1]);
+      tris.push(a[0], y0p, a[1], b[0], y1p, b[1], b[0], y0p, b[1]);
+      tris.push(pcx, y1p, P.peg_z, b[0], y1p, b[1], a[0], y1p, a[1]);
+      tris.push(pcx, y0p, P.peg_z, a[0], y0p, a[1], b[0], y0p, b[1]);
+    }
+  }
+
+  const positions = new Float32Array(tris);
+  let vol = 0;
+  for (let i = 0; i < positions.length; i += 9) {
+    const ax = positions[i], ay = positions[i + 1], az = positions[i + 2];
+    const bx = positions[i + 3], by = positions[i + 4], bz = positions[i + 5];
+    const cx2 = positions[i + 6], cy = positions[i + 7], cz = positions[i + 8];
+    vol += (ax * (by * cz - bz * cy) + ay * (bz * cx2 - bx * cz) +
+            az * (bx * cy - by * cx2)) / 6;
+  }
+  return { positions, derived: D, volume: vol, triangles: positions.length / 9 };
+}
+
+function toBinarySTL(positions) {
+  const nt = positions.length / 9;
+  const buf = new ArrayBuffer(84 + nt * 50);
+  const dv = new DataView(buf);
+  dv.setUint32(80, nt, true);
+  let off = 84;
+  for (let i = 0; i < positions.length; i += 9) {
+    const ux = positions[i + 3] - positions[i], uy = positions[i + 4] - positions[i + 1],
+          uz = positions[i + 5] - positions[i + 2];
+    const vx = positions[i + 6] - positions[i], vy = positions[i + 7] - positions[i + 1],
+          vz = positions[i + 8] - positions[i + 2];
+    let nx = uy * vz - uz * vy, ny = uz * vx - ux * vz, nz = ux * vy - uy * vx;
+    const l = Math.hypot(nx, ny, nz) || 1;
+    dv.setFloat32(off, nx / l, true);
+    dv.setFloat32(off + 4, ny / l, true);
+    dv.setFloat32(off + 8, nz / l, true);
+    for (let k = 0; k < 9; k++) dv.setFloat32(off + 12 + 4 * k, positions[i + k], true);
+    off += 50;
+  }
+  return buf;
+}
+
+// ========================== controls ==========================
+const GROUPS = [
+  ['Bottles', [
+    ['bottles',   'bottles',            1, 10, 1],
+    ['bottle_r',  'bottle radius',      6, 30, 0.5],
+    ['gap',       'gap between wells',  1, 12, 0.5],
+    ['wall',      'well wall',          1, 5, 0.25],
+    ['clearance', 'back clearance',     0, 4, 0.25],
+  ]],
+  ['Base', [
+    ['base_h',  'base height',   3, 15, 0.05],
+    ['fill_h',  'fill height',   1, 12, 0.25],
+    ['floor_h', 'floor',         0.8, 5, 0.2],
+    ['tab_h',   'tab height',    2, 10, 0.5],
+    ['tab_w',   'tab width',     4, 20, 1],
+  ]],
+  ['Back wall & plate', [
+    ['wall_h',    'wall height', 20, 60, 0.2],
+    ['plate_z',   'plate bottom', 15, 50, 0.2],
+    ['plate_top', 'plate top',   22, 60, 0.2],
+    ['plate_t',   'plate thickness', 2, 6, 0.25],
+  ]],
+  ['Pegs & board', [
+    ['pegs',        'pegs',        2, 8, 1],
+    ['peg_r',       'peg radius',  1.5, 3.5, 0.05],
+    ['peg_len',     'peg length',  5, 20, 0.5],
+    ['peg_z',       'peg height',  20, 50, 0.5],
+    ['board_pitch', 'hole pitch',  8, 50.8, 0.1],
+  ]],
+];
+
+const params = Object.assign({}, DEFAULTS);
+const controlsEl = document.getElementById('controls');
+const inputs = {};
+
+// Display units: the model, sliders and exported STL are always mm;
+// only the number inputs, labels and stats convert.
+const IN = 25.4;
+let units = 'mm';
+const UNITLESS = { bottles: true, pegs: true };
+function toDisp(key, v) {
+  return units === 'in' && !UNITLESS[key] ? +(v / IN).toFixed(3) : v;
+}
+function fromDisp(key, v) {
+  return units === 'in' && !UNITLESS[key] ? v * IN : v;
+}
+
+GROUPS.forEach(([title, items], gi) => {
+  const det = document.createElement('details');
+  if (gi === 0) det.open = true;
+  const sum = document.createElement('summary');
+  sum.textContent = title;
+  det.appendChild(sum);
+  for (const [key, label, min, max, step] of items) {
+    const div = document.createElement('div');
+    div.className = 'ctl';
+    const lab = document.createElement('label');
+    lab.htmlFor = 'r_' + key;
+    lab.innerHTML = label + ' <span class="unit">' +
+      (key === 'bottles' || key === 'pegs' ? '' : 'mm') + '</span>';
+    const rng = document.createElement('input');
+    rng.type = 'range'; rng.id = 'r_' + key;
+    rng.min = min; rng.max = max; rng.step = step; rng.value = params[key];
+    const num = document.createElement('input');
+    num.type = 'number';
+    num.min = min; num.max = max; num.step = step; num.value = params[key];
+    num.setAttribute('aria-label', label);
+    rng.addEventListener('input', () => {
+      params[key] = +rng.value; num.value = toDisp(key, params[key]); regen(true);
+    });
+    rng.addEventListener('change', () => regen(false));
+    num.addEventListener('change', () => {
+      const mmv = Math.min(max, Math.max(min, fromDisp(key, +num.value) || min));
+      params[key] = mmv; num.value = toDisp(key, mmv); rng.value = mmv;
+      regen(false);
+    });
+    inputs[key] = { rng, num, min, max, step, unitEl: lab.querySelector('.unit') };
+    div.appendChild(lab); div.appendChild(rng); div.appendChild(num);
+    det.appendChild(div);
+  }
+  controlsEl.appendChild(det);
+});
+
+document.getElementById('reset').addEventListener('click', () => {
+  Object.assign(params, DEFAULTS);
+  for (const key in inputs) {
+    inputs[key].rng.value = params[key];
+    inputs[key].num.value = toDisp(key, params[key]);
+  }
+  regen(false);
+});
+
+document.getElementById('units').addEventListener('change', e => {
+  units = e.target.value;
+  for (const key in inputs) {
+    if (UNITLESS[key]) continue;
+    const c = inputs[key];
+    c.unitEl.textContent = units;
+    c.num.step = units === 'in' ? 'any' : c.step;
+    c.num.min = toDisp(key, c.min);
+    c.num.max = toDisp(key, c.max);
+    c.num.value = toDisp(key, params[key]);
+  }
+  updateStats();
+});
+
+// ========================== WebGL viewer ==========================
+const canvas = document.getElementById('gl');
+const gl = canvas.getContext('webgl', { antialias: true });
+
+function compile(vsSrc, fsSrc) {
+  const mk = (type, src) => {
+    const s = gl.createShader(type);
+    gl.shaderSource(s, src); gl.compileShader(s);
+    if (!gl.getShaderParameter(s, gl.COMPILE_STATUS))
+      throw new Error(gl.getShaderInfoLog(s));
+    return s;
+  };
+  const p = gl.createProgram();
+  gl.attachShader(p, mk(gl.VERTEX_SHADER, vsSrc));
+  gl.attachShader(p, mk(gl.FRAGMENT_SHADER, fsSrc));
+  gl.linkProgram(p);
+  if (!gl.getProgramParameter(p, gl.LINK_STATUS))
+    throw new Error(gl.getProgramInfoLog(p));
+  return p;
+}
+
+const FP = `#ifdef GL_FRAGMENT_PRECISION_HIGH
+precision highp float;
+#else
+precision mediump float;
+#endif
+`;
+
+const meshProg = compile(`
+  attribute vec3 aPos; attribute vec3 aNrm;
+  uniform mat4 uMVP;
+  varying vec3 vN; varying vec3 vP;
+  void main() { gl_Position = uMVP * vec4(aPos, 1.0); vN = aNrm; vP = aPos; }
+`, FP + `
+  uniform vec3 uColor; uniform vec3 uEye;
+  varying vec3 vN; varying vec3 vP;
+  void main() {
+    vec3 n = normalize(vN);
+    vec3 v = normalize(uEye - vP);
+    if (dot(n, v) < 0.0) n = -n;
+    vec3 l1 = normalize(vec3(-0.45, -0.75, 0.55));
+    vec3 l2 = normalize(vec3(0.7, -0.25, 0.15));
+    float d = 0.28 + 0.58 * max(dot(n, l1), 0.0) + 0.22 * max(dot(n, l2), 0.0);
+    vec3 h = normalize(l1 + v);
+    float s = pow(max(dot(n, h), 0.0), 40.0) * 0.22;
+    gl_FragColor = vec4(uColor * d + vec3(s), 1.0);
+  }
+`);
+
+const boardProg = compile(`
+  attribute vec2 aXZ;
+  uniform mat4 uMVP; uniform float uBoardY;
+  varying vec2 vXZ;
+  void main() { vXZ = aXZ; gl_Position = uMVP * vec4(aXZ.x, uBoardY, aXZ.y, 1.0); }
+`, FP + `
+  uniform float uPitch; uniform vec2 uPhase; uniform float uHoleR;
+  uniform vec3 uBoard; uniform vec3 uHole; uniform vec3 uBg;
+  uniform vec2 uCenter; uniform float uFade;
+  varying vec2 vXZ;
+  void main() {
+    vec2 g = mod(vXZ - uPhase + uPitch * 0.5, uPitch) - uPitch * 0.5;
+    float d = length(g);
+    float hole = smoothstep(uHoleR, uHoleR - 0.35, d);
+    float ring = smoothstep(uHoleR + 1.1, uHoleR, d) * (1.0 - hole);
+    vec3 c = mix(uBoard, uBoard * 0.82, ring);
+    c = mix(c, uHole, hole);
+    float r = length(vXZ - uCenter) / uFade;
+    c = mix(c, uBg, smoothstep(0.35, 0.95, r));
+    gl_FragColor = vec4(c, 1.0);
+  }
+`);
+
+let meshBuf = gl.createBuffer(), nrmBuf = gl.createBuffer(), boardBuf = gl.createBuffer();
+let meshVerts = 0;
+let modelDims = { w: 0, d: 0, h: 0 };
+let boardY = 18, boardPhase = [0, 0], boardPitchU = 25.4, boardHalf = 160, boardCz = 30;
+
+const cam = { yaw: 0.45, pitch: 0.35, dist: 260, tx: 0, ty: 8, tz: 16 };
+let camHome = Object.assign({}, cam);
+
+function hexToRgb(s) {
+  s = s.trim();
+  const m = s.match(/^#([0-9a-f]{6})$/i);
+  if (!m) return [0.5, 0.5, 0.5];
+  const v = parseInt(m[1], 16);
+  return [(v >> 16 & 255) / 255, (v >> 8 & 255) / 255, (v & 255) / 255];
+}
+let theme = {};
+function readTheme() {
+  const cs = getComputedStyle(document.documentElement);
+  theme = {
+    mesh: hexToRgb(cs.getPropertyValue('--mesh')),
+    board: hexToRgb(cs.getPropertyValue('--board')),
+    hole: hexToRgb(cs.getPropertyValue('--board-hole')),
+    bg: hexToRgb(cs.getPropertyValue('--view-bg-bot')),
+  };
+}
+readTheme();
+new MutationObserver(() => { readTheme(); draw(); })
+  .observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+if (window.matchMedia) {
+  window.matchMedia('(prefers-color-scheme: dark)')
+    .addEventListener('change', () => { readTheme(); draw(); });
+}
+
+// mat4 helpers (column-major)
+function perspective(fovy, aspect, near, far) {
+  const f = 1 / Math.tan(fovy / 2), nf = 1 / (near - far);
+  return [f / aspect, 0, 0, 0, 0, f, 0, 0, 0, 0, (far + near) * nf, -1,
+          0, 0, 2 * far * near * nf, 0];
+}
+function lookAt(eye, ctr, up) {
+  const zx = eye[0] - ctr[0], zy = eye[1] - ctr[1], zz = eye[2] - ctr[2];
+  let zl = Math.hypot(zx, zy, zz); const z = [zx / zl, zy / zl, zz / zl];
+  let x = [up[1] * z[2] - up[2] * z[1], up[2] * z[0] - up[0] * z[2], up[0] * z[1] - up[1] * z[0]];
+  const xl = Math.hypot(x[0], x[1], x[2]) || 1; x = x.map(v => v / xl);
+  const y = [z[1] * x[2] - z[2] * x[1], z[2] * x[0] - z[0] * x[2], z[0] * x[1] - z[1] * x[0]];
+  return [x[0], y[0], z[0], 0, x[1], y[1], z[1], 0, x[2], y[2], z[2], 0,
+          -(x[0] * eye[0] + x[1] * eye[1] + x[2] * eye[2]),
+          -(y[0] * eye[0] + y[1] * eye[1] + y[2] * eye[2]),
+          -(z[0] * eye[0] + z[1] * eye[1] + z[2] * eye[2]), 1];
+}
+function mul4(a, b) {
+  const o = new Array(16);
+  for (let c = 0; c < 4; c++)
+    for (let r = 0; r < 4; r++) {
+      let s = 0;
+      for (let k = 0; k < 4; k++) s += a[k * 4 + r] * b[c * 4 + k];
+      o[c * 4 + r] = s;
+    }
+  return o;
+}
+
+function eyePos() {
+  const cp = Math.cos(cam.pitch);
+  return [cam.tx + cam.dist * cp * Math.sin(cam.yaw),
+          cam.ty - cam.dist * cp * Math.cos(cam.yaw),
+          cam.tz + cam.dist * Math.sin(cam.pitch)];
+}
+
+function draw() {
+  const w = canvas.clientWidth, hgt = canvas.clientHeight;
+  const dpr = Math.min(devicePixelRatio || 1, 2);
+  if (canvas.width !== Math.round(w * dpr) || canvas.height !== Math.round(hgt * dpr)) {
+    canvas.width = Math.round(w * dpr); canvas.height = Math.round(hgt * dpr);
+  }
+  gl.viewport(0, 0, canvas.width, canvas.height);
+  gl.clearColor(theme.bg[0], theme.bg[1], theme.bg[2], 1);
+  gl.enable(gl.DEPTH_TEST);
+  gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+  if (!meshVerts) return;
+
+  const eye = eyePos();
+  const proj = perspective(0.7, w / hgt, 1, 4000);
+  const view = lookAt(eye, [cam.tx, cam.ty, cam.tz], [0, 0, 1]);
+  const mvp = mul4(proj, view);
+
+  gl.useProgram(meshProg);
+  gl.uniformMatrix4fv(gl.getUniformLocation(meshProg, 'uMVP'), false, mvp);
+  gl.uniform3fv(gl.getUniformLocation(meshProg, 'uColor'), theme.mesh);
+  gl.uniform3fv(gl.getUniformLocation(meshProg, 'uEye'), eye);
+  const aPos = gl.getAttribLocation(meshProg, 'aPos');
+  const aNrm = gl.getAttribLocation(meshProg, 'aNrm');
+  gl.bindBuffer(gl.ARRAY_BUFFER, meshBuf);
+  gl.enableVertexAttribArray(aPos);
+  gl.vertexAttribPointer(aPos, 3, gl.FLOAT, false, 0, 0);
+  gl.bindBuffer(gl.ARRAY_BUFFER, nrmBuf);
+  gl.enableVertexAttribArray(aNrm);
+  gl.vertexAttribPointer(aNrm, 3, gl.FLOAT, false, 0, 0);
+  gl.drawArrays(gl.TRIANGLES, 0, meshVerts);
+  gl.disableVertexAttribArray(aNrm);
+
+  gl.useProgram(boardProg);
+  gl.uniformMatrix4fv(gl.getUniformLocation(boardProg, 'uMVP'), false, mvp);
+  gl.uniform1f(gl.getUniformLocation(boardProg, 'uBoardY'), boardY);
+  gl.uniform1f(gl.getUniformLocation(boardProg, 'uPitch'), boardPitchU);
+  gl.uniform2fv(gl.getUniformLocation(boardProg, 'uPhase'), boardPhase);
+  gl.uniform1f(gl.getUniformLocation(boardProg, 'uHoleR'),
+               Math.min(3.2, boardPitchU * 0.25));
+  gl.uniform3fv(gl.getUniformLocation(boardProg, 'uBoard'), theme.board);
+  gl.uniform3fv(gl.getUniformLocation(boardProg, 'uHole'), theme.hole);
+  gl.uniform3fv(gl.getUniformLocation(boardProg, 'uBg'), theme.bg);
+  gl.uniform2fv(gl.getUniformLocation(boardProg, 'uCenter'), [0, boardCz]);
+  gl.uniform1f(gl.getUniformLocation(boardProg, 'uFade'), boardHalf);
+  const aXZ = gl.getAttribLocation(boardProg, 'aXZ');
+  gl.bindBuffer(gl.ARRAY_BUFFER, boardBuf);
+  gl.enableVertexAttribArray(aXZ);
+  gl.vertexAttribPointer(aXZ, 2, gl.FLOAT, false, 0, 0);
+  gl.drawArrays(gl.TRIANGLES, 0, 6);
+}
+
+// orbit / zoom
+let dragging = false, lastX = 0, lastY = 0;
+canvas.addEventListener('pointerdown', e => {
+  dragging = true; lastX = e.clientX; lastY = e.clientY;
+  canvas.setPointerCapture(e.pointerId);
+});
+canvas.addEventListener('pointermove', e => {
+  if (!dragging) return;
+  cam.yaw += (e.clientX - lastX) * 0.008;
+  cam.pitch = Math.min(1.5, Math.max(-1.5, cam.pitch + (e.clientY - lastY) * 0.008));
+  lastX = e.clientX; lastY = e.clientY;
+  draw();
+});
+canvas.addEventListener('pointerup', () => { dragging = false; });
+canvas.addEventListener('wheel', e => {
+  e.preventDefault();
+  cam.dist = Math.min(2000, Math.max(40, cam.dist * Math.exp(e.deltaY * 0.001)));
+  draw();
+}, { passive: false });
+canvas.addEventListener('dblclick', () => { Object.assign(cam, camHome); draw(); });
+// pinch zoom
+let pinchD = 0;
+canvas.addEventListener('touchstart', e => {
+  if (e.touches.length === 2)
+    pinchD = Math.hypot(e.touches[0].clientX - e.touches[1].clientX,
+                        e.touches[0].clientY - e.touches[1].clientY);
+}, { passive: true });
+canvas.addEventListener('touchmove', e => {
+  if (e.touches.length === 2 && pinchD > 0) {
+    const d = Math.hypot(e.touches[0].clientX - e.touches[1].clientX,
+                         e.touches[0].clientY - e.touches[1].clientY);
+    cam.dist = Math.min(2000, Math.max(40, cam.dist * pinchD / d));
+    pinchD = d;
+    draw();
+  }
+}, { passive: true });
+new ResizeObserver(() => draw()).observe(canvas);
+
+// ========================== rebuild & stats ==========================
+let lastMesh = null, lastMs = 0;
+let regenTimer = 0;
+const statsEl = document.getElementById('stats');
+
+function fmt(v, d) { return v.toFixed(d === undefined ? 1 : d); }
+
+function updateStats() {
+  if (!lastMesh) return;
+  const mesh = lastMesh, D = mesh.derived;
+  const inch = units === 'in';
+  const L = v => inch ? fmt(v / IN, 2) : fmt(v);
+  const lu = inch ? ' in' : ' mm';
+  const vol = inch ? fmt(mesh.volume / 16387.064, 2) + ' in³'
+                   : fmt(mesh.volume / 1000) + ' cm³';
+  const grams = mesh.volume / 1000 * 1.24;
+  statsEl.innerHTML =
+    '<span class="stat"><b>' + L(modelDims.w) + '</b> × <b>' + L(modelDims.d) +
+      '</b> × <b>' + L(modelDims.h) + '</b>' + lu + '</span>' +
+    '<span class="stat">' + vol + ' · ≈' + fmt(grams, 0) + ' g PLA</span>' +
+    '<span class="stat">' + D.pegXs.length + ' pegs · span ' + D.peg_m +
+      ' hole' + (D.peg_m === 1 ? '' : 's') + '</span>' +
+    '<span class="stat">' + mesh.triangles.toLocaleString() + ' tris · ' +
+      fmt(lastMs, 0) + ' ms</span>';
+}
+
+function rebuild(h) {
+  const t0 = performance.now();
+  const mesh = generateMesh(params, h);
+  const ms = performance.now() - t0;
+  lastMesh = mesh;
+  const pos = mesh.positions;
+  const nrm = new Float32Array(pos.length);
+  for (let i = 0; i < pos.length; i += 9) {
+    const ux = pos[i + 3] - pos[i], uy = pos[i + 4] - pos[i + 1], uz = pos[i + 5] - pos[i + 2];
+    const vx = pos[i + 6] - pos[i], vy = pos[i + 7] - pos[i + 1], vz = pos[i + 8] - pos[i + 2];
+    let nx = uy * vz - uz * vy, ny = uz * vx - ux * vz, nz = ux * vy - uy * vx;
+    const l = Math.hypot(nx, ny, nz) || 1;
+    nx /= l; ny /= l; nz /= l;
+    for (let k = 0; k < 3; k++) {
+      nrm[i + k * 3] = nx; nrm[i + k * 3 + 1] = ny; nrm[i + k * 3 + 2] = nz;
+    }
+  }
+  gl.bindBuffer(gl.ARRAY_BUFFER, meshBuf);
+  gl.bufferData(gl.ARRAY_BUFFER, pos, gl.STATIC_DRAW);
+  gl.bindBuffer(gl.ARRAY_BUFFER, nrmBuf);
+  gl.bufferData(gl.ARRAY_BUFFER, nrm, gl.STATIC_DRAW);
+  meshVerts = pos.length / 3;
+
+  const D = mesh.derived;
+  modelDims = {
+    w: 2 * Math.max(D.cx[D.n - 1] + D.outer_r, D.plate_half),
+    d: D.outer_r + D.board_y + params.peg_len,
+    h: Math.max(params.plate_top, params.wall_h, params.base_h),
+  };
+  boardY = D.board_y + 0.05;
+  boardPitchU = params.board_pitch;
+  boardPhase = [D.peg_half % params.board_pitch, params.peg_z % params.board_pitch];
+  boardHalf = Math.max(modelDims.w * 0.95, 130);
+  boardCz = params.peg_z;
+  const b = boardHalf, cz = boardCz;
+  gl.bindBuffer(gl.ARRAY_BUFFER, boardBuf);
+  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([
+    -b, cz - b, b, cz - b, b, cz + b, -b, cz - b, b, cz + b, -b, cz + b,
+  ]), gl.STATIC_DRAW);
+
+  lastMs = ms;
+  updateStats();
+  draw();
+}
+
+function fitCamera() {
+  const diag = Math.hypot(modelDims.w, modelDims.d, modelDims.h);
+  cam.dist = diag * 1.6;
+  cam.tx = 0; cam.ty = 6; cam.tz = modelDims.h * 0.45;
+  cam.yaw = 0.45; cam.pitch = 0.32;
+  camHome = Object.assign({}, cam);
+}
+
+function regen(draft) {
+  clearTimeout(regenTimer);
+  regenTimer = setTimeout(() => {
+    const q = +document.getElementById('quality').value;
+    rebuild(draft ? Math.max(q, 0.45) : q);
+  }, draft ? 60 : 120);
+}
+document.getElementById('quality').addEventListener('change', () => regen(false));
+
+document.getElementById('dl').addEventListener('click', () => {
+  const q = +document.getElementById('quality').value;
+  const mesh = generateMesh(params, q); // full quality regardless of preview state
+  const blob = new Blob([toBinarySTL(mesh.positions)], { type: 'model/stl' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'pegboard_bottles_' + Math.round(params.bottles) + 'x' +
+               params.bottle_r + 'mm.stl';
+  a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 5000);
+});
+
+// first build
+rebuild(0.25);
+fitCamera();
+draw();
+</script>
