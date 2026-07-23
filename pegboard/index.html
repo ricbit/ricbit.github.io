@@ -168,15 +168,17 @@
 'use strict';
 // ========================== geometry engine ==========================
 // Port of pegboard_bottles.scad. The solid is a stack of z-bands, each
-// with a constant cross-section defined as a signed field (CSG min/max),
-// polygonized per band with marching squares: side walls from contour
-// chords, caps from exposed regions at band interfaces. Pegs are closed
-// cylinders overlapping 1 mm into the peg plate.
+// with a constant cross-section defined as a signed field (CSG min/max).
+// Marching-squares chords are chained into exact boundary loops; each band
+// becomes a closed manifold prism (walls + ear-clipped caps from the same
+// loops). Bands and pegs overlap their neighbors by 2 microns so no shells
+// share geometry: every component is independently watertight and slicers
+// union the overlaps.
 
 const DEFAULTS = {
   bottles: 5, bottle_r: 13, gap: 3, wall: 2, clearance: 1,
   base_h: 6.65, fill_h: 5, floor_h: 2, tab_h: 4, tab_w: 10,
-  wall_h: 38.6, plate_z: 26.2, plate_top: 38.9, plate_t: 3.5,
+  wall_h: 38.6, plate_z: 26.2, plate_top: 38.9, plate_t: 3.5, plate_margin: 12,
   pegs: 2, peg_r: 2.4, peg_len: 13, peg_z: 34, board_pitch: 10,
 };
 
@@ -190,7 +192,7 @@ function derive(P) {
   const board_y = back_y + 3;
   const wall_half = Math.max(n - 3, 1) * pitch / 2;
   const peg_half = P.board_pitch * Math.max(1, Math.floor(2 * wall_half / P.board_pitch)) / 2;
-  const plate_half = Math.min(peg_half + P.board_pitch / 2, cx[n - 1] + outer_r);
+  const plate_half = Math.min(peg_half + P.plate_margin, cx[n - 1] + outer_r);
   const scallop_r = outer_r;
   const slab_front = -P.clearance +
     Math.sqrt(Math.max(0, scallop_r * scallop_r - (pitch / 2) * (pitch / 2)));
@@ -257,54 +259,191 @@ function makeField(P, D) {
   };
 }
 
-// Marching-squares geometry for one cell (corner values/coords CCW from
-// bottom-left). Chords run exit -> entry, inside region on the left.
-function cellGeom(v, c, centerInside) {
+// Marching-squares chords for one cell (corner values/coords CCW from
+// bottom-left). Chords run exit -> entry so the inside region is on the
+// left; chained across cells they form the closed region boundary loops.
+function cellChords(v, c, centerInsideFn) {
+  // Crossings are interpolated in a canonical per-edge orientation so the
+  // two cells sharing a grid edge produce bit-identical points (needed for
+  // exact loop chaining).
+  const CAN = [[0, 1], [1, 2], [3, 2], [0, 3]];
   const items = [];
   for (let k = 0; k < 4; k++) {
     const a = v[k], b = v[(k + 1) % 4];
-    if (a > 0) items.push({ p: c[k], kind: 0 });
     if ((a > 0) !== (b > 0)) {
-      const t = a / (a - b);
-      const q = [c[k][0] + (c[(k + 1) % 4][0] - c[k][0]) * t,
-                 c[k][1] + (c[(k + 1) % 4][1] - c[k][1]) * t];
-      items.push({ p: q, kind: a > 0 ? 2 : 1 });
+      const [f0, t0] = CAN[k];
+      const t = v[f0] / (v[f0] - v[t0]);
+      items.push({ p: [c[f0][0] + (c[t0][0] - c[f0][0]) * t,
+                       c[f0][1] + (c[t0][1] - c[f0][1]) * t],
+                   exit: a > 0 });
     }
   }
-  const cross = [];
-  for (let i = 0; i < items.length; i++) if (items[i].kind) cross.push(i);
-  if (cross.length === 0) return { chords: [], polys: [], saddle: false };
-  const pair = new Map();
-  if (cross.length === 2) {
-    const [i0, i1] = cross;
-    if (items[i0].kind === 2) pair.set(i0, i1); else pair.set(i1, i0);
-  } else {
-    for (let k = 0; k < 4; k++) {
-      const i = cross[k];
-      if (items[i].kind !== 2) continue;
-      pair.set(i, centerInside ? cross[(k + 1) % 4] : cross[(k + 3) % 4]);
-    }
+  if (items.length === 0) return [];
+  if (items.length === 2)
+    return items[0].exit ? [[items[0].p, items[1].p]] : [[items[1].p, items[0].p]];
+  // saddle: 4 crossings alternating exit/entry around the perimeter
+  const ci = centerInsideFn();
+  const out = [];
+  for (let k = 0; k < 4; k++)
+    if (items[k].exit)
+      out.push([items[k].p, items[ci ? (k + 1) % 4 : (k + 3) % 4].p]);
+  return out;
+}
+
+// Chain oriented chords into closed loops (endpoints are bit-identical
+// between neighboring cells, so exact keys work).
+function chainLoops(chords) {
+  const byStart = new Map();
+  for (const ch of chords) {
+    const k = ch[0][0] + ',' + ch[0][1];
+    const arr = byStart.get(k);
+    if (arr) arr.push(ch); else byStart.set(k, [ch]);
   }
-  const chords = [];
-  for (const [e, en] of pair) chords.push([items[e].p, items[en].p]);
-  const polys = [];
   const used = new Set();
-  for (const [, startEntry] of pair) {
-    if (used.has(startEntry)) continue;
-    const poly = [];
-    let i = startEntry;
-    for (let guard = 0; guard < 16; guard++) {
-      used.add(i);
-      poly.push(items[i].p);
-      if (items[i].kind === 2) {
-        const en = pair.get(i);
-        if (en === startEntry) break;
-        i = en;
-      } else i = (i + 1) % items.length;
+  const loops = [];
+  for (const start of chords) {
+    if (used.has(start)) continue;
+    const pts = [];
+    let cur = start, guard = chords.length + 4;
+    while (cur && !used.has(cur) && guard-- > 0) {
+      used.add(cur);
+      pts.push(cur[0]);
+      const arr = byStart.get(cur[1][0] + ',' + cur[1][1]);
+      cur = arr && arr.find(c => !used.has(c));
     }
-    polys.push(poly);
+    if (pts.length >= 3) loops.push(pts);
   }
-  return { chords, polys, saddle: cross.length === 4 };
+  return loops;
+}
+
+// Drop duplicate and collinear vertices. Walls and caps share these
+// simplified loops, which keeps the mesh edge-to-edge watertight.
+function simplifyLoop(pts) {
+  const P = [];
+  for (const p of pts) {
+    const l = P[P.length - 1];
+    if (!l || l[0] !== p[0] || l[1] !== p[1]) P.push(p);
+  }
+  while (P.length > 1 &&
+         P[0][0] === P[P.length - 1][0] && P[0][1] === P[P.length - 1][1]) P.pop();
+  const n = P.length, out = [];
+  for (let i = 0; i < n; i++) {
+    const a = P[(i + n - 1) % n], b = P[i], c = P[(i + 1) % n];
+    const cr = (b[0] - a[0]) * (c[1] - a[1]) - (b[1] - a[1]) * (c[0] - a[0]);
+    if (Math.abs(cr) > 1e-7) out.push(b);
+  }
+  return out.length >= 3 ? out : null;
+}
+
+function pointInPoly(pt, poly) {
+  let inside = false;
+  const x = pt[0], y = pt[1];
+  for (let i = 0, j = poly.length - 1; i < poly.length; j = i++) {
+    const a = poly[i], b = poly[j];
+    if ((a[1] > y) !== (b[1] > y) &&
+        x < a[0] + (y - a[1]) * (b[0] - a[0]) / (b[1] - a[1])) inside = !inside;
+  }
+  return inside;
+}
+
+function inTri(ax, ay, bx, by, cx, cy, px, py) {
+  const d1 = (bx - ax) * (py - ay) - (by - ay) * (px - ax);
+  const d2 = (cx - bx) * (py - by) - (cy - by) * (px - bx);
+  const d3 = (ax - cx) * (py - cy) - (ay - cy) * (px - cx);
+  return !(((d1 < 0) || (d2 < 0) || (d3 < 0)) && ((d1 > 0) || (d2 > 0) || (d3 > 0)));
+}
+
+// Ear-clipping triangulation of a polygon with holes (outer CCW, holes CW).
+// Returns a flat list of triangle vertices [[x,y] x3, ...], CCW.
+function triangulateRegion(outer, holes) {
+  function node(x, y) { return { x, y, prev: null, next: null, reflex: false }; }
+  function ring(pts) {
+    let head = null, prev = null;
+    for (const p of pts) {
+      const nd = node(p[0], p[1]);
+      if (!head) head = nd; else { prev.next = nd; nd.prev = prev; }
+      prev = nd;
+    }
+    prev.next = head; head.prev = prev;
+    return head;
+  }
+  const cross = (a, b, c) => (b.x - a.x) * (c.y - a.y) - (b.y - a.y) * (c.x - a.x);
+  let head = ring(outer);
+  let size = outer.length;
+
+  // Bridge holes into the outer ring, rightmost hole first.
+  const hs = holes.slice().sort((A, B) =>
+    Math.max.apply(null, B.map(p => p[0])) - Math.max.apply(null, A.map(p => p[0])));
+  for (const H of hs) {
+    const hHead = ring(H);
+    let M = hHead, cur = hHead;
+    do { if (cur.x > M.x) M = cur; cur = cur.next; } while (cur !== hHead);
+    // closest ring edge hit by the +x ray from M
+    let bestX = Infinity, bestA = null, a = head;
+    do {
+      const b = a.next;
+      if ((a.y > M.y) !== (b.y > M.y)) {
+        const xi = a.x + (M.y - a.y) * (b.x - a.x) / (b.y - a.y);
+        if (xi >= M.x - 1e-9 && xi < bestX) { bestX = xi; bestA = a; }
+      }
+      a = a.next;
+    } while (a !== head);
+    if (!bestA) continue;
+    let P = bestA.x > bestA.next.x ? bestA : bestA.next;
+    // a ring vertex inside triangle (M, ray hit, P) is the real bridge target
+    let v = head, tanMin = Infinity, vbest = P;
+    do {
+      if (v.x >= M.x - 1e-9 && v.x <= bestX + 1e-9 &&
+          !(v.x === M.x && v.y === M.y) &&
+          inTri(M.x, M.y, bestX, M.y, P.x, P.y, v.x, v.y)) {
+        const t = Math.abs(v.y - M.y) / Math.max(v.x - M.x, 1e-12);
+        if (t < tanMin || (t === tanMin && v.x > vbest.x)) { tanMin = t; vbest = v; }
+      }
+      v = v.next;
+    } while (v !== head);
+    P = vbest;
+    // splice: P -> M -> ...hole... -> M2 -> P2 -> P.next
+    const M2 = node(M.x, M.y), P2 = node(P.x, P.y);
+    const Pn = P.next, Mp = M.prev;
+    P.next = M; M.prev = P;
+    Mp.next = M2; M2.prev = Mp;
+    M2.next = P2; P2.prev = M2;
+    P2.next = Pn; Pn.prev = P2;
+    size += H.length + 2;
+  }
+
+  const isReflex = v => cross(v.prev, v, v.next) < 0;
+  let v = head;
+  do { v.reflex = isReflex(v); v = v.next; } while (v !== head);
+
+  const tris = [];
+  let cur = head, stall = 0;
+  while (size > 3) {
+    const a = cur.prev, b = cur, c = cur.next;
+    let ear = !b.reflex;
+    if (ear) {
+      const minx = Math.min(a.x, b.x, c.x), maxx = Math.max(a.x, b.x, c.x);
+      const miny = Math.min(a.y, b.y, c.y), maxy = Math.max(a.y, b.y, c.y);
+      let w = c.next;
+      while (w !== a) {
+        if (w.reflex && w.x >= minx && w.x <= maxx && w.y >= miny && w.y <= maxy &&
+            !((w.x === a.x && w.y === a.y) || (w.x === b.x && w.y === b.y) ||
+              (w.x === c.x && w.y === c.y)) &&
+            inTri(a.x, a.y, b.x, b.y, c.x, c.y, w.x, w.y)) { ear = false; break; }
+        w = w.next;
+      }
+    }
+    if (ear || stall > size) { // stall > size: force progress, stay closed
+      // zero-area ears are emitted too: their boundary edges must appear
+      // in the cap for the shell to stay closed
+      tris.push([a.x, a.y], [b.x, b.y], [c.x, c.y]);
+      a.next = c; c.prev = a;
+      a.reflex = isReflex(a); c.reflex = isReflex(c);
+      size--; cur = c; stall = 0;
+    } else { cur = cur.next; stall++; }
+  }
+  tris.push([cur.prev.x, cur.prev.y], [cur.x, cur.y], [cur.next.x, cur.next.y]);
+  return tris;
 }
 
 function polyArea(poly) {
@@ -350,103 +489,61 @@ function generateMesh(P, h) {
   const cellVals = (g, i, j) =>
     [g[idx(i, j)], g[idx(i + 1, j)], g[idx(i + 1, j + 1)], g[idx(i, j + 1)]];
 
+  // Each band becomes its own closed prism: boundary loops give the side
+  // walls, and both full caps are ear-clipped from the same loops, so every
+  // edge is shared by exactly two triangles. Bands touch face-to-face
+  // (zero-volume contact), which slicers resolve cleanly.
   for (let b = 0; b < nb; b++) {
-    const g = grids[b], fn = fns[b], zlo = zs[b], zhi = zs[b + 1];
+    const g = grids[b], fn = fns[b], zhi = zs[b + 1];
+    const zlo = b > 0 ? zs[b] - 0.002 : zs[b]; // overlap into the band below
+    const chords = [];
     for (let j = 0; j < NY; j++)
       for (let i = 0; i < NX; i++) {
         const v = cellVals(g, i, j);
         const anyIn = v[0] > 0 || v[1] > 0 || v[2] > 0 || v[3] > 0;
         const allIn = v[0] > 0 && v[1] > 0 && v[2] > 0 && v[3] > 0;
         if (!anyIn || allIn) continue;
-        const c = cellCorners(i, j);
-        const ctr = fn(px(i) + h / 2, py(j) + h / 2) > 0;
-        const { chords } = cellGeom(v, c, ctr);
-        for (const [p, q] of chords) {
-          if (Math.hypot(q[0] - p[0], q[1] - p[1]) < 1e-9) continue;
-          tris.push(p[0], p[1], zlo, q[0], q[1], zlo, q[0], q[1], zhi);
-          tris.push(p[0], p[1], zlo, q[0], q[1], zhi, p[0], p[1], zhi);
-        }
+        const cs = cellChords(v, cellCorners(i, j),
+                              () => fn(px(i) + h / 2, py(j) + h / 2) > 0);
+        for (const ch of cs) chords.push(ch);
       }
-  }
-
-  function emitCaps(g, fn, z, up) {
-    for (let j = 0; j < NY; j++) {
-      let runStart = -1;
-      const flushRun = i => {
-        if (runStart < 0) return;
-        const xa = px(runStart), xb = px(i), ya = py(j), yb = py(j + 1);
-        if (up) {
-          tris.push(xa, ya, z, xb, ya, z, xb, yb, z);
-          tris.push(xa, ya, z, xb, yb, z, xa, yb, z);
-        } else {
-          tris.push(xa, ya, z, xb, yb, z, xb, ya, z);
-          tris.push(xa, ya, z, xa, yb, z, xb, yb, z);
-        }
-        runStart = -1;
-      };
-      for (let i = 0; i < NX; i++) {
-        const v = cellVals(g, i, j);
-        const allIn = v[0] > 0 && v[1] > 0 && v[2] > 0 && v[3] > 0;
-        if (allIn) { if (runStart < 0) runStart = i; continue; }
-        flushRun(i);
-        if (!(v[0] > 0 || v[1] > 0 || v[2] > 0 || v[3] > 0)) continue;
-        const c = cellCorners(i, j);
-        const ctrIn = fn(px(i) + h / 2, py(j) + h / 2) > 0;
-        const { polys, saddle } = cellGeom(v, c, ctrIn);
-        for (const poly of polys) {
-          if (poly.length < 3 || Math.abs(polyArea(poly)) < 1e-10) continue;
-          if (saddle && poly.length > 4) {
-            let sx = 0, sy = 0;
-            for (const p of poly) { sx += p[0]; sy += p[1]; }
-            sx /= poly.length; sy /= poly.length;
-            for (let k = 0; k < poly.length; k++) {
-              const a = poly[k], b2 = poly[(k + 1) % poly.length];
-              if (up) tris.push(sx, sy, z, a[0], a[1], z, b2[0], b2[1], z);
-              else tris.push(sx, sy, z, b2[0], b2[1], z, a[0], a[1], z);
-            }
-          } else {
-            for (let k = 1; k + 1 < poly.length; k++) {
-              const a = poly[0], b2 = poly[k], c2 = poly[k + 1];
-              if (up) tris.push(a[0], a[1], z, b2[0], b2[1], z, c2[0], c2[1], z);
-              else tris.push(a[0], a[1], z, c2[0], c2[1], z, b2[0], b2[1], z);
-            }
-          }
-        }
-      }
-      flushRun(NX);
+    const loops = [];
+    for (const L of chainLoops(chords)) {
+      const S = simplifyLoop(L);
+      if (S) loops.push(S);
     }
-  }
-
-  const NPTS = (NX + 1) * (NY + 1);
-  for (let k = 0; k <= nb; k++) {
-    const gb = k > 0 ? grids[k - 1] : null;
-    const ga = k < nb ? grids[k] : null;
-    const z = zs[k];
-    if (gb) {
-      let g = gb, fn = fns[k - 1];
-      if (ga) {
-        g = new Float64Array(NPTS);
-        for (let i = 0; i < NPTS; i++) g[i] = Math.min(gb[i], -ga[i]);
-        const fb = fns[k - 1], fa = fns[k];
-        fn = (x, y) => Math.min(fb(x, y), -fa(x, y));
+    // side walls (inside region is on the left of each segment)
+    for (const L of loops)
+      for (let i = 0; i < L.length; i++) {
+        const p = L[i], q = L[(i + 1) % L.length];
+        tris.push(p[0], p[1], zlo, q[0], q[1], zlo, q[0], q[1], zhi);
+        tris.push(p[0], p[1], zlo, q[0], q[1], zhi, p[0], p[1], zhi);
       }
-      emitCaps(g, fn, z, true);
+    // caps: assign hole loops (CW) to their outer region (CCW)
+    const outers = [], holesArr = [];
+    for (const L of loops) (polyArea(L) > 0 ? outers : holesArr).push(L);
+    const groups = outers.map(o => ({ o, h: [] }));
+    for (const H of holesArr) {
+      let best = null, bestArea = Infinity;
+      for (const gr of groups) {
+        const A = Math.abs(polyArea(gr.o));
+        if (A < bestArea && pointInPoly(H[0], gr.o)) { best = gr; bestArea = A; }
+      }
+      if (best) best.h.push(H);
     }
-    if (ga) {
-      let g = ga, fn = fns[k];
-      if (gb) {
-        g = new Float64Array(NPTS);
-        for (let i = 0; i < NPTS; i++) g[i] = Math.min(ga[i], -gb[i]);
-        const fb = fns[k - 1], fa = fns[k];
-        fn = (x, y) => Math.min(fa(x, y), -fb(x, y));
+    for (const gr of groups) {
+      const T = triangulateRegion(gr.o, gr.h);
+      for (let k = 0; k < T.length; k += 3) {
+        const A = T[k], B = T[k + 1], C = T[k + 2];
+        tris.push(A[0], A[1], zhi, B[0], B[1], zhi, C[0], C[1], zhi);
+        tris.push(A[0], A[1], zlo, C[0], C[1], zlo, B[0], B[1], zlo);
       }
-      emitCaps(g, fn, z, false);
     }
   }
 
   const SEG = 48;
   for (const pcx of D.pegXs) {
-    const y0p = D.board_y - 1, y1p = D.board_y + P.peg_len;
+    const y0p = D.board_y - 0.002, y1p = D.board_y + P.peg_len;
     const ring = [];
     for (let s = 0; s < SEG; s++) {
       const t = 2 * Math.PI * s / SEG;
@@ -516,6 +613,7 @@ const GROUPS = [
     ['plate_z',   'plate bottom', 15, 50, 0.2],
     ['plate_top', 'plate top',   22, 60, 0.2],
     ['plate_t',   'plate thickness', 2, 6, 0.25],
+    ['plate_margin', 'plate margin', 5, 30, 0.5],
   ]],
   ['Pegs & board', [
     ['pegs',        'pegs',        2, 8, 1],
