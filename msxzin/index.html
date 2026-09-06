@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="msxzin — a full-featured MSX1 emulator in 4 KB for DOS and 8086-compatible CPUs.">
+  <title>msxzin — MSX emulator in 4 KB</title>
+  <style>
+    :root {
+      --bg: #f7f7f5;
+      --panel: #ffffff;
+      --text: #1c1c1c;
+      --muted: #6f6f6f;
+      --line: #ddddda;
+      --accent: #2457c5;
+      --code-bg: #171717;
+      --code-text: #eeeeee;
+      --max-width: 820px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family:
+        ui-sans-serif,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Helvetica,
+        Arial,
+        sans-serif;
+      line-height: 1.6;
+    }
+
+    main {
+      width: min(calc(100% - 40px), var(--max-width));
+      margin: 0 auto;
+      padding: 72px 0 96px;
+    }
+
+    header {
+      margin-bottom: 56px;
+    }
+
+    .name {
+      margin: 0 0 6px;
+      font-family:
+        ui-monospace,
+        SFMono-Regular,
+        Menlo,
+        Monaco,
+        Consolas,
+        "Liberation Mono",
+        monospace;
+      font-size: clamp(2.6rem, 8vw, 5.4rem);
+      line-height: 0.95;
+      letter-spacing: -0.06em;
+      font-weight: 700;
+    }
+
+    .tagline {
+      margin: 18px 0 0;
+      font-size: clamp(1.15rem, 3vw, 1.5rem);
+      color: var(--muted);
+    }
+
+    .badge {
+      display: inline-block;
+      margin-top: 24px;
+      padding: 5px 10px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--panel);
+      color: var(--muted);
+      font-family:
+        ui-monospace,
+        SFMono-Regular,
+        Menlo,
+        Monaco,
+        Consolas,
+        "Liberation Mono",
+        monospace;
+      font-size: 0.82rem;
+    }
+
+    section {
+      padding: 34px 0;
+      border-top: 1px solid var(--line);
+    }
+
+    h2 {
+      margin: 0 0 20px;
+      font-size: 1.05rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-weight: 700;
+    }
+
+    p {
+      margin: 0 0 18px;
+    }
+
+    .lead {
+      font-size: 1.08rem;
+      max-width: 68ch;
+    }
+
+    .features {
+      display: grid;
+      gap: 28px;
+    }
+
+    .feature-group h3 {
+      margin: 0 0 8px;
+      font-size: 1rem;
+    }
+
+    .feature-group ul {
+      margin: 0;
+      padding-left: 1.25rem;
+    }
+
+    .feature-group li {
+      margin: 3px 0;
+    }
+
+    .feature-group ul ul {
+      margin-top: 3px;
+      color: #474747;
+    }
+
+    code,
+    pre {
+      font-family:
+        ui-monospace,
+        SFMono-Regular,
+        Menlo,
+        Monaco,
+        Consolas,
+        "Liberation Mono",
+        monospace;
+    }
+
+    code {
+      font-size: 0.92em;
+    }
+
+    pre {
+      margin: 22px 0 0;
+      padding: 20px 22px;
+      overflow-x: auto;
+      border-radius: 8px;
+      background: var(--code-bg);
+      color: var(--code-text);
+      font-size: 0.92rem;
+      line-height: 1.65;
+    }
+
+    .note {
+      color: var(--muted);
+    }
+
+    footer {
+      padding-top: 30px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    @media (min-width: 700px) {
+      .features {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .feature-group.wide {
+        grid-column: 1 / -1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <header>
+      <h1 class="name">msxzin</h1>
+      <p class="tagline">MSX emulator in 4 KB.</p>
+      <span class="badge">DOS · 8086 · MSX1 · 4096 bytes</span>
+      <p style="margin-top:16px"><a href="msxzin.zip">Download msxzin.zip</a> · <a href="msxzin-run.html">Launch online</a></p>
+    </header>
+
+    <section>
+      <p class="lead">
+        <strong>msxzin</strong> is a full-featured MSX1 emulator in just 4 KB.
+        It runs under DOS on any 8086-compatible CPU.
+      </p>
+    </section>
+
+    <section>
+      <h2>Features</h2>
+
+      <div class="features">
+        <div class="feature-group">
+          <h3>Z80 CPU</h3>
+          <ul>
+            <li>Verified by ZEXDOC</li>
+            <li>IM 0, IM 1 and IM 2</li>
+            <li>Undocumented opcodes</li>
+          </ul>
+        </div>
+
+        <div class="feature-group">
+          <h3>VDP emulation</h3>
+          <ul>
+            <li>SCREEN 0, 1, 2 and 3</li>
+            <li>8×8 and 16×16 sprites</li>
+            <li>Magnified sprites</li>
+            <li>5th sprite occlusion</li>
+            <li>Sprite collision</li>
+            <li>VDP prefetch</li>
+            <li>Mirrored color/pattern tables</li>
+          </ul>
+        </div>
+
+        <div class="feature-group">
+          <h3>Sound</h3>
+          <ul>
+            <li>Wave-based PSG and SCC emulation</li>
+            <li>PSG logarithmic volume scale</li>
+            <li>PSG envelopes</li>
+          </ul>
+        </div>
+
+        <div class="feature-group">
+          <h3>ROM cartridges</h3>
+          <ul>
+            <li>Any ROM size, including MegaROM</li>
+            <li>Automatic MegaROM mapper detection</li>
+            <li>
+              MegaROM mappers
+              <ul>
+                <li>Konami</li>
+                <li>Konami with SCC</li>
+                <li>ASCII 8 KB</li>
+                <li>ASCII 16 KB</li>
+                <li>R-Type</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div class="feature-group">
+          <h3>Disk images</h3>
+          <ul>
+            <li>DSK files</li>
+            <li>180 KB, 360 KB and 720 KB</li>
+            <li>Read and write support</li>
+          </ul>
+        </div>
+
+        <div class="feature-group">
+          <h3>Cassette images</h3>
+          <ul>
+            <li>CAS file support</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Requirements</h2>
+      <p>
+        Runs in DOS on any 8086-compatible CPU. EMS memory is required for cartridges.
+        <code>bios.rom</code> and <code>disk.rom</code> must be present in the emulator directory.
+      </p>
+      <p>
+        Bundled with Gradiente Expert 1.1 BIOS and CDX-2 disk interface ROMs.
+        C-BIOS is supported as well.
+      </p>
+      <p>
+        Sound requires a Sound Blaster 16 at <code>220h</code>, IRQ 5, with DMA.
+        On modern machines, use DOSBox.
+      </p>
+      <p>
+        On errors such as insufficient memory or missing BIOS files, msxzin returns to the DOS prompt.
+      </p>
+    </section>
+
+    <section>
+      <h2>Usage</h2>
+      <p>
+        Run the emulator without parameters to enter MSX BASIC.
+        To load a ROM, CAS or DSK image, pass the file as the first parameter.
+      </p>
+      <p>
+        msxzin is a DOS binary, so filenames must follow the DOS 8.3 format.
+      </p>
+
+      <pre><code>msxzin
+msxzin salame.rom
+msxzin deathw3.cas
+msxzin elite.dsk</code></pre>
+    </section>
+
+    <footer>
+      msxzin · a 4 KB MSX1 emulator · made by RicBit, 2026
+    </footer>
+  </main>
+</body>
+</html>
