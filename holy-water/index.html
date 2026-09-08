@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Holy Water Particle Simulation</title>
+<style>
+  :root{
+    color-scheme: light dark;
+    --bg:#f6f7f9; --panel:#ffffff; --text:#17202a; --muted:#68707c; --line:#d8dde5;
+    --holy:#4f7cff; --tap:#aeb7c4; --overflow:#7a8798; --accent:#2f67e8;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{--bg:#12151a;--panel:#1b2027;--text:#edf1f6;--muted:#aab3c0;--line:#343c47;--tap:#667180;--overflow:#8e99a8}
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font:15px/1.35 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+  main{max-width:1180px;margin:auto;padding:18px}
+  h1{font-size:24px;margin:0 0 6px}
+  .intro{color:var(--muted);margin:0 0 14px}
+  .layout{display:grid;grid-template-columns:minmax(260px,340px) minmax(0,1fr);gap:16px;align-items:start}
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px}
+  .controls{display:grid;gap:12px}
+  label{display:grid;gap:5px;font-weight:650}
+  label small{font-weight:400;color:var(--muted)}
+  .row{display:grid;grid-template-columns:1fr 96px;gap:9px;align-items:center}
+  input[type=range]{width:100%}
+  input[type=number],select{
+    width:100%;min-height:40px;padding:8px;border:1px solid var(--line);border-radius:8px;background:transparent;color:inherit
+  }
+  input[type=checkbox]{width:18px;height:18px}
+  .check{display:flex;gap:8px;align-items:center;font-weight:600}
+  .buttons{display:flex;flex-wrap:wrap;gap:8px}
+  button{min-height:42px;padding:8px 13px;border-radius:9px;border:1px solid var(--line);background:var(--panel);color:inherit;font-weight:700;cursor:pointer}
+  button.primary{background:var(--accent);border-color:var(--accent);color:white}
+  button:disabled{opacity:.55;cursor:not-allowed}
+  .warning{min-height:20px;color:#c15a1a;font-size:13px}
+  .viz{display:grid;gap:12px}
+  canvas{width:100%;height:auto;display:block;border:1px solid var(--line);border-radius:12px;background:#0d1117}
+  .stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+  .stat{border:1px solid var(--line);border-radius:10px;padding:9px}
+  .stat b{display:block;font-size:19px}
+  .stat span{color:var(--muted);font-size:12px}
+  .legend{display:flex;flex-wrap:wrap;gap:13px;color:var(--muted);font-size:13px}
+  .dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px}
+  .holy{background:var(--holy)} .tap{background:var(--tap)}
+  .explain{font-size:13px;color:var(--muted);margin:0}
+  .meter{height:10px;border-radius:999px;overflow:hidden;background:var(--tap);border:1px solid var(--line)}
+  .meter > div{height:100%;background:var(--holy);width:100%}
+  @media(max-width:760px){
+    .layout{grid-template-columns:1fr}
+    .stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Holy Water — discrete particle simulation</h1>
+  <p class="intro">A full bottle starts holy. Tap-water particles enter as a coherent flow front and push particles out. Local contact can convert particles according to a strict “more than 50% holy neighbors” rule.</p>
+
+  <div class="layout">
+    <section class="panel controls" aria-label="Simulation controls">
+      <label>
+        Holy bottle size
+        <small>Initial volume of the bottle; it starts 100% holy.</small>
+        <div class="row">
+          <input id="holySizeR" type="range" min="20" max="1000" step="10" value="300">
+          <input id="holySize" type="number" min="20" max="1000" step="10" value="300">
+        </div>
+      </label>
+
+      <label>
+        Tap bucket size
+        <small>How much ordinary water is available to pour in.</small>
+        <div class="row">
+          <input id="tapSizeR" type="range" min="20" max="5000" step="10" value="900">
+          <input id="tapSize" type="number" min="20" max="5000" step="10" value="900">
+        </div>
+      </label>
+
+      <label>
+        Particle size
+        <small>Volume represented by one particle. Smaller = more particles and a closer approximation to a continuum.</small>
+        <div class="row">
+          <input id="particleR" type="range" min="0.25" max="10" step="0.25" value="2">
+          <input id="particle" type="number" min="0.25" max="10" step="0.25" value="2">
+        </div>
+      </label>
+
+      <label>
+        Flow speed
+        <small>Volume units of tap water entering per simulated second.</small>
+        <div class="row">
+          <input id="flowR" type="range" min="0" max="300" step="1" value="45">
+          <input id="flow" type="number" min="0" max="300" step="1" value="45">
+        </div>
+      </label>
+
+      <label>
+        Mixing
+        <small>Random particle swaps per particle per simulated second.</small>
+        <div class="row">
+          <input id="mixR" type="range" min="0" max="12" step="0.25" value="0.5">
+          <input id="mix" type="number" min="0" max="12" step="0.25" value="0.5">
+        </div>
+      </label>
+
+      <label>
+        Charging time
+        <small>Continuous exposure time needed for a tap particle to become fully holy.</small>
+        <div class="row">
+          <input id="chargeTimeR" type="range" min="0.1" max="20" step="0.1" value="2">
+          <input id="chargeTime" type="number" min="0.1" max="20" step="0.1" value="2">
+        </div>
+      </label>
+
+      <label>
+        Contact rule
+        <select id="rule">
+          <option value="spread" selected>Sanctification only — tap → holy if local holy majority</option>
+          <option value="reversible">Reversible majority — every particle follows local majority</option>
+          <option value="global">Global bottle rule — whole bottle is holy only while >50% holy</option>
+          <option value="none">No conversion — just dilution</option>
+        </select>
+      </label>
+
+      <label class="check"><input id="infinite" type="checkbox"> Infinite tap supply</label>
+
+      <div class="buttons">
+        <button id="flowToggle" type="button">Stop Flow</button>
+        <button id="step" type="button">Step 0.1 s</button>
+        <button id="reset" type="button">Reset</button>
+        <button id="start" class="primary" type="button">Start Simulation</button>
+      </div>
+      <div id="warning" class="warning" role="status"></div>
+      <p class="explain">
+        Touching means the 4 particles sharing an edge (up, down, left, right). Each tap particle has a continuous charge from 0% to 100%. While it touches a strict majority of fully holy particles, its charge rises continuously; otherwise it drains continuously. At 100% it becomes holy. Gray → blue shows the current charge.
+      </p>
+    </section>
+
+    <section class="panel viz">
+      <canvas id="canvas" width="760" height="520" aria-label="Animated particle bottle"></canvas>
+
+      <div class="meter" title="Holy fraction"><div id="holyMeter"></div></div>
+
+      <div class="stats" aria-live="polite">
+        <div class="stat"><b id="holyPct">100.0%</b><span>fully holy particles</span></div>
+        <div class="stat"><b id="time">0.0 s</b><span>simulated time</span></div>
+        <div class="stat"><b id="remaining">900</b><span>tap volume remaining</span></div>
+        <div class="stat"><b id="outflow">0</b><span>holy volume overflowed</span></div>
+      </div>
+
+      <div class="legend">
+        <span><i class="dot holy"></i>holy particle</span>
+        <span><i class="dot tap"></i>tap particle</span>
+        <span>gray → blue = charge</span>
+        <span>tap enters at top → overflow exits at bottom</span>
+      </div>
+    </section>
+  </div>
+</main>
+
+<script>
+(() => {
+  const $ = id => document.getElementById(id);
+  const canvas = $("canvas"), ctx = canvas.getContext("2d");
+  const inputs = {
+    holySize: $("holySize"), tapSize: $("tapSize"), particle: $("particle"),
+    flow: $("flow"), mix: $("mix"), chargeTime: $("chargeTime")
+  };
+  const ranges = {
+    holySize: $("holySizeR"), tapSize: $("tapSizeR"), particle: $("particleR"),
+    flow: $("flowR"), mix: $("mixR"), chargeTime: $("chargeTimeR")
+  };
+
+  for (const k of Object.keys(inputs)) {
+    const sync = (src,dst) => {
+      let v = Number(src.value);
+      const lo = Number(inputs[k].min), hi = Number(inputs[k].max);
+      if (!Number.isFinite(v)) v = Number(inputs[k].value) || lo;
+      v = Math.min(hi, Math.max(lo, v));
+      inputs[k].value = v; ranges[k].value = v;
+      if (!running && ["holySize","tapSize","particle"].includes(k)) reset();
+    };
+    ranges[k].addEventListener("input", () => sync(ranges[k], inputs[k]));
+    inputs[k].addEventListener("change", () => sync(inputs[k], ranges[k]));
+  }
+
+  const W = canvas.width, H = canvas.height;
+  let grid = new Uint8Array(1), next = new Uint8Array(1);
+  let charge = new Float32Array(1), nextCharge = new Float32Array(1);
+  let cols=1, rows=1, n=1, cell=10, x0=0, y0=0;
+  let running=false, raf=0, last=0, accumulator=0, simTime=0;
+  let tapRemaining=0, injectedCarry=0, overflowHoly=0, overflowTotal=0;
+  let holyCount=1, particleVol=2, inletColumn=0, flowEnabled=true;
+
+  function params(){
+    return {
+      holySize:+inputs.holySize.value,
+      tapSize:+inputs.tapSize.value,
+      particle:+inputs.particle.value,
+      flow:+inputs.flow.value,
+      mix:+inputs.mix.value,
+      chargeTime:+inputs.chargeTime.value,
+      rule:$("rule").value,
+      infinite:$("infinite").checked
+    };
+  }
+
+  function reset(){
+    pause();
+    const p=params();
+    particleVol=p.particle;
+    const rawN=Math.max(4, Math.floor(p.holySize/particleVol));
+    const capped=Math.min(6000, rawN);
+    $("warning").textContent = rawN>6000
+      ? `For browser speed the display is capped at 6000 particles; effective particle size here is ${(p.holySize/6000).toFixed(3)} volume units.`
+      : "";
+    n=capped;
+    if (rawN>6000) particleVol=p.holySize/n;
+
+    const aspect=1.45;
+    cols=Math.ceil(Math.sqrt(n*aspect));
+    rows=Math.ceil(n/cols);
+    n=cols*rows;
+    grid=new Uint8Array(n); grid.fill(1);
+    next=new Uint8Array(n);
+    charge=new Float32Array(n); charge.fill(1);
+    nextCharge=new Float32Array(n); nextCharge.fill(1);
+    holyCount=n;
+    tapRemaining=p.tapSize;
+    injectedCarry=0; overflowHoly=0; overflowTotal=0; simTime=0; accumulator=0; inletColumn=0; flowEnabled=true;
+    $("flowToggle").textContent="Stop Flow";
+
+    cell=Math.min((W-120)/cols,(H-90)/rows);
+    x0=(W-cols*cell)/2;
+    y0=40;
+    updateStats();
+    draw();
+  }
+
+  function pause(){
+    running=false;
+    $("start").textContent="Start Simulation";
+    if(raf) cancelAnimationFrame(raf);
+    raf=0;
+  }
+
+  function toggle(){
+    running=!running;
+    $("start").textContent=running?"Stop Simulation":"Start Simulation";
+    if(running){last=performance.now(); raf=requestAnimationFrame(frame);}
+    else pause();
+  }
+
+  function neighbors(i){
+    const r=(i/cols)|0, c=i-r*cols;
+    let h=0,t=0;
+    const add = j => { if(grid[j]) h++; else t++; };
+    if(r>0) add(i-cols);
+    if(r+1<rows) add(i+cols);
+    if(c>0) add(i-1);
+    if(c+1<cols) add(i+1);
+    return [h,t];
+  }
+
+  function localConversion(rule, dt, chargeTime){
+    if(rule==="none") return;
+
+    if(rule==="global"){
+      if(holyCount/n>0.5){
+        grid.fill(1);
+        charge.fill(1);
+        holyCount=n;
+      }else{
+        grid.fill(0);
+        charge.fill(0);
+        holyCount=0;
+      }
+      return;
+    }
+
+    const dq = dt / Math.max(0.1, chargeTime);
+    let hc=0;
+
+    // Synchronous spatial update, but charge itself evolves continuously
+    // because this runs on every fixed simulation step.
+    for(let i=0;i<n;i++){
+      const [h,t]=neighbors(i);
+      let v=grid[i];
+      let q=charge[i];
+
+      if(rule==="spread"){
+        if(v){
+          q=1; // once fully holy, permanently holy
+        }else{
+          if(h>t) q=Math.min(1, q+dq);
+          else q=Math.max(0, q-dq);
+
+          if(q>=1){
+            q=1;
+            v=1;
+          }
+        }
+      }else if(rule==="reversible"){
+        if(h>t) q=Math.min(1, q+dq);
+        else if(t>h) q=Math.max(0, q-dq);
+
+        if(q>=1) v=1;
+        else if(q<1) v=0;
+      }
+
+      next[i]=v;
+      nextCharge[i]=q;
+      hc+=v;
+    }
+
+    let tmp=grid; grid=next; next=tmp;
+    let tmpQ=charge; charge=nextCharge; nextCharge=tmpQ;
+    holyCount=hc;
+  }
+  function randomMix(swaps){
+    for(let s=0;s<swaps;s++){
+      const i=(Math.random()*n)|0;
+      const r=(i/cols)|0, c=i-r*cols;
+      const dr=(Math.random()*3|0)-1, dc=(Math.random()*3|0)-1;
+      if(!dr&&!dc) continue;
+      const rr=r+dr, cc=c+dc;
+      if(rr<0||rr>=rows||cc<0||cc>=cols) continue;
+      const j=rr*cols+cc;
+
+      let a=grid[i]; grid[i]=grid[j]; grid[j]=a;
+      let q=charge[i]; charge[i]=charge[j]; charge[j]=q;
+    }
+  }
+  function injectOne(){
+    const c=inletColumn;
+    inletColumn=(inletColumn+1)%cols;
+
+    const bottom=(rows-1)*cols+c;
+    const out=grid[bottom];
+    overflowTotal+=particleVol;
+    if(out) overflowHoly+=particleVol;
+
+    for(let r=rows-1;r>0;r--){
+      const dst=r*cols+c;
+      const src=(r-1)*cols+c;
+      grid[dst]=grid[src];
+      charge[dst]=charge[src];
+    }
+    grid[c]=0;
+    charge[c]=0;
+  }
+  function step(dt){
+    const p=params();
+    simTime+=dt;
+
+    let desired=flowEnabled ? (p.flow*dt)/particleVol + injectedCarry : 0;
+    if(!flowEnabled) injectedCarry=0;
+    let count=Math.floor(desired);
+    injectedCarry=desired-count;
+
+    if(!p.infinite){
+      count=Math.min(count,Math.floor(tapRemaining/particleVol));
+      tapRemaining=Math.max(0,tapRemaining-count*particleVol);
+    }
+    count=Math.min(count,Math.max(1,n));
+    for(let i=0;i<count;i++) injectOne();
+
+    const swaps=Math.min(n*4,Math.floor(p.mix*n*dt));
+    randomMix(swaps);
+
+    holyCount=0;
+    for(let i=0;i<n;i++) holyCount+=grid[i];
+
+    // Continuous charging: every 0.05 s simulation slice contributes
+    // proportionally to exposure time.
+    localConversion(p.rule, dt, p.chargeTime);
+
+    updateStats();
+    draw();
+  }
+  function frame(now){
+    if(!running) return;
+    const realDt=Math.min(0.1,(now-last)/1000); last=now;
+    accumulator+=realDt;
+    const fixed=0.05;
+    let loops=0;
+    while(accumulator>=fixed && loops<4){
+      step(fixed); accumulator-=fixed; loops++;
+    }
+    raf=requestAnimationFrame(frame);
+  }
+
+  function updateStats(){
+    const p=params();
+    const frac=n?holyCount/n:0;
+    $("holyPct").textContent=(100*frac).toFixed(1)+"%";
+    $("holyMeter").style.width=(100*frac).toFixed(2)+"%";
+    $("time").textContent=simTime.toFixed(1)+" s";
+    $("remaining").textContent=p.infinite?"∞":Math.max(0,tapRemaining).toFixed(1);
+    $("outflow").textContent=overflowHoly.toFixed(1);
+  }
+
+  function mixColor(a,b,t){
+    // Canvas normalizes our CSS variables when we draw them into a 1px context,
+    // but these theme values are hex in this app, so interpolate directly.
+    const hex = x => {
+      x=x.trim();
+      if(x[0]==="#") x=x.slice(1);
+      if(x.length===3) x=x.split("").map(c=>c+c).join("");
+      const v=parseInt(x,16);
+      return Number.isFinite(v) ? [(v>>16)&255,(v>>8)&255,v&255] : [128,128,128];
+    };
+    const A=hex(a), B=hex(b);
+    const c=A.map((v,i)=>Math.round(v+(B[i]-v)*t));
+    return `rgb(${c[0]},${c[1]},${c[2]})`;
+  }
+
+  function draw(){
+    ctx.clearRect(0,0,W,H);
+    const style=getComputedStyle(document.documentElement);
+    const holy=style.getPropertyValue("--holy").trim() || "#4f7cff";
+    const tap=style.getPropertyValue("--tap").trim() || "#aeb7c4";
+    const line=style.getPropertyValue("--line").trim() || "#d8dde5";
+    const text="#dce5f2";
+
+    ctx.fillStyle="#0d1117"; ctx.fillRect(0,0,W,H);
+
+    // Faucet
+    ctx.fillStyle=tap;
+    ctx.fillRect(W/2-26,8,52,12);
+    ctx.fillRect(W/2+13,18,13,18);
+    ctx.fillStyle=text; ctx.font="13px system-ui"; ctx.textAlign="center";
+    ctx.fillText(flowEnabled?"tap inflow → coherent front":"flow stopped",W/2-2,32);
+
+    // Bottle outline
+    ctx.strokeStyle=line; ctx.lineWidth=2;
+    ctx.strokeRect(x0-8,y0-8,cols*cell+16,rows*cell+16);
+
+    const gap=Math.max(0.5,cell*0.08);
+    for(let i=0;i<n;i++){
+      const r=(i/cols)|0,c=i-r*cols;
+      const q=Math.max(0,Math.min(1,charge[i]));
+      ctx.fillStyle=mixColor(tap,holy,q);
+      ctx.beginPath();
+      const cx=x0+(c+.5)*cell, cy=y0+(r+.5)*cell;
+      const rad=Math.max(1,cell*.43-gap*.1);
+      ctx.arc(cx,cy,rad,0,Math.PI*2);
+      ctx.fill();
+    }
+
+    // Overflow arrow
+    ctx.fillStyle=text; ctx.textAlign="left";
+    ctx.fillText("overflow ↓",Math.min(W-88,x0+cols*cell+20),H-24);
+
+    // Threshold note
+    ctx.textAlign="left";
+    ctx.fillStyle=text;
+    let avgQ=0; for(let i=0;i<n;i++) avgQ+=charge[i]; avgQ/=n;
+    ctx.fillText("Fully holy: "+(100*holyCount/n).toFixed(1)+"%   ·   average charge: "+(100*avgQ).toFixed(1)+"%",12,H-16);
+  }
+
+  $("start").addEventListener("click",toggle);
+  $("flowToggle").addEventListener("click",()=>{
+    flowEnabled=!flowEnabled;
+    $("flowToggle").textContent=flowEnabled?"Stop Flow":"Resume Flow";
+    draw();
+  });
+  $("step").addEventListener("click",()=>step(0.1));
+  $("reset").addEventListener("click",reset);
+  $("rule").addEventListener("change",()=>{updateStats();draw();});
+  $("infinite").addEventListener("change",()=>{updateStats();draw();});
+  window.addEventListener("beforeunload",pause);
+  reset();
+})();
+</script>
+</body>
+</html>
