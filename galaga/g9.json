@@ -1,0 +1,13 @@
+{
+    "MACHINE": "MSX1A",
+    "PRESETS_CONFIG": {
+        "EXPERT": { "SLOT0_URL": "bios.rom" }
+    },
+    "PRESETS": "EXPERT, V9990, VSYNCOFF",
+    "CARTRIDGE1_URL": "g9.rom",
+    "RTC_ACTIVE": 0,
+    "SCREEN_VIDEO_OUT": -1,
+    "SCREEN_CRT_SCANLINES": 0,
+    "SCREEN_CRT_PHOSPHOR": 0,
+    "SCREEN_FILTER_MODE": 0
+}

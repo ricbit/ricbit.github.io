@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Galaga V9990</title>
+    <style>
+        body { margin: 0; background: #000; color: #ccc; font-family: sans-serif; }
+        #wmsx { text-align: center; margin: 20px auto 0; }
+        p { text-align: center; font-size: 13px; }
+    </style>
+</head>
+<body>
+    <div id="wmsx">
+        <div id="wmsx-screen"></div>
+    </div>
+    <p>Galaga for the V9990 (Gfx9000) &middot; MSX1 (Expert) + V9990 cartridge &middot; WebMSX 6.0.8 (C-BIOS build, Expert BIOS)</p>
+
+    <script src="wmsx.js"></script>
+    <script>
+        // Parameters must be set after wmsx.js is loaded (WebMSX docs).
+        // g9.json: MSX1 (NTSC) with the Expert BIOS, V9990 cartridge, VSync off,
+        // video output on auto (internal VDP for the BIOS boot, the V9990 once
+        // the game turns its display on), no screen post-processing, the game in
+        // slot 1.
+        WMSX.CONFIG_URL = "g9.json";
+    </script>
+</body>
+</html>
